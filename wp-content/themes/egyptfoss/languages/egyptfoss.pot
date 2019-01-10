@@ -1,0 +1,2985 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WPML_EXPORT_RegisterPage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"POT-Revision-Date: Thu Dec 31 2015 02:50:42 GMT+0200 (EET)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: </label> </div>
+msgid "EgyptFOSS Terms of services"
+msgstr ""
+
+#: </label> </div>
+msgid "I agree to"
+msgstr ""
+
+#: </select> </div>
+msgid "Select Account Sub Type"
+msgstr ""
+
+#: </optgroup> </select> </div>
+msgid "SoftwareEngineer"
+msgstr ""
+
+#: <option value="software_engineer"><?php _e( 'SoftwareEngineer',
+#: 'RegisterPage' ); ?></option> </optgroup> </select>
+msgid "openSource"
+msgstr ""
+
+#: <option value="open_source"><?php _e( 'openSource', 'RegisterPage' );
+#: ?></option> value="software_engineer"><?php 'SoftwareEngineer', </optgroup>
+msgid "IT"
+msgstr ""
+
+#: <optgroup> <option value="it"><?php _e( 'IT', 'RegisterPage' ); ?></option>
+#: value="open_source"><?php 'openSource',
+msgid "Write options"
+msgstr ""
+
+#: </div>
+msgid "Type your functionality here"
+msgstr ""
+
+#: <?php /** * Fires and displays any member registration password
+#: confirmation errors.
+msgid "Please confirm Password"
+msgstr ""
+
+#: <?php /** * Fires and displays any member registration password errors.
+msgid "Please enter Password at least 8 characters"
+msgstr ""
+
+#: </div>
+msgid "Enter a valid email address"
+msgstr ""
+
+#: </div>
+msgid "Please enter Username (Username at least 4 characters)"
+msgstr ""
+
+#: </p> <div class="field-visibility-settings"
+#: id="field-visibility-settings-<?php bp_the_profile_field_id() ?>">
+msgctxt "Change profile field visibility level"
+msgid "Change"
+msgstr ""
+
+#: </div>
+msgid "Complete Sign Up"
+msgstr ""
+
+#: <a href="#" class="sprite sprite-square-facebook"></a>
+#: sprite-square-twitter"></a> sprite-square-linkedin"></a>
+msgid "Login using one of your social account"
+msgstr ""
+
+#: <p><?php _e( 'Login using one of your social account', 'RegisterPage' );
+#: ?></p> <a href="#" class="sprite sprite-square-facebook"></a>
+#: sprite-square-twitter"></a>
+msgid "Login With Social Account"
+msgstr ""
+
+#: <?php endif; ?>
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""
+
+#: <?php else : ?> <p><?php _e( 'You have successfully created your account!
+#: Please log in using the username and password you just created.',
+#: 'RegisterPage' ); ?></p> endif;
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+
+#: <?php /**
+msgid "No"
+msgstr ""
+
+#: <label for="signup_blog_privacy_private"><input type="radio"
+#: name="signup_blog_privacy" id="signup_blog_privacy_private"
+#: value="private"<?php if ( 'private' == bp_get_signup_blog_privacy_value() )
+#: : ?> checked="checked"<?php endif; /> <?php _e( 'No', 'RegisterPage' );
+#: ?></label>
+msgid "Yes"
+msgstr ""
+
+#: <?php /** * Fires and displays any member registration blog privacy errors.
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr ""
+
+#: <?php /** * Fires and displays any member registration blog title errors.
+msgid "Site Title"
+msgstr ""
+
+#: <?php /** * Fires and displays any member registration blog URL errors.
+msgid "Blog URL"
+msgstr ""
+
+#: <div id="blog-details"<?php if ( (int) bp_get_signup_with_blog_value() ) :
+#: ?>class="show"<?php endif; ?>> <label for="signup_blog_url"><?php _e( 'Blog
+#: URL', 'RegisterPage' ); ?> <?php '(required)', ?></label>
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: <p><label for="signup_with_blog"><input type="checkbox"
+#: name="signup_with_blog" id="signup_with_blog" value="1"<?php if ( (int)
+#: bp_get_signup_with_blog_value() ) : ?> checked="checked"<?php endif; />
+#: <?php _e( 'Yes, I\'d like to create a new site', 'RegisterPage' );
+#: ?></label></p> <div id="blog-details"<?php ?>class="show"<?php ?>> <label
+#: for="signup_blog_url"><?php 'Blog URL', '(required)', ?></label>
+msgid "Blog Details"
+msgstr ""
+
+#: <input type="tel" class="form-control" placeholder="Entity Phone Number">
+#: </div>
+msgid "Phone"
+msgstr ""
+
+#: <input type="text" class="form-control" placeholder="Entity Email"> </div>
+#: <div class="col-md-6">
+msgid "Entity Email"
+msgstr ""
+
+#: </div> <div class="form-group row">
+msgid "Contact Information"
+msgstr ""
+
+#: </div> <?php else : ?> <p class="field-visibility-settings-notoggle"
+#: id="field-visibility-settings-toggle-<?php bp_the_profile_field_id() ?>">
+msgid "Close"
+msgstr ""
+
+#: <?php bp_profile_visibility_radio_buttons() ?> </fieldset> <a
+#: class="field-visibility-settings-close" href="#"><?php _e( 'Close',
+#: 'RegisterPage' ) ?></a>
+msgid "Who can see this field?"
+msgstr ""
+
+#: <?php /* Use the profile field loop to render input fields for 'base' group
+#: */ ?> if ( bp_is_active( 'xprofile' ) : bp_has_profile( array(
+#: 'profile_group_id' => 1, 'fetch_field_data' false while bp_profile_groups()
+#: bp_the_profile_group();
+msgid "Profile Details"
+msgstr ""
+
+#: <select data-tags="true" name="ict_technology" data-placeholder="<?php _e(
+#: 'Write options', 'RegisterPage' ); ?>" class="js-example-tags form-control"
+#: style="width:100%; visibility: hidden;" multiple="multiple"> <optgroup>
+#: <option value="it"><?php 'IT', ?></option>
+msgid "ICT Technologies"
+msgstr ""
+
+#: <textarea class="form-control" name="functionality" id="" rows="3"
+#: placeholder="<?php _e( 'Type your functionality here', 'RegisterPage' );
+#: ?>"></textarea> </div>
+msgid "Functionality"
+msgstr ""
+
+#: </div>
+msgid "Please type your Industry"
+msgstr ""
+
+msgid "Please type your Category"
+msgstr ""
+
+#: <input type="text" name="industry" class="form-control" placeholder="<?php
+#: _e( 'Please type your Industry', 'RegisterPage' ); ?>"> </div>
+msgid "Industry"
+msgstr ""
+
+#: <select name="sub_type" id=""> <option value=""><?php _e('Select Account
+#: Sub Type','RegisterPage');?></option> </select>
+msgid "Sub Type"
+msgstr ""
+
+#: </select> </div> <div class="col-md-6">
+msgid "Event"
+msgstr ""
+
+#: <option value="event"><?php _e( 'Event', 'RegisterPage' ); ?></option>
+#: </select> </div>
+msgid "Entity"
+msgstr ""
+
+#: <option value="entity"><?php _e( 'Entity', 'RegisterPage' ); ?></option>
+#: value="event"><?php 'Event', </select>
+msgid "Individual"
+msgstr ""
+
+#: <option value="individual"><?php _e( 'Individual', 'RegisterPage' );
+#: ?></option> value="entity"><?php 'Entity', value="event"><?php 'Event',
+msgid "Please choose your Type"
+msgstr ""
+
+#: <select name="account_type" id=""> <option value="" selected disabled><?php
+#: _e( 'Please choose your Type', 'RegisterPage' ); ?></option>
+#: value="individual"><?php 'Individual',
+msgid "Account Type"
+msgstr ""
+
+#: <input type="password" name="signup_password_confirm" placeholder="<?php
+#: _e( 'Please confirm Password', 'RegisterPage' ); ?>"
+#: id="signup_password_confirm" value="" class="password-entry-confirm
+#: form-control" <?php bp_form_field_attributes( 'password' ?>/> /**
+msgid "Confirm Password "
+msgstr ""
+
+#: <input type="password" name="signup_password" placeholder="<?php _e(
+#: 'Please enter Password at least 8 characters', 'RegisterPage' ); ?>"
+#: id="signup_password" value="" class="password-entry form-control" <?php
+#: bp_form_field_attributes( 'password' ?>/> /**
+msgid "Choose a Password"
+msgstr ""
+
+#: <?php /** * Fires and displays any member registration email errors.
+msgid "Email Address"
+msgstr ""
+
+#: <select name="account_type" id=""> <option value="" selected disabled><?php
+#: _e( 'Please choose your Type', 'RegisterPage' ); ?></option>
+#: value="individual"><?php 'Individual',
+msgid "(required)"
+msgstr ""
+
+#: <?php /** * Fires and displays any member registration username errors.
+msgid "Username"
+msgstr ""
+
+#: </div>
+msgid "Main Information"
+msgstr ""
+
+#: <?php /**
+msgid ""
+"Registering for this site is easy. Just fill in the fields below, and we'll "
+"get a new account set up for you in no time."
+msgstr ""
+
+#: <?php /**
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: '<span class="current-visibility-level">' .
+#: bp_get_the_profile_field_visibility_level_label() '</span>' ); ?>
+#, c-format
+msgid "This field can be seen by: %s"
+msgstr ""
+
+msgid "Login using one of your social accounts"
+msgstr ""
+
+msgid "Select Industry"
+msgstr ""
+
+msgid "Select Category"
+msgstr ""
+
+msgid "Login to your Account"
+msgstr ""
+
+msgid "E-mail or Username"
+msgstr ""
+
+msgid "Forgot Password?"
+msgstr ""
+
+msgid "FOSSPedia"
+msgstr ""
+
+msgid "Reset Password"
+msgstr ""
+
+msgid "Reset your Password"
+msgstr ""
+
+msgid "To reset your password, visit the following address"
+msgstr ""
+
+msgid "Activate your account"
+msgstr ""
+
+msgid "To activate your account, visit the following address"
+msgstr "Username:%s <br/>To activate your account, visit the following address"
+
+msgid "Activate account"
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "Awareness Center"
+msgstr ""
+
+msgid "FOSS Map"
+msgstr ""
+
+msgid "Edit Profile"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Login/ Register"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+
+msgid "Serach Site"
+msgstr "Search Site"
+
+msgid "Search Site"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Link your account with Social Networks"
+msgstr ""
+
+msgid "Link With"
+msgstr ""
+
+msgid "account"
+msgstr ""
+
+msgid "Unlink"
+msgstr ""
+
+msgid "Link Account"
+msgstr ""
+
+msgid "Facebook"
+msgstr ""
+
+msgid "Google+"
+msgstr ""
+
+msgid "Twitter"
+msgstr ""
+
+msgid "LinkedIn"
+msgstr ""
+
+msgid "Linking"
+msgstr ""
+
+msgid "sorry you cannot remove last link"
+msgstr ""
+
+msgid "you are not logged in"
+msgstr ""
+
+msgid "Please enter a Product Title."
+msgstr ""
+
+msgid "Please enter the Product Description."
+msgstr ""
+
+msgid "Product Contributions"
+msgstr ""
+
+msgid "already exists"
+msgstr ""
+
+msgid "Added successfully, it is now under review"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Type product description here"
+msgstr ""
+
+msgid "Product Logo"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "References"
+msgstr ""
+
+msgid "Type product references here"
+msgstr ""
+
+msgid "Link to source"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Technology"
+msgstr ""
+
+msgid "Select Technologies"
+msgstr ""
+
+msgid "Platform"
+msgstr ""
+
+msgid "Select Platforms"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "Select Licenses"
+msgstr ""
+
+msgid "Keywords"
+msgstr ""
+
+msgid "Select Keywords"
+msgstr ""
+
+msgid "Add Product"
+msgstr ""
+
+msgid "Product Screenshots"
+msgstr ""
+
+msgid "Developer"
+msgstr ""
+
+msgid "Type product functionality here"
+msgstr ""
+
+msgid "Usage hints"
+msgstr ""
+
+msgid "Type product usage hints here"
+msgstr ""
+
+msgid "Browse"
+msgstr ""
+
+msgid "Add Your functionality here"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Add Your address here"
+msgstr ""
+
+msgid "Add Your phone here"
+msgstr ""
+
+msgid "Social Accounts"
+msgstr ""
+
+msgid "Interests"
+msgstr ""
+
+msgid "Entity Contact Person Data"
+msgstr ""
+
+msgid "Contact Name"
+msgstr ""
+
+msgid "Contact Email"
+msgstr ""
+
+msgid "Add Your contact person name here"
+msgstr ""
+
+msgid "Contact Address"
+msgstr ""
+
+msgid "Add Your contact person address here"
+msgstr ""
+
+msgid "Add Your contact person email here"
+msgstr ""
+
+msgid "Contact Phone"
+msgstr ""
+
+msgid "Add Your contact person phone here"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Username:"
+msgstr ""
+
+msgid "Your password has been reset."
+msgstr ""
+
+msgid "Hint: The password should be at least eight characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ &amp; )."
+msgstr ""
+
+msgid "Set your new password"
+msgstr ""
+
+msgid "Load more..."
+msgstr ""
+
+msgid "There are no products yet,"
+msgstr ""
+
+msgid "Add new product"
+msgstr ""
+
+msgid "By"
+msgstr ""
+
+msgid "Please log in to suggest a new product"
+msgstr ""
+
+msgid "Invalid ict_technology."
+msgstr ""
+
+msgid "Invalid interest."
+msgstr ""
+
+msgid "Invalid sub_type."
+msgstr ""
+
+msgid "Invalid industry."
+msgstr ""
+
+msgid "Invalid category."
+msgstr ""
+
+msgid "Main Info."
+msgstr ""
+
+msgid "Contact Info"
+msgstr ""
+
+msgid "On The Web"
+msgstr ""
+
+msgid "Not Specified"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Activity"
+msgstr ""
+
+msgid "profile"
+msgstr ""
+
+msgid "settings"
+msgstr ""
+
+msgid "Entity Contact Info."
+msgstr ""
+
+msgid "This info is not shared with you"
+msgstr ""
+
+msgid "Please choose your Industry"
+msgstr ""
+
+msgid "Please choose your Category"
+msgstr ""
+
+msgid "Product Description"
+msgstr ""
+
+msgid "Product Info"
+msgstr ""
+
+msgid "Screenshots"
+msgstr ""
+
+msgid "Published products."
+msgstr ""
+
+msgid "Find by Industry"
+msgstr ""
+
+msgid "Find by Category"
+msgstr ""
+
+msgid "All Products"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "There are no results,"
+msgstr ""
+
+msgid "Add Interests"
+msgstr ""
+
+msgid "Post Update"
+msgstr ""
+
+msgid "What's new in %s, %s?"
+msgstr ""
+
+msgid "What's new, %s?"
+msgstr ""
+
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+msgid "All Members %s"
+msgstr ""
+
+msgid "The activity I've marked as a like."
+msgstr ""
+
+msgid "My Likes %s"
+msgstr ""
+
+msgid "Show:"
+msgstr ""
+
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+msgid "Like %s"
+msgstr ""
+
+msgid "Like  %s"
+msgstr ""
+
+msgid "Mark as Like"
+msgstr ""
+
+msgid "Remove Like"
+msgstr ""
+
+msgid "View Conversation"
+msgstr ""
+
+msgid "Comment %s"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Post"
+msgstr ""
+
+msgid "Reply"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Post what's new"
+msgstr ""
+
+msgid "Remove a Like"
+msgstr ""
+
+msgid "you are trying to cheat"
+msgstr ""
+
+msgid "No product found"
+msgstr ""
+
+msgid "Product updated successfully"
+msgstr ""
+
+msgid "Product title is required"
+msgstr ""
+
+msgid "Product description is required"
+msgstr ""
+
+msgid "Product industry is required"
+msgstr ""
+
+msgid "Product category is required"
+msgstr ""
+
+msgid "Product type is required"
+msgstr ""
+
+msgid "Edit product"
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "Delete Activity"
+msgstr ""
+
+msgid "Leave a Comment"
+msgstr ""
+
+msgid "Leave a Comment to %s"
+msgstr ""
+
+msgid "Cancel Comment"
+msgstr ""
+
+msgid "SENT"
+msgstr ""
+
+msgid "Please log in to suggest"
+msgstr ""
+
+msgid "added successfully, it is now under review"
+msgstr ""
+
+msgid "should not be more than %d characters"
+msgstr ""
+
+msgid "should be at least %d characters"
+msgstr ""
+
+msgid "is required"
+msgstr ""
+
+msgid "must at least contain one letter"
+msgstr ""
+
+msgid "please enter correct image type"
+msgstr ""
+
+msgid "News"
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "News image"
+msgstr ""
+
+msgid "Subtitle"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Created at"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Additions"
+msgstr ""
+
+msgid "Modified at"
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
+msgid "Notifications Settings"
+msgstr ""
+
+msgid "Profile Updates Email Notifications"
+msgstr ""
+
+msgid "Product Updates Email Notifications"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+msgid "Monthly"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Add / Update Location"
+msgstr ""
+
+msgid "Invalid platform."
+msgstr ""
+
+msgid "Add Event"
+msgstr ""
+
+msgid "Please enter all the required fields"
+msgstr ""
+
+msgid "Event title length must be between 2 and 100 characters"
+msgstr ""
+
+msgid "Event title must at least contain one letter"
+msgstr ""
+
+msgid "Event description must at least contain one letter"
+msgstr ""
+
+msgid "Invalid Start datetime"
+msgstr ""
+
+msgid "Start date can not be in the past"
+msgstr ""
+
+msgid "Invalid End datetime"
+msgstr ""
+
+msgid "End date can not be before the start date"
+msgstr ""
+
+msgid "Invalid Event Website"
+msgstr ""
+
+msgid "Invalid Cost"
+msgstr ""
+
+msgid "Invalid Audience"
+msgstr ""
+
+msgid "Invalid Objectives"
+msgstr ""
+
+msgid "Invalid Prerequisites"
+msgstr ""
+
+msgid "Invalid Functionality"
+msgstr ""
+
+msgid "Invalid Event Type"
+msgstr ""
+
+msgid "Invalid Currency"
+msgstr ""
+
+msgid "Venue Name must at least contain one letter"
+msgstr ""
+
+msgid "Venue Address must at least contain one letter"
+msgstr ""
+
+msgid "Venue City must at least contain one letter"
+msgstr ""
+
+msgid "Venue Country must at least contain one letter"
+msgstr ""
+
+msgid "Invalid Venue Province"
+msgstr ""
+
+msgid "Invalid Venue Phone"
+msgstr ""
+
+msgid "Invalid Venue Website"
+msgstr ""
+
+msgid "Organizer Name must at least contain one letter"
+msgstr ""
+
+msgid "Invalid Organizer Phone"
+msgstr ""
+
+msgid "Invalid Organizer Website"
+msgstr ""
+
+msgid "Invalid Organizer Email"
+msgstr ""
+
+msgid "Please log in to edit a product"
+msgstr ""
+
+msgid "Please log in to suggest a new event"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Start Date & Time"
+msgstr ""
+
+msgid "End Date & Time"
+msgstr ""
+
+msgid "Venue"
+msgstr ""
+
+msgid "Use New Venue"
+msgstr ""
+
+msgid "Venue Name"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Organizer"
+msgstr ""
+
+msgid "Use New Organizer"
+msgstr ""
+
+msgid "Organizer Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Audience"
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
+msgid "Cost"
+msgstr ""
+
+msgid "Objectives"
+msgstr ""
+
+msgid "Prerequisites"
+msgstr ""
+
+msgid "Type event description here"
+msgstr ""
+
+msgid "Type the event objectives here"
+msgstr ""
+
+msgid "Type the event prerequisites here"
+msgstr ""
+
+msgid "Type event functionality here"
+msgstr ""
+
+msgid "Please choose the event industry"
+msgstr ""
+
+msgid "Please choose the event category"
+msgstr ""
+
+msgid "Please choose the event type"
+msgstr ""
+
+msgid "Type the event audience here"
+msgstr ""
+
+msgid "Choose a venue"
+msgstr ""
+
+msgid "Choose organizer"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "Please log in to add your location"
+msgstr ""
+
+msgid "Your location has been added successfully"
+msgstr ""
+
+msgid "Venue field required"
+msgstr ""
+
+msgid "Organizer field required"
+msgstr ""
+
+msgid "There are no updates by "
+msgstr ""
+
+msgid "There are no additions by "
+msgstr ""
+
+msgid "Share Profile"
+msgstr ""
+
+msgid "Share Product"
+msgstr ""
+
+msgid "Change Your Password"
+msgstr ""
+
+msgid "Change Your Email"
+msgstr ""
+
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Select Interests"
+msgstr ""
+
+msgid "Interest"
+msgstr ""
+
+msgid "Leave the cost field empty if the event is for FREE."
+msgstr ""
+
+msgid "Save Location"
+msgstr ""
+
+msgid "Add Location"
+msgstr ""
+
+msgid "Featured Products"
+msgstr ""
+
+msgid "Share News"
+msgstr ""
+
+msgid "There are no News yet, "
+msgstr ""
+
+msgid "Add News"
+msgstr ""
+
+msgid "Visit Event Website"
+msgstr ""
+
+msgid "Recent News"
+msgstr ""
+
+msgid "Share Page"
+msgstr ""
+
+msgid "There are no events added by %s"
+msgstr ""
+
+msgid "Share Event"
+msgstr ""
+
+msgid "Event Updates Email Notifications"
+msgstr ""
+
+msgid "News Updates Email Notifications"
+msgstr ""
+
+msgid "Success Stories Updates Email Notifications"
+msgstr ""
+
+msgid "Open Datasets Updates Email Notifications"
+msgstr ""
+
+msgid "New Products Email Notifications"
+msgstr ""
+
+msgid "New Events Email Notifications"
+msgstr ""
+
+msgid "New News Email Notifications"
+msgstr ""
+
+msgid "New Success Stories Email Notifications"
+msgstr ""
+
+msgid "New Open Datasets Email Notifications"
+msgstr ""
+
+msgid "Please enter valid product screenshots (jpeg,jpg,png)."
+msgstr ""
+
+msgid "Drag&Drop files here"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "Browse Files"
+msgstr ""
+
+msgid "news"
+msgstr ""
+
+msgid "Latest News"
+msgstr ""
+
+msgid "All Events"
+msgstr ""
+
+msgid "Products Portfolio"
+msgstr ""
+
+msgid "Read more..."
+msgstr ""
+
+msgid "FOSSpedia"
+msgstr ""
+
+msgid "Join Now"
+msgstr ""
+
+msgid "FOSS Pedia"
+msgstr ""
+
+msgid "Platform <strong>Categories</strong>"
+msgstr ""
+
+msgid "Follow <strong>Us</strong>"
+msgstr ""
+
+msgid "Powered by"
+msgstr ""
+
+msgid "Contact us"
+msgstr ""
+
+msgid "Privacy policy"
+msgstr ""
+
+msgid "Terms of sevices"
+msgstr ""
+
+msgid "© 2016 EgyptFOSS. All rights reserved"
+msgstr ""
+
+msgid "Check Map"
+msgstr ""
+
+msgid "Check FOSSPedia"
+msgstr ""
+
+msgid "Locate FOSS Entites, Events, Individuals and much more..."
+msgstr ""
+
+msgid "The Biggest FOSS Knowledge Base..."
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "There are no upcoming events for the next year. If you know any, please share with us."
+msgstr ""
+
+msgid "Free of Charge"
+msgstr ""
+
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+msgid "It looks like nothing was found at this location. Why not try to search?"
+msgstr ""
+
+msgid "We are currently down."
+msgstr ""
+
+msgid "Internal Server Error."
+msgstr ""
+
+msgid "You are not authorized to perform this action. Please contact us for more information."
+msgstr ""
+
+msgid "Contributions"
+msgstr ""
+
+msgid "Related interests"
+msgstr ""
+
+msgid "Edits"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Technologies"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Check"
+msgstr ""
+
+msgid "Complete knowledge base for FOSS"
+msgstr ""
+
+msgid "Join EgyptFOSS Today..."
+msgstr ""
+
+msgid "Contribute and meet people with similar interests today."
+msgstr ""
+
+msgid "Our Target is to boost, promote and enhance the required awareness in Egypt about FOSS and the relevant ecosystem, besides exposing the country’s FOSS capabilities and resources locally and worldwide."
+msgstr ""
+
+msgid "To verify your new email address, visit the following address"
+msgstr "Username: %s <br/>To verify your new email address, visit the following address"
+
+msgid "Verify your new email"
+msgstr ""
+
+msgid "Verify Email"
+msgstr ""
+
+
+msgid "All Types"
+msgstr ""
+
+msgid "Hi ###USERNAME###,<br/> This email confirms that your password has been changed. If you did not request this change, please contact the <a href='###ADMIN_EMAIL###'>Site Administrator</a>."
+msgstr ""
+
+msgid "Your password has been changed"
+msgstr ""
+
+msgid "Your email address has been changed by the administrator"
+msgstr "Your email address has been changed"
+
+msgid "Hi ###USERNAME###,<br/> This email confirms that your email address has been changed on EgyptFOSS. If you did not request this change, please contact the <a href='###ADMIN_EMAIL###'>Site Administrator</a>."
+msgstr ""
+
+msgid "Create an Account"
+msgstr ""
+
+msgid "Search Results for: %s"
+msgstr ""
+
+msgid "All Results"
+msgstr ""
+
+msgid "Showing"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "results"
+msgstr ""
+
+msgid "Activate Your Account"
+msgstr ""
+
+msgid "Create an Account "
+msgstr ""
+
+msgid "Activate Your Account "
+msgstr ""
+
+msgid " FOSS Map "
+msgstr ""
+
+msgid "FOSS Map "
+msgstr ""
+
+msgid "Join Our Platform Today, It's FREE."
+msgstr ""
+
+msgid "Or complete the form below."
+msgstr ""
+
+msgid "Account sub type"
+msgstr ""
+
+msgid "Choose"
+msgstr ""
+
+msgid "event-platform"
+msgstr ""
+
+msgid "Venue Name already exists"
+msgstr ""
+
+msgid "Organizer Name already exists"
+msgstr ""
+
+#: bp-activity/bp-activity-loader.php:159
+msgctxt "feminist"
+msgid "Added successfully, it is now under review"
+msgstr ""
+
+msgid "Wrong username or password"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgctxt "indefinite"
+msgid "Product"
+msgstr ""
+
+msgctxt "up"
+msgid "Product"
+msgstr ""
+
+msgid "[EgyptFOSS] New Comment on "
+msgstr ""
+
+msgid " commented on your news "
+msgstr ""
+
+msgid "To view the comment,follow the link below"
+msgstr ""
+
+msgid "View Comment"
+msgstr ""
+
+msgid " commented on your product "
+msgstr ""
+
+msgid "Please log in to suggest a new (Product, Event, News)"
+msgstr ""
+
+msgid "Suggest"
+msgstr ""
+
+msgctxt "indefinite"
+msgid "News"
+msgid_plural "News"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "definite"
+msgid "News"
+msgid_plural "News"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "up"
+msgid "News"
+msgstr ""
+
+msgctxt "indefinite"
+msgid "Event"
+msgid_plural "Events"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "definite"
+msgid "Event"
+msgid_plural "Events"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "definite"
+msgid "Entity"
+msgid_plural "Entities"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "definite"
+msgid "Individual"
+msgid_plural "Individuals"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "View Comment on the News"
+msgstr ""
+
+msgid "View Comment on the Product"
+msgstr ""
+
+msgid "View Comment on the Event"
+msgstr ""
+
+msgid "Display name"
+msgstr ""
+
+msgid "Invalid %s ."
+msgstr ""
+
+msgid "Add %s here"
+msgstr ""
+
+msgid "Please log in to suggest a new news"
+msgstr ""
+
+msgid "Pending Approval"
+msgstr ""
+
+msgid "This work is licensed under a"
+msgstr ""
+
+msgid "Creative Commons Attribution 4.0 International License."
+msgstr ""
+
+msgid "Please log in to suggest a new success story"
+msgstr ""
+
+msgid "Success Story image"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "See more"
+msgstr ""
+
+msgid "Top 10 in %s"
+msgstr ""
+
+msgid "Top 10 Products"
+msgstr ""
+
+msgid "Nothing Found"
+msgstr ""
+
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+msgid "No likes for this activity yet."
+msgstr ""
+
+msgid "Likes"
+msgstr ""
+
+msgid "Featured products aren't specified"
+msgstr ""
+
+msgid "replied"
+msgstr ""
+
+msgid " commented on one of your statuses "
+msgstr ""
+
+msgid "A new comment on one of your status"
+msgstr ""
+
+msgid "Egypt Free And Open Source Software Platform"
+msgstr ""
+
+msgid "Success Stories"
+msgstr ""
+
+msgid "Editor's Choice"
+msgstr ""
+
+msgid "Updated Successfully"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Dislike"
+msgstr ""
+
+msgid "Like"
+msgstr ""
+
+msgid "Search Results for "
+msgstr ""
+
+msgid "Change Profile Photo"
+msgstr ""
+
+msgid "Google"
+msgstr ""
+
+msgid "View the content page [c]"
+msgstr ""
+
+msgid "Past revisions of this page [h]"
+msgstr ""
+
+msgid "PROTECT this page [h]"
+msgstr ""
+
+msgid "UNPROTECT this page [h]"
+msgstr ""
+
+msgid "You have to agree the EgyptFOSS Terms of services."
+msgstr ""
+
+msgid "linked with your %s account successfully"
+msgstr ""
+
+msgid "There are no Success Stories"
+msgstr ""
+
+msgid "All Stories"
+msgstr ""
+
+msgid "There are no Success Stories yet, "
+msgstr ""
+
+msgid "Success Story"
+msgstr ""
+
+msgid "Read Full Story"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Recent Success Stories"
+msgstr ""
+
+msgid "%s has been published"
+msgstr ""
+
+msgid "Hi, %s"
+msgstr ""
+
+msgid "Thank you for your valuable contributions in EgyptFOSS."
+msgstr ""
+
+msgid "We have reviewed your %s and it has been published."
+msgstr ""
+
+msgid "We are looking forward more contribution from your side to enrich EgyptFOSS."
+msgstr ""
+
+msgid "Thank you again!"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Passed"
+msgstr ""
+
+msgid "This event has passed."
+msgstr ""
+
+msgid "View Comment on the %s"
+msgstr ""
+
+msgid " commented on your %s "
+msgstr ""
+
+msgctxt "definite"
+msgid "Product"
+msgid_plural "Products"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "definite"
+msgid "Success story"
+msgid_plural "Products"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Please select already exist %s"
+msgstr ""
+
+msgctxt "register"
+msgid "Description"
+msgstr ""
+
+msgid "Type %s here"
+msgstr ""
+
+msgid "ef_open_dataset_intro_text"
+msgstr ""
+
+msgid "Please log in to suggest a new open dataset"
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Publisher"
+msgstr ""
+
+msgid "Creator"
+msgstr ""
+
+msgid "Please choose your Theme"
+msgstr ""
+
+msgid "Please choose your License"
+msgstr ""
+
+msgid "Resources"
+msgstr ""
+
+msgid "One or more of resources exceeded the max file size: 20MB"
+msgstr ""
+
+msgid "are required"
+msgstr ""
+
+msgid "One or more of resources have invalid file type, please add resources to the following types: %s"
+msgstr ""
+
+msgid "Target business relationship"
+msgstr ""
+
+msgid "Please choose your %s"
+msgstr ""
+
+msgid "Requirements"
+msgstr ""
+
+msgid "Constraints"
+msgstr ""
+
+msgid "Deadline"
+msgstr ""
+
+msgid "Request"
+msgstr ""
+
+msgctxt "indefinite"
+msgid "Request"
+msgstr ""
+
+msgid "HINT:"
+msgstr ""
+
+msgid "Max Allowed Size per file: 20MB"
+msgstr ""
+
+msgid " & "
+msgstr ""
+
+msgid "Allowed formats : "
+msgstr ""
+
+msgid "Add %s"
+msgstr ""
+
+msgid "Please choose the event theme"
+msgstr ""
+
+msgid "Select Theme"
+msgstr ""
+
+msgid "There are no Open Datasets"
+msgstr ""
+
+msgid "All Datasets"
+msgstr ""
+
+msgid "Open Dataset"
+msgid_plural "Open Datasets"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Dataset Info."
+msgstr ""
+
+msgid "Downloads & Resources"
+msgstr ""
+
+msgid "Format"
+msgstr ""
+
+msgid "There are no Open Datasets yet, "
+msgstr ""
+
+msgid "You can suggest a success story that inspires and motivates EgyptFOSS members."
+msgstr ""
+
+msgid "Your content will be reviewed and published by the administrator. and you should receive an email after publishing your content."
+msgstr ""
+
+msgid "Relating your content with interests helps others to make the best benefit from your content."
+msgstr ""
+
+msgid "Thanks"
+msgstr ""
+
+msgid "Related News"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Wrong username or email"
+msgstr ""
+
+msgid "There are no news added by %s"
+msgstr ""
+
+msgid "Access Denied"
+msgstr ""
+
+msgid "You don't have permission to access this page or you have signed out."
+msgstr ""
+
+msgid "Go Back"
+msgstr ""
+
+msgid "There are no open datasets added by %s"
+msgstr ""
+
+msgid "There are no success stories added by %s"
+msgstr ""
+
+msgid "Timeline"
+msgstr ""
+
+msgid "Linked Accounts"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "There are no contributions by "
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Last Update"
+msgstr ""
+
+msgid "%s update"
+msgid_plural "%s updates"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%s Contributor"
+msgid_plural "%s Contributors"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "New Requests Email Notifications"
+msgstr ""
+
+msgid "Interesting Requests at EgyptFOSS"
+msgstr ""
+
+msgid "Interesting Requests"
+msgstr ""
+
+msgid "Please log in to edit a request"
+msgstr ""
+
+msgid "Target Relationship"
+msgstr ""
+
+msgid "Due Date"
+msgstr ""
+
+msgid "Request Info"
+msgstr ""
+
+msgid "Respond to request"
+msgstr ""
+
+msgid "edited successfully, it is now under review"
+msgstr ""
+
+msgid "There are no Requests in Request Center"
+msgstr ""
+
+msgid "Request Center"
+msgstr ""
+
+msgid "Welcome To Requests Center"
+msgstr ""
+
+msgid "Service Request"
+msgstr ""
+
+msgid "Please log in to suggest a new request"
+msgstr ""
+
+msgid "Here are your daily %s updates based on your interests"
+msgstr ""
+
+msgid "Here are your weekly %s updates based on your interests"
+msgstr ""
+
+msgid "Here are your monthly %s updates based on your interests"
+msgstr ""
+
+msgid "Monthly %s Updates"
+msgstr ""
+
+msgid "Weekly %s Updates"
+msgstr ""
+
+msgid "Daily %s Updates"
+msgstr ""
+
+msgid "You are receiving this email because you are subscribed to EgyptFOSS notifications. Unsubscribe from these emails by changing your"
+msgstr ""
+
+msgid "Requests"
+msgstr ""
+
+msgid "Open Datasets"
+msgstr ""
+
+msgid "posted:"
+msgstr ""
+
+msgid "New Request"
+msgstr ""
+
+msgid "My Docs"
+msgstr ""
+
+msgid "My Spaces"
+msgstr ""
+
+msgid "My Shared Docs and Spaces"
+msgstr ""
+
+msgid "My Shared Docs"
+msgstr ""
+
+msgid "Shared with me"
+msgstr ""
+
+msgid "Invite"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "There are no requests added by"
+msgstr ""
+
+msgid "There are no responses by"
+msgstr ""
+
+msgid "Responses"
+msgstr ""
+
+msgid "No Documents Found"
+msgstr ""
+
+msgid "New Document"
+msgstr ""
+
+msgid "New Space"
+msgstr ""
+
+msgid "There are no documents or spaces shared with you !"
+msgstr ""
+
+msgid "There are no spaces found !"
+msgstr ""
+
+msgid "No published documents!"
+msgstr ""
+
+msgid "Add More Resources"
+msgstr ""
+
+msgid "Please log in to suggest a new resource"
+msgstr ""
+
+msgid "Hello %s,"
+msgstr ""
+
+msgid "View All"
+msgstr ""
+
+msgid "Please log in to access this page"
+msgstr ""
+
+msgid "In the Request Center you can submit various types of requests and, once approved, they will be published so that interested members can respond to them."
+msgstr ""
+
+msgctxt "definite"
+msgid "Document"
+msgid_plural "Documents"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "indefinite"
+msgid "document"
+msgid_plural "documents"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Untitled %s"
+msgstr ""
+
+msgid "Type %s Name"
+msgstr ""
+
+msgid "%s Title"
+msgstr ""
+
+msgid "added successfully"
+msgstr ""
+
+msgid "%s already exists"
+msgstr ""
+
+msgid "Archiving a request will prevent further responses and you can not undo this action."
+msgstr ""
+
+msgid "Archive"
+msgstr ""
+
+msgid "Archive Request"
+msgstr ""
+
+msgid "Archive Response"
+msgstr ""
+
+msgid "Archiving a response will prevent further replies and you can not undo this action."
+msgstr ""
+
+msgid "Request is archived, no further responses. The old responses are still active"
+msgstr ""
+
+msgid "Request is archived, no further responses."
+msgstr ""
+
+msgid "Response is archived, no further replies"
+msgstr ""
+
+msgid "View Full Request Details"
+msgstr ""
+
+msgid "Archived"
+msgstr ""
+
+msgid "Sections"
+msgstr ""
+
+msgid "Feedback"
+msgstr ""
+
+msgid "Check your response"
+msgstr ""
+
+msgid "Total Responses"
+msgstr ""
+
+msgid "Please log in to suggest a new feedback"
+msgstr ""
+
+msgid "Please enter a valid user"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "Sharing Settings"
+msgstr ""
+
+msgid "Type user email here"
+msgstr ""
+
+msgctxt "indefinite"
+msgid "Editor"
+msgstr ""
+
+msgctxt "indefinite"
+msgid "Reviewer"
+msgstr ""
+
+msgid "Please log in to respond to a request"
+msgstr ""
+
+msgid "responses"
+msgstr ""
+
+msgid "No responses"
+msgstr ""
+
+msgid "This resquest has no responses"
+msgstr ""
+
+msgid "You can't add the creator of the space"
+msgstr ""
+
+msgid "You can't add the creator of the document"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Reviewed"
+msgstr ""
+
+msgid "Published"
+msgstr ""
+
+msgctxt "indefinite"
+msgid "Publisher"
+msgstr ""
+
+msgid "%s invited you to collaborate on a %s"
+msgstr ""
+
+msgid "%s invited you to collaborate on \"%s\" as %s"
+msgstr ""
+
+msgctxt "indefinite"
+msgid "Space"
+msgstr ""
+
+msgid "Something wrong has happened. Please try again"
+msgstr ""
+
+msgid "Resource Description"
+msgstr ""
+
+msgid "Document"
+msgstr ""
+
+msgid "Space"
+msgstr ""
+
+msgid "Editor"
+msgstr ""
+
+msgid "Reviewer"
+msgstr ""
+
+msgid "User is not authorized to be invited as a publisher"
+msgstr ""
+
+msgid "User is not authorized to be invited"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Please select your Account Type"
+msgstr ""
+
+msgid "Please select your Account Subtype"
+msgstr ""
+
+msgid "Request Archived Successfully"
+msgstr ""
+
+msgid "Error Archiving Request"
+msgstr ""
+
+msgid "Response Archived Successfully"
+msgstr ""
+
+msgid "Error Archiving Response"
+msgstr ""
+
+msgid "There are no open datasets contributions by %s"
+msgstr ""
+
+msgid "Your feedback submitted successfully"
+msgstr ""
+
+msgid "Thank you for your feedback , we will reply on your feedback shortly"
+msgstr ""
+
+msgid "please choose at least 1 feature to share"
+msgstr ""
+
+msgid "you don't have permission to share this item"
+msgstr ""
+
+msgid "Invalid %s."
+msgstr ""
+
+msgctxt "feminist"
+msgid "Invalid %s."
+msgstr ""
+
+msgid "Sharing Settings saved successfully."
+msgstr ""
+
+msgid "Request Archived"
+msgstr ""
+
+msgid "new responses"
+msgstr ""
+
+msgid "seen"
+msgstr ""
+
+msgid "unseen"
+msgstr ""
+
+msgid "Start conversation by writing your response below"
+msgstr ""
+
+msgid "Write your replay..."
+msgstr ""
+
+msgid "Type user display name here"
+msgstr ""
+
+msgid "Me"
+msgstr ""
+
+msgid "Document edited successfully"
+msgstr ""
+
+msgid "Related to"
+msgstr ""
+
+msgid "Collaboration Center"
+msgstr ""
+
+msgid "Document is"
+msgstr ""
+
+msgid "and you can't make new changes"
+msgstr ""
+
+msgid "reviewed"
+msgstr ""
+
+msgid "published"
+msgstr ""
+
+msgctxt "indefinite"
+msgid "file"
+msgid_plural "files"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "New Spaces/Documents Email Notifications"
+msgstr ""
+
+msgid "Spaces/Documents"
+msgstr ""
+
+msgid "Add Feedback"
+msgstr ""
+
+msgid "You can suggest a product that enriches EgyptFOSS content."
+msgstr ""
+
+msgid "You can suggest a news that enriches EgyptFOSS content."
+msgstr ""
+
+msgid "You can suggest an event that enriches EgyptFOSS content."
+msgstr ""
+
+msgid "You can suggest an open dataset that enriches EgyptFOSS content."
+msgstr ""
+
+msgid "Let us know what you think about EgyptFOSS and how to make it better."
+msgstr ""
+
+msgid "You can add a request and get responses from members on EgyptFOSS.‎"
+msgstr ""
+
+msgid "Published Documents"
+msgstr ""
+
+msgid "Created by"
+msgstr ""
+
+msgid "Please type a keyword to search"
+msgstr ""
+
+msgid "Change Photo"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Event Name"
+msgstr ""
+
+msgid "Please <a href=\"%s\">log in</a> to share your comments."
+msgstr ""
+
+msgid "Related to section"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Submit feedback"
+msgstr ""
+
+msgid "Your feedback has been submitted successfully, we will get back to you soon."
+msgstr ""
+
+msgid "Thanks for your feedback"
+msgstr ""
+
+msgid "Expert"
+msgstr ""
+
+msgctxt "feminist"
+msgid "must at least contain one letter"
+msgstr ""
+
+msgid "Please log in to write a new thought"
+msgstr ""
+
+msgid "Thought"
+msgstr ""
+
+msgid "You can suggest a thought that inspires and motivates EgyptFOSS members."
+msgstr ""
+
+msgid "Expert Thought"
+msgid_plural "Expert Thoughts"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "There are no published Thoughts Yet."
+msgstr ""
+
+msgid "Posted on"
+msgstr ""
+
+msgid "View Profile"
+msgstr ""
+
+msgid "More thoughts by this expert"
+msgstr ""
+
+msgid "You have got a new reply on %s request"
+msgstr ""
+
+msgid "You have got a new reply from %s on %s request, check it %s."
+msgstr ""
+
+msgid "here"
+msgstr ""
+
+msgid "you have inserted the same title before"
+msgstr ""
+
+msgid "Thought edited successfully"
+msgstr ""
+
+msgid "There are no expert thoughts added by %s"
+msgstr ""
+
+msgid "Expert Thoughts"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Token"
+msgstr ""
+
+msgid "Your account was activated successfully! <br/> You can now <a href=\"%s\">log in</a> with the username and password you provided when you signed up."
+msgstr ""
+
+msgid "Invalid Activation URL."
+msgstr ""
+
+msgid "This Document is Shared with connections who care about."
+msgstr ""
+
+msgid "Market Place"
+msgstr ""
+
+msgid "Please log in to suggest a new service"
+msgstr ""
+
+msgid "You can add a service and get responses from members on EgyptFOSS."
+msgstr ""
+
+msgid "You don't have spaces yet!"
+msgstr ""
+
+msgid "Conditions"
+msgstr ""
+
+msgid "Service Info"
+msgstr ""
+
+msgid "Request Service"
+msgstr ""
+
+msgid "Reviews"
+msgstr ""
+
+msgid "View All Reviews"
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "You are not authorized to reply to this response. Please contact us for more information."
+msgstr ""
+
+msgid "You are not authorized to reply to this request. Please contact us for more information."
+msgstr ""
+
+msgid "This Responder is no longer active."
+msgstr ""
+
+msgid "This Request author is no longer active."
+msgstr ""
+
+msgid "Open Data"
+msgstr ""
+
+msgid "Stories"
+msgstr ""
+
+msgid "Thoughts"
+msgstr ""
+
+msgid "Please log in to proceed"
+msgstr ""
+
+msgid "No documents!"
+msgstr ""
+
+msgid "There are no quizzes"
+msgstr ""
+
+msgid "There are no quizzes in this category"
+msgstr ""
+
+msgid "You have got a new reply on %s service"
+msgstr ""
+
+msgid "You have got a new reply from %s on %s service, check it %s."
+msgstr ""
+
+msgid "Expert thoughts Email Notifications"
+msgstr ""
+
+msgid "There are no services under this criteria, please try different filters."
+msgstr ""
+
+msgid "Offered by"
+msgstr ""
+
+msgid "Suggest Service"
+msgstr ""
+
+msgid "Whether you are an individual or entity, offer your services in the Marketplace and receive requests from interested members."
+msgstr ""
+
+msgid "edited successfully"
+msgstr ""
+
+msgid "Try Again"
+msgstr ""
+
+msgid "Success Rate:"
+msgstr ""
+
+msgid "Take Quiz"
+msgstr ""
+
+msgid "%s trial"
+msgid_plural "%s trials"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Welcome To the Marketplace"
+msgstr ""
+
+msgid "Offer your services to grow your business or find the right service providers for your needs."
+msgstr ""
+
+msgid "Offer Your Services"
+msgstr ""
+
+msgid "Offer your services to receive requests from interested members."
+msgstr ""
+
+msgid "Find the Right Providers"
+msgstr ""
+
+msgid "Find the right service providers for your needs."
+msgstr ""
+
+msgid "Discuss and Review"
+msgstr ""
+
+msgid "Discuss with service providers in private messages and rate the service once done."
+msgstr ""
+
+msgid "Browse Services"
+msgstr ""
+
+msgid "View All Services"
+msgstr ""
+
+msgid "Start Selling Your Services Now"
+msgstr ""
+
+msgid "Start selling your services to grow your business."
+msgstr ""
+
+msgid "Start Now"
+msgstr ""
+
+msgid "Service edited successfully"
+msgstr ""
+
+msgid "There are no services added by"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "New Service"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Hint"
+msgstr ""
+
+msgid "Service is archived, no further requests. The old requests are still active"
+msgstr ""
+
+msgid "Service is archived, no further requests."
+msgstr ""
+
+msgid "Request is archived, no further replies"
+msgstr ""
+
+msgid "Service Archived Successfully"
+msgstr ""
+
+msgid "Error Archiving Service"
+msgstr ""
+
+msgid "Archiving a service will prevent further requests and you can not undo this action."
+msgstr ""
+
+msgid "Archive Service"
+msgstr ""
+
+msgid "Archiving a request will prevent further replies and you can not undo this action."
+msgstr ""
+
+msgid "The service has no requests"
+msgstr ""
+
+msgid "Service Archived"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "I got %s in the %s Quiz on #EgyptFOSS"
+msgstr ""
+
+msgid "Please log in to take the quiz"
+msgstr ""
+
+msgid "Quizzes Email Notifications"
+msgstr ""
+
+msgid "Quizzes"
+msgstr ""
+
+msgid "View Full Service Details"
+msgstr ""
+
+msgid "Submit Review"
+msgstr ""
+
+msgid "Write Your Feedback"
+msgstr ""
+
+msgid "Write Your Review For This Service..."
+msgstr ""
+
+msgid "Rate This Service"
+msgstr ""
+
+msgid "Service Rate"
+msgstr ""
+
+msgid "Rated by "
+msgstr ""
+
+msgid " customers"
+msgstr ""
+
+msgid "More Services"
+msgstr ""
+
+msgid "You don't have services' requests"
+msgstr ""
+
+msgid "There are no services yet"
+msgstr ""
+
+msgid "Add new Service"
+msgstr ""
+
+msgid "Check your request"
+msgstr ""
+
+msgid "You're not logged in"
+msgstr ""
+
+msgid ""
+"If your interests match %s, and would like to compete the Highest Score %s. "
+"Ready to Take the Quiz?"
+msgstr ""
+
+msgid "Log In"
+msgstr ""
+
+msgid "New Services Email Notifications"
+msgstr ""
+
+msgid "Related Documents"
+msgstr ""
+
+msgid "No published documents in this section"
+msgstr ""
+
+msgid "Highest Score"
+msgstr ""
+
+msgid "Latest Score"
+msgstr ""
+
+msgid "There are no quizzes taken by %s"
+msgstr ""
+
+msgid "Show More"
+msgstr ""
+
+msgid "No requests"
+msgstr ""
+
+msgid "Your Highest Score"
+msgstr ""
+
+msgid "Your review has been submitted"
+msgstr ""
+
+msgid "Top Services"
+msgstr ""
+
+msgid "Top Providers"
+msgstr ""
+
+msgid "%s Service"
+msgid_plural "%s Services"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Congratulations You've earned %s Badge"
+msgstr ""
+
+msgid "find your badges"
+msgstr ""
+
+msgid "New Badge Acheived"
+msgstr ""
+
+msgid "Hi"
+msgstr ""
+
+msgid "You are not authorized to perform this action."
+msgstr ""
+
+msgid "This Requester is no longer active."
+msgstr ""
+
+msgid "New Post"
+msgstr ""
+
+msgid "Activist Center"
+msgstr ""
+
+msgid "Pt"
+msgid_plural "Pts"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Activist Center Top 10"
+msgstr ""
+
+msgid "Services Market"
+msgstr ""
+
+msgctxt "header"
+msgid "Expert Thoughts"
+msgstr ""
+
+msgid "Badges"
+msgstr ""
+
+msgid "Achieved"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgctxt "definite"
+msgid "Published Documents"
+msgstr ""
+
+msgid "Start conversation by writing your request below"
+msgstr ""
+
+msgid "Requester Rate"
+msgstr ""
+
+msgid "Top members based on the points earned for their contributions in EgyptFOSS"
+msgstr ""
+
+msgid "Please verify your email address. If you didn't receive the verification email, we can "
+msgstr ""
+
+msgid "resend it"
+msgstr ""
+
+msgid "Map"
+msgstr ""
+
+msgid "Marketplace"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "success story"
+msgstr ""
+
+msgid "expert thought"
+msgstr ""
+
+msgid "Platform Sections"
+msgstr ""
+
+msgid "Latest local and international FOSS news."
+msgstr ""
+
+msgid "Upcoming local and international FOSS events and happenings."
+msgstr ""
+
+msgid "An interactive map of FOSS users, entities, and events."
+msgstr ""
+
+msgid "Useful FOSS products in different categories."
+msgstr ""
+
+msgid "FOSS open datasets in different categories."
+msgstr ""
+
+msgid "Create, share and publish documents together."
+msgstr ""
+
+msgid "Offer your services, find the right providers, and share your reviews."
+msgstr ""
+
+msgid "Submit your requests and receive responses from the community."
+msgstr ""
+
+msgid "A FOSS encyclopedia."
+msgstr ""
+
+msgid "Measure your awareness of FOSS topics."
+msgstr ""
+
+msgid "Blog posts by FOSS experts and activists."
+msgstr ""
+
+msgid "Lessons learned from migration to FOSS."
+msgstr ""
+
+msgid "Revisions"
+msgstr ""
+
+msgid "there are no revisions"
+msgstr ""
+
+msgid "Terms of Services"
+msgstr ""
+
+msgid "Top 10 Members"
+msgstr ""
+
+msgid "Latest Services"
+msgstr ""
+
+msgid "Latest Providers"
+msgstr ""
+
+msgid "Download All"
+msgstr ""
+
+msgid "Mobile Apps"
+msgstr ""
+
+msgid "Revision of"
+msgstr ""
+
+
+msgid "Gallery"
+msgstr ""
+
+msgid "Your Score:"
+msgstr ""
+
+msgid "Share your score on"
+msgstr ""
+
+msgid "Take this quiz to test your FOSS knowledge"
+msgstr ""
+
+msgid "Please log in"
+msgstr ""
+
+msgid "to take this quiz and test your FOSS knowledge"
+msgstr ""
+
+msgid "Location field required"
+msgstr ""
+
+msgid "activation_ending_msg"
+msgstr ""
+
+msgid "Welcome to EgyptFOSS"
+msgstr ""
+
+msgid "Thank you for joining EgyptFOSS. To activate your account, please click the following link:"
+msgstr ""
+
+msgid "Hello"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Something went wrong."
+msgstr ""
+
+msgid "Individuals"
+msgstr ""
+
+msgid "Entities"
+msgstr ""
+
+msgid "%s became a registered member"
+msgstr ""
+
+msgid "%s changed their profile picture"
+msgstr ""
+
+msgid "Related Links"
+msgstr ""
+
+msgid "More info on Wikipedia"
+msgstr ""
+
+msgid "In"
+msgstr ""
+
+msgid "No expert thoughts are found"
+msgstr ""
+
+msgid "No success stories are found"
+msgstr ""
+
+msgid "Published date"
+msgstr ""
+
+msgid "Open Dataset Resources added successfully, it is now under review"
+msgstr ""
+
+msgid "Get the mobile App"
+msgstr ""
+
+msgid "Download our mobile apps to contribute and get the latest updates from EgyptFOSS community."
+msgstr ""
+
+msgid "Start contributing to join the list of Top Members"
+msgstr ""
+
+msgid "Welcome to the Collaboration Center"
+msgstr ""
+
+msgid "In the Collaboration Center you can create, share and publish documents together."
+msgstr ""
+
+msgid "Coming Soon"
+msgstr ""
+
+msgid "In the Collaboration Center you can create documents and share them with some members to contribute, then publish them to be be available for all members."
+msgstr ""
+
+msgid "No resources"
+msgstr ""
+
+msgctxt "up"
+msgid "Quiz"
+msgstr ""
+
+msgid "Developers"
+msgstr ""
+
+msgid "Add Your Location"
+msgstr ""
+
+msgid "Have an account ?"
+msgstr ""
+
+msgid "Don't have an account ?"
+msgstr ""
+
+msgid "Great you almost start to collaborate in EgyptFOSS, You can use this page to create your document, and it will be saved as a draft before you choose either to share it with another user in our community to review it and publish it, or to review it by yourself. Remember you need to be an author before you can publish your document. Thanks."
+msgstr ""
+
+msgid "Thanks for collaborating in EgyptFOSS, you need to get author badge before you can publish your document. It's so easy! you just need to suggest a news, product, dataset, service in our marketplace, or event and we will review and publish it as soon as possible. Thanks again for making a difference."
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+msgid "Copy To clipboard"
+msgstr ""
+
+msgid "Copy the link or"
+msgstr ""
+
+msgid "start downloading"
+msgstr ""
+
+msgid "now"
+msgstr ""
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "Newsletter"
+msgstr ""
+
+msgid "Type Your Email"
+msgstr ""
+
+msgid "Sort"
+msgstr ""
+
+msgid "By Name"
+msgstr ""
+
+msgid "By Size"
+msgstr ""
+
+msgid "By Type"
+msgstr ""
+
+msgid "Sort By Name"
+msgstr ""
+
+msgid "Sort By Size"
+msgstr ""
+
+msgid "Sort By Type"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Local Event"
+msgstr ""
+
+msgid "International Event"
+msgstr ""
+
+msgid "Virus detected! , Uploading proccess has been terminated."
+msgstr ""
+
+msgid "Telephone Number"
+msgstr ""
+
+msgid "Enter a valid telephone number"
+msgstr ""
+
+msgid "Display your services and show yourself to the world!. Click on \"add your location\" button <i class=\"fa fa-plus plus-icon\"></i>, then pin your location on our map by dragging the pointer, finally click on \"Save\""
+msgstr ""
+
+msgid "Display your services and show yourself to the world!. Please <a href=\"%s\">Register</a> or <a href=\"%s\">Sign in</a> to pin your location on our map"
+msgstr ""
+
+msgid "Welcome to the Foss Map"
+msgstr ""
+
+msgctxt "splash-screen"
+msgid "Welcome to EgyptFOSS"
+msgstr ""
+
+msgid "Here!, You'll find a content specially developed for Serving Free and Open Source Software community in Egypt. Please, <a href=\"%s\" target=\"_blank\">Register</a> or <a href=\"%s\" target=\"_blank\">Log in</a> to join our community and to enjoy using our services or to do the following:"
+msgstr ""
+
+msgid "Adding <a href=\"%s\" target=\"_blank\">News</a>, <a href=\"%s\" target=\"_blank\">Events</a>, <a href=\"%s\" target=\"_blank\">Open Data Sets</a>, and <a href=\"%s\" target=\"_blank\">FOSS Products</a> or Write Articles on our <a href=\"%s\" target=\"_blank\">FOSSpedia</a>"
+msgstr ""
+
+msgid "Creating your Freelancer or Company profile and pin your location to <a href=\"%s\" target=\"_blank\">FOSS Map</a>"
+msgstr ""
+
+msgid "Growing your business by Adding your services to our <a href=\"%s\" target=\"_blank\">Services Market</a>"
+msgstr ""
+
+msgid "Evaluate your FOSS Knowledge using our <a href=\"%s\" target=\"_blank\">Awareness Center</a>"
+msgstr ""
+
+msgid "Ask for Help or For services to get done using our <a href=\"%s\" target=\"_blank\">Request Center</a>"
+msgstr ""
+
+msgid "You'll be honoured by badges for you contributions on EgyptFOSS platform"
+msgstr ""
+
+
+msgid "Partners"
+msgstr ""
+
+msgid "EgyptFOSS in Numbers"
+msgstr ""
+
+msgid "Registered Users"
+msgstr ""

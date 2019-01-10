@@ -1,0 +1,1 @@
+UPDATE `wpRuvF8_efb_badges` SET `granted_permission`= '' WHERE `name` = 'open_dataset_l2';

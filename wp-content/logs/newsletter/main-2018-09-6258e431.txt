@@ -1,0 +1,60 @@
+23-09-2018 15:51:09 - DEBUG - m: 10.8 MB, u: 0 - hook_newsletter> Start
+23-09-2018 15:51:09 - DEBUG - m: 10.8 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 15:51:10 - DEBUG - m: 10.8 MB, u: 0 - hook_newsletter> End
+23-09-2018 15:55:09 - DEBUG - m: 10.8 MB, u: 0 - hook_newsletter> Start
+23-09-2018 15:55:09 - DEBUG - m: 10.8 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 15:55:09 - DEBUG - m: 10.8 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:00:11 - DEBUG - m: 10.8 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:00:11 - DEBUG - m: 10.8 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:00:11 - DEBUG - m: 10.8 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:05:01 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:05:01 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:05:01 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:10:21 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:10:22 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:10:23 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:15:21 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:15:22 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:15:22 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:20:23 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:20:24 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:20:24 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:26:25 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:26:26 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:26:26 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:40:35 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:40:36 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:40:36 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:44:37 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:44:38 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:44:38 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:50:39 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:50:39 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:50:39 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:55:57 - DEBUG - m: 11.9 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:55:57 - DEBUG - m: 11.9 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:55:57 - DEBUG - m: 11.9 MB, u: 0 - hook_newsletter> End
+23-09-2018 16:59:44 - DEBUG - m: 12.3 MB, u: 0 - hook_newsletter> Start
+23-09-2018 16:59:44 - DEBUG - m: 12.3 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 16:59:45 - DEBUG - m: 12.3 MB, u: 0 - hook_newsletter> End
+23-09-2018 17:06:06 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 17:06:07 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 17:06:07 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 17:09:58 - DEBUG - m: 12.5 MB, u: 0 - hook_newsletter> Start
+23-09-2018 17:09:59 - DEBUG - m: 12.5 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 17:09:59 - DEBUG - m: 12.5 MB, u: 0 - hook_newsletter> End
+23-09-2018 17:15:09 - DEBUG - m: 12.5 MB, u: 0 - hook_newsletter> Start
+23-09-2018 17:15:10 - DEBUG - m: 12.5 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 17:15:10 - DEBUG - m: 12.5 MB, u: 0 - hook_newsletter> End
+23-09-2018 17:46:00 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 17:46:02 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 17:46:02 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 17:50:12 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Start
+23-09-2018 17:50:13 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 17:50:13 - DEBUG - m: 12.6 MB, u: 0 - hook_newsletter> End
+23-09-2018 17:55:13 - DEBUG - m: 64.9 MB, u: 0 - hook_newsletter> Start
+23-09-2018 17:55:14 - DEBUG - m: 64.9 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 17:55:14 - DEBUG - m: 64.9 MB, u: 0 - hook_newsletter> End
+23-09-2018 18:15:59 - DEBUG - m: 13.3 MB, u: 0 - hook_newsletter> Start
+23-09-2018 18:15:59 - DEBUG - m: 13.3 MB, u: 0 - hook_newsletter> Emails found in sending status: 0
+23-09-2018 18:15:59 - DEBUG - m: 13.3 MB, u: 0 - hook_newsletter> End

@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet author="yomna (generated)" id="1449405734830-1">
+        <createTable tableName="DATACHANGELOG">
+            <column autoIncrement="true" name="ID" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="AUTHOR" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FILENAME" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DATEEXECUTED" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-2">
+        <createTable tableName="wpRuvF8_commentmeta">
+            <column autoIncrement="true" name="meta_id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValueNumeric="0" name="comment_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="meta_key" type="VARCHAR(255)"/>
+            <column name="meta_value" type="LONGTEXT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-3">
+        <createTable tableName="wpRuvF8_comments">
+            <column autoIncrement="true" name="comment_ID" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValueNumeric="0" name="comment_post_ID" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="comment_author" type="TINYTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="comment_author_email" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="comment_author_url" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="comment_author_IP" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="comment_date" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="comment_date_gmt" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="comment_content" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="comment_karma" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="1" name="comment_approved" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="comment_agent" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="comment_type" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="comment_parent" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="user_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-4">
+        <createTable tableName="wpRuvF8_links">
+            <column autoIncrement="true" name="link_id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValue="" name="link_url" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="link_name" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="link_image" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="link_target" type="VARCHAR(25)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="link_description" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="Y" name="link_visible" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="1" name="link_owner" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="link_rating" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="link_updated" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="link_rel" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="link_notes" type="MEDIUMTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="link_rss" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-5">
+        <createTable tableName="wpRuvF8_options">
+            <column autoIncrement="true" name="option_id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValue="" name="option_name" type="VARCHAR(64)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="option_value" type="LONGTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="yes" name="autoload" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-6">
+        <createTable tableName="wpRuvF8_postmeta">
+            <column autoIncrement="true" name="meta_id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValueNumeric="0" name="post_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="meta_key" type="VARCHAR(255)"/>
+            <column name="meta_value" type="LONGTEXT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-7">
+        <createTable tableName="wpRuvF8_posts">
+            <column autoIncrement="true" name="ID" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValueNumeric="0" name="post_author" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="post_date" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="post_date_gmt" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="post_content" type="LONGTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="post_title" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="post_excerpt" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="publish" name="post_status" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="open" name="comment_status" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="open" name="ping_status" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="post_password" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="post_name" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="to_ping" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="pinged" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="post_modified" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="post_modified_gmt" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="post_content_filtered" type="LONGTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="post_parent" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="guid" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="menu_order" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="post" name="post_type" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="post_mime_type" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="comment_count" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-8">
+        <createTable tableName="wpRuvF8_term_relationships">
+            <column defaultValueNumeric="0" name="object_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="term_taxonomy_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="term_order" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-9">
+        <createTable tableName="wpRuvF8_term_taxonomy">
+            <column autoIncrement="true" name="term_taxonomy_id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValueNumeric="0" name="term_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="taxonomy" type="VARCHAR(32)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="LONGTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="parent" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="count" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-10">
+        <createTable tableName="wpRuvF8_terms">
+            <column autoIncrement="true" name="term_id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValue="" name="name" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="slug" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="term_group" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-11">
+        <createTable tableName="wpRuvF8_usermeta">
+            <column autoIncrement="true" name="umeta_id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValueNumeric="0" name="user_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="meta_key" type="VARCHAR(255)"/>
+            <column name="meta_value" type="LONGTEXT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-12">
+        <createTable tableName="wpRuvF8_users">
+            <column autoIncrement="true" name="ID" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValue="" name="user_login" type="VARCHAR(60)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="user_pass" type="VARCHAR(64)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="user_nicename" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="user_email" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="user_url" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="user_registered" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="user_activation_key" type="VARCHAR(60)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="user_status" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="display_name" type="VARCHAR(250)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-13">
+        <addPrimaryKey columnNames="object_id, term_taxonomy_id" constraintName="PRIMARY" tableName="wpRuvF8_term_relationships"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-14">
+        <addUniqueConstraint columnNames="option_name" constraintName="option_name" tableName="wpRuvF8_options"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-15">
+        <addUniqueConstraint columnNames="term_id, taxonomy" constraintName="term_id_taxonomy" tableName="wpRuvF8_term_taxonomy"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-16">
+        <createIndex indexName="comment_approved_date_gmt" tableName="wpRuvF8_comments">
+            <column name="comment_approved"/>
+            <column name="comment_date_gmt"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-17">
+        <createIndex indexName="comment_author_email" tableName="wpRuvF8_comments">
+            <column name="comment_author_email"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-18">
+        <createIndex indexName="comment_date_gmt" tableName="wpRuvF8_comments">
+            <column name="comment_date_gmt"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-19">
+        <createIndex indexName="comment_id" tableName="wpRuvF8_commentmeta">
+            <column name="comment_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-20">
+        <createIndex indexName="comment_parent" tableName="wpRuvF8_comments">
+            <column name="comment_parent"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-21">
+        <createIndex indexName="comment_post_ID" tableName="wpRuvF8_comments">
+            <column name="comment_post_ID"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-22">
+        <createIndex indexName="link_visible" tableName="wpRuvF8_links">
+            <column name="link_visible"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-23">
+        <createIndex indexName="meta_key" tableName="wpRuvF8_commentmeta">
+            <column name="meta_key"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-24">
+        <createIndex indexName="meta_key" tableName="wpRuvF8_postmeta">
+            <column name="meta_key"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-25">
+        <createIndex indexName="meta_key" tableName="wpRuvF8_usermeta">
+            <column name="meta_key"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-26">
+        <createIndex indexName="name" tableName="wpRuvF8_terms">
+            <column name="name"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-27">
+        <createIndex indexName="post_author" tableName="wpRuvF8_posts">
+            <column name="post_author"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-28">
+        <createIndex indexName="post_id" tableName="wpRuvF8_postmeta">
+            <column name="post_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-29">
+        <createIndex indexName="post_name" tableName="wpRuvF8_posts">
+            <column name="post_name"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-30">
+        <createIndex indexName="post_parent" tableName="wpRuvF8_posts">
+            <column name="post_parent"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-31">
+        <createIndex indexName="slug" tableName="wpRuvF8_terms">
+            <column name="slug"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-32">
+        <createIndex indexName="taxonomy" tableName="wpRuvF8_term_taxonomy">
+            <column name="taxonomy"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-33">
+        <createIndex indexName="term_taxonomy_id" tableName="wpRuvF8_term_relationships">
+            <column name="term_taxonomy_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-34">
+        <createIndex indexName="type_status_date" tableName="wpRuvF8_posts">
+            <column name="post_type"/>
+            <column name="post_status"/>
+            <column name="post_date"/>
+            <column name="ID"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-35">
+        <createIndex indexName="user_id" tableName="wpRuvF8_usermeta">
+            <column name="user_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-36">
+        <createIndex indexName="user_login_key" tableName="wpRuvF8_users">
+            <column name="user_login"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1449405734830-37">
+        <createIndex indexName="user_nicename" tableName="wpRuvF8_users">
+            <column name="user_nicename"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-1">
+        <createTable tableName="wpRuvF8_bp_activity">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="user_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="component" type="VARCHAR(75)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="type" type="VARCHAR(75)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="action" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="content" type="LONGTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="primary_link" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="item_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="secondary_item_id" type="BIGINT"/>
+            <column name="date_recorded" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="hide_sitewide" type="BIT"/>
+            <column defaultValueNumeric="0" name="mptt_left" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="mptt_right" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="is_spam" type="BIT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-2">
+        <createTable tableName="wpRuvF8_bp_activity_meta">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="activity_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="meta_key" type="VARCHAR(255)"/>
+            <column name="meta_value" type="LONGTEXT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-3">
+        <createTable tableName="wpRuvF8_bp_notifications">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="user_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="item_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="secondary_item_id" type="BIGINT"/>
+            <column name="component_name" type="VARCHAR(75)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="component_action" type="VARCHAR(75)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="date_notified" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="is_new" type="BIT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-4">
+        <createTable tableName="wpRuvF8_bp_notifications_meta">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="notification_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="meta_key" type="VARCHAR(255)"/>
+            <column name="meta_value" type="LONGTEXT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-5">
+        <createTable tableName="wpRuvF8_bp_xprofile_data">
+            <column autoIncrement="true" name="id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="field_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="value" type="LONGTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="last_updated" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-6">
+        <createTable tableName="wpRuvF8_bp_xprofile_fields">
+            <column autoIncrement="true" name="id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="group_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="parent_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="type" type="VARCHAR(150)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name" type="VARCHAR(150)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="LONGTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="is_required" type="BIT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="is_default_option" type="BIT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="field_order" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="option_order" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="order_by" type="VARCHAR(15)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="1" name="can_delete" type="BIT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-7">
+        <createTable tableName="wpRuvF8_bp_xprofile_groups">
+            <column autoIncrement="true" name="id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(150)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="MEDIUMTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="group_order" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="can_delete" type="BIT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-8">
+        <createTable tableName="wpRuvF8_bp_xprofile_meta">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="object_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="object_type" type="VARCHAR(150)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="meta_key" type="VARCHAR(255)"/>
+            <column name="meta_value" type="LONGTEXT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-9">
+        <createTable tableName="wpRuvF8_signups">
+            <column autoIncrement="true" name="signup_id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValue="" name="domain" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="path" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="title" type="LONGTEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="user_login" type="VARCHAR(60)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="user_email" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="registered" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="0000-00-00 00:00:00" name="activated" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="active" type="BIT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValue="" name="activation_key" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="meta" type="LONGTEXT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-10">
+        <createIndex indexName="activation_key" tableName="wpRuvF8_signups">
+            <column name="activation_key"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-11">
+        <createIndex indexName="activity_id" tableName="wpRuvF8_bp_activity_meta">
+            <column name="activity_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-12">
+        <createIndex indexName="can_delete" tableName="wpRuvF8_bp_xprofile_fields">
+            <column name="can_delete"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-13">
+        <createIndex indexName="can_delete" tableName="wpRuvF8_bp_xprofile_groups">
+            <column name="can_delete"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-14">
+        <createIndex indexName="component" tableName="wpRuvF8_bp_activity">
+            <column name="component"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-15">
+        <createIndex indexName="component_action" tableName="wpRuvF8_bp_notifications">
+            <column name="component_action"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-16">
+        <createIndex indexName="component_name" tableName="wpRuvF8_bp_notifications">
+            <column name="component_name"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-17">
+        <createIndex indexName="date_recorded" tableName="wpRuvF8_bp_activity">
+            <column name="date_recorded"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-18">
+        <createIndex indexName="domain_path" tableName="wpRuvF8_signups">
+            <column name="domain"/>
+            <column name="path"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-19">
+        <createIndex indexName="field_id" tableName="wpRuvF8_bp_xprofile_data">
+            <column name="field_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-20">
+        <createIndex indexName="field_order" tableName="wpRuvF8_bp_xprofile_fields">
+            <column name="field_order"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-21">
+        <createIndex indexName="group_id" tableName="wpRuvF8_bp_xprofile_fields">
+            <column name="group_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-22">
+        <createIndex indexName="hide_sitewide" tableName="wpRuvF8_bp_activity">
+            <column name="hide_sitewide"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-23">
+        <createIndex indexName="is_new" tableName="wpRuvF8_bp_notifications">
+            <column name="is_new"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-24">
+        <createIndex indexName="is_required" tableName="wpRuvF8_bp_xprofile_fields">
+            <column name="is_required"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-25">
+        <createIndex indexName="is_spam" tableName="wpRuvF8_bp_activity">
+            <column name="is_spam"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-26">
+        <createIndex indexName="item_id" tableName="wpRuvF8_bp_activity">
+            <column name="item_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-27">
+        <createIndex indexName="item_id" tableName="wpRuvF8_bp_notifications">
+            <column name="item_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-28">
+        <createIndex indexName="meta_key" tableName="wpRuvF8_bp_activity_meta">
+            <column name="meta_key"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-29">
+        <createIndex indexName="meta_key" tableName="wpRuvF8_bp_notifications_meta">
+            <column name="meta_key"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-30">
+        <createIndex indexName="meta_key" tableName="wpRuvF8_bp_xprofile_meta">
+            <column name="meta_key"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-31">
+        <createIndex indexName="mptt_left" tableName="wpRuvF8_bp_activity">
+            <column name="mptt_left"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-32">
+        <createIndex indexName="mptt_right" tableName="wpRuvF8_bp_activity">
+            <column name="mptt_right"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-33">
+        <createIndex indexName="notification_id" tableName="wpRuvF8_bp_notifications_meta">
+            <column name="notification_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-34">
+        <createIndex indexName="object_id" tableName="wpRuvF8_bp_xprofile_meta">
+            <column name="object_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-35">
+        <createIndex indexName="parent_id" tableName="wpRuvF8_bp_xprofile_fields">
+            <column name="parent_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-36">
+        <createIndex indexName="secondary_item_id" tableName="wpRuvF8_bp_activity">
+            <column name="secondary_item_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-37">
+        <createIndex indexName="secondary_item_id" tableName="wpRuvF8_bp_notifications">
+            <column name="secondary_item_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-38">
+        <createIndex indexName="type" tableName="wpRuvF8_bp_activity">
+            <column name="type"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-39">
+        <createIndex indexName="user_email" tableName="wpRuvF8_signups">
+            <column name="user_email"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-40">
+        <createIndex indexName="user_id" tableName="wpRuvF8_bp_activity">
+            <column name="user_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-41">
+        <createIndex indexName="user_id" tableName="wpRuvF8_bp_notifications">
+            <column name="user_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-42">
+        <createIndex indexName="user_id" tableName="wpRuvF8_bp_xprofile_data">
+            <column name="user_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-43">
+        <createIndex indexName="user_login_email" tableName="wpRuvF8_signups">
+            <column name="user_login"/>
+            <column name="user_email"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="eslam (generated)" id="1449763060065-44">
+        <createIndex indexName="useritem" tableName="wpRuvF8_bp_notifications">
+            <column name="user_id"/>
+            <column name="is_new"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-1">
+        <createTable tableName="wpRuvF8_wsluserscontacts">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="user_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="provider" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="identifier" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="full_name" type="VARCHAR(150)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="profile_url" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="photo_url" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-2">
+        <createTable tableName="wpRuvF8_wslusersprofiles">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="user_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="provider" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="object_sha" type="VARCHAR(45)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="identifier" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="profileurl" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="websiteurl" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="photourl" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="displayname" type="VARCHAR(150)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="firstname" type="VARCHAR(150)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="lastname" type="VARCHAR(150)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="gender" type="VARCHAR(10)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="language" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="age" type="VARCHAR(10)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="birthday" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="birthmonth" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="birthyear" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="emailverified" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="phone" type="VARCHAR(75)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="address" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="country" type="VARCHAR(75)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="region" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="city" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="zip" type="VARCHAR(25)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-3">
+        <addUniqueConstraint columnNames="id" constraintName="id" tableName="wpRuvF8_wsluserscontacts"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-4">
+        <addUniqueConstraint columnNames="id" constraintName="id" tableName="wpRuvF8_wslusersprofiles"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-5">
+        <createIndex indexName="provider" tableName="wpRuvF8_wslusersprofiles">
+            <column name="provider"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-6">
+        <createIndex indexName="user_id" tableName="wpRuvF8_wsluserscontacts">
+            <column name="user_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-7">
+        <createIndex indexName="user_id" tableName="wpRuvF8_wslusersprofiles">
+            <column name="user_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-8">
+        <modifyDataType columnName="can_delete" newDataType="boolean" tableName="wpRuvF8_bp_xprofile_fields"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-9">
+        <modifyDataType columnName="can_delete" newDataType="boolean" tableName="wpRuvF8_bp_xprofile_groups"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-10">
+        <modifyDataType columnName="hide_sitewide" newDataType="boolean" tableName="wpRuvF8_bp_activity"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-11">
+        <modifyDataType columnName="is_default_option" newDataType="boolean" tableName="wpRuvF8_bp_xprofile_fields"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-12">
+        <modifyDataType columnName="is_new" newDataType="boolean" tableName="wpRuvF8_bp_notifications"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-13">
+        <modifyDataType columnName="is_required" newDataType="boolean" tableName="wpRuvF8_bp_xprofile_fields"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1450268929792-14">
+        <modifyDataType columnName="is_spam" newDataType="boolean" tableName="wpRuvF8_bp_activity"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1452525610427-1">
+        <createTable tableName="wpRuvF8_accesstokens">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="access_token" type="VARCHAR(225)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_at" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1453555228137-1">
+        <createTable tableName="wpRuvF8_user_relationships">
+            <column defaultValueNumeric="0" name="user_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="term_taxonomy_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1453555228137-2">
+        <addPrimaryKey columnNames="user_id, term_taxonomy_id" constraintName="PRIMARY" tableName="wpRuvF8_user_relationships"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1453555228137-3">
+        <createIndex indexName="term_taxonomy_id" tableName="wpRuvF8_user_relationships">
+            <column name="term_taxonomy_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1455540650004-1">
+        <createTable tableName="wpRuvF8_posts_history">
+            <column autoIncrement="true" name="ID" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="post_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="post_title" type="VARCHAR(45)"/>
+            <column name="description" type="VARCHAR(255)"/>
+            <column name="developer" type="VARCHAR(45)"/>
+            <column name="functionality" type="VARCHAR(255)"/>
+            <column name="usage_hints" type="VARCHAR(255)"/>
+            <column name="references" type="VARCHAR(255)"/>
+            <column name="link_to_source" type="VARCHAR(45)"/>
+            <column name="type_ids" type="VARCHAR(255)"/>
+            <column name="type_text" type="VARCHAR(255)"/>
+            <column name="technology_text" type="VARCHAR(255)"/>
+            <column name="technology_ids" type="VARCHAR(255)"/>
+            <column name="platform_text" type="VARCHAR(255)"/>
+            <column name="platform_ids" type="VARCHAR(255)"/>
+            <column name="license_text" type="VARCHAR(255)"/>
+            <column name="license_ids" type="VARCHAR(255)"/>
+            <column name="keywords_text" type="VARCHAR(255)"/>
+            <column name="keywords_ids" type="VARCHAR(255)"/>
+            <column name="industry_text" type="VARCHAR(255)"/>
+            <column name="industry_ids" type="VARCHAR(255)"/>
+            <column name="updated_at" type="datetime"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456065688878-2">
+        <addColumn tableName="wpRuvF8_terms">
+            <column name="name_ar" type="VARCHAR(45)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1456513014213-1">
+        <createTable tableName="wpRuvF8_geolocations">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="object_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="object_type" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="lat" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="lng" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-2">
+        <modifyDataType columnName="ID" newDataType="bigint(19)" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-3">
+        <modifyDataType columnName="description" newDataType="clob" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-4">
+        <modifyDataType columnName="developer" newDataType="varchar(255)" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-5">
+        <modifyDataType columnName="functionality" newDataType="clob" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-6">
+        <modifyDataType columnName="link_to_source" newDataType="varchar(255)" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-7">
+        <modifyDataType columnName="post_id" newDataType="bigint(19)" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-8">
+        <modifyDataType columnName="post_title" newDataType="varchar(255)" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-9">
+        <modifyDataType columnName="references" newDataType="clob" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-10">
+        <modifyDataType columnName="usage_hints" newDataType="clob" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1456749977822-11">
+        <modifyDataType columnName="user_id" newDataType="bigint(19)" tableName="wpRuvF8_posts_history"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1457369729041-1">
+        <createTable tableName="wpRuvF8_events_venues">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="event_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="venue_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="venue_name" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="event_start_datetime" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="event_end_datetime" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1458123440940-1">
+        <createTable tableName="wpRuvF8_termmeta">
+            <column autoIncrement="true" name="meta_id" type="BIGINT UNSIGNED">
+                <constraints primaryKey="true"/>
+            </column>
+            <column defaultValueNumeric="0" name="term_id" type="BIGINT UNSIGNED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="meta_key" type="VARCHAR(255)"/>
+            <column name="meta_value" type="LONGTEXT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1458123440940-2">
+        <createIndex indexName="meta_key" tableName="wpRuvF8_termmeta">
+            <column name="meta_key"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1458123440940-3">
+        <createIndex indexName="term_id" tableName="wpRuvF8_termmeta">
+            <column name="term_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1458123440940-4">
+        <modifyDataType columnName="option_name" newDataType="varchar(191)" tableName="wpRuvF8_options"/>
+        <dropNotNullConstraint columnDataType="varchar(191)" columnName="option_name" tableName="wpRuvF8_options"/>
+        <dropDefaultValue columnDataType="varchar(191)" columnName="option_name" tableName="wpRuvF8_options"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1458123440940-5">
+        <modifyDataType columnName="user_activation_key" newDataType="varchar(255)" tableName="wpRuvF8_users"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1458123440940-6">
+        <modifyDataType columnName="user_pass" newDataType="varchar(255)" tableName="wpRuvF8_users"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1458207645538-1">
+        <dropNotNullConstraint columnDataType="varchar(255)" columnName="user_pass" tableName="wpRuvF8_users"/>
+        <dropDefaultValue columnDataType="varchar(255)" columnName="user_pass" tableName="wpRuvF8_users"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1458212294372-1">
+        <dropNotNullConstraint columnDataType="varchar(255)" columnName="user_activation_key" tableName="wpRuvF8_users"/>
+        <dropDefaultValue columnDataType="varchar(255)" columnName="user_activation_key" tableName="wpRuvF8_users"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1460039625109-25">
+        <createTable tableName="wpRuvF8_top_ten_products">
+            <column name="post_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="term_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1460039625109-32">
+        <addPrimaryKey columnNames="post_id, term_id" constraintName="PRIMARY" tableName="wpRuvF8_top_ten_products"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1464720398280-1">
+        <createTable tableName="wpRuvF8_request_threads">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="request_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="owner_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="seen_by_owner" type="TINYINT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="1" name="seen_by_user" type="TINYINT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="responses_count" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="1" name="status" type="TINYINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_at" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1464720398280-2">
+        <createTable tableName="wpRuvF8_thread_responses">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="thread_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="message" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_at" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-1">
+        <createTable tableName="wpRuvF8_ef_item">
+            <column autoIncrement="true" name="ID" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="title" type="VARCHAR(500)"/>
+            <column name="owner_id" type="BIGINT UNSIGNED"/>
+            <column name="is_space" type="BIT"/>
+            <column name="content" type="TEXT"/>
+            <column name="status" type="VARCHAR(45)"/>
+            <column name="created_date" type="datetime"/>
+            <column name="modified_date" type="datetime"/>
+            <column name="item_ID" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-2">
+        <createTable tableName="wpRuvF8_ef_item_history">
+            <column autoIncrement="true" name="ID" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="title" type="VARCHAR(500)"/>
+            <column name="content" type="TEXT"/>
+            <column name="editor_id" type="BIGINT UNSIGNED"/>
+            <column name="reviewer_id" type="BIGINT UNSIGNED"/>
+            <column name="created_date" type="datetime"/>
+            <column name="reviewed_date" type="datetime"/>
+            <column name="item_ID" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-3">
+        <createTable tableName="wpRuvF8_ef_tax_permission_item">
+            <column autoIncrement="true" name="ID" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="tax_id" type="BIGINT UNSIGNED"/>
+            <column name="permission" type="VARCHAR(45)"/>
+            <column name="item_ID" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_date" type="datetime"/>
+            <column name="modified_date" type="datetime"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-4">
+        <createTable tableName="wpRuvF8_ef_user_permission_item">
+            <column autoIncrement="true" name="ID" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="user_id" type="BIGINT UNSIGNED"/>
+            <column name="permission" type="VARCHAR(45)"/>
+            <column name="created_date" type="datetime"/>
+            <column name="modified_date" type="datetime"/>
+            <column name="item_ID" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+       <changeSet author="ashraf (generated)" id="1464875890191-8">
+        <createIndex indexName="fk_item_history_item1_idx" tableName="wpRuvF8_ef_item_history">
+            <column name="item_ID"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-9">
+        <createIndex indexName="fk_item_item1" tableName="wpRuvF8_ef_item">
+            <column name="item_ID"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-10">
+        <createIndex indexName="fk_tax_perm_item_item1_idx" tableName="wpRuvF8_ef_tax_permission_item">
+            <column name="item_ID"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-11">
+        <createIndex indexName="fk_user_perm_item_item1_idx" tableName="wpRuvF8_ef_user_permission_item">
+            <column name="item_ID"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-12">
+        <createIndex indexName="fk_wpRuvF8_ef_item_history_editor_idx" tableName="wpRuvF8_ef_item_history">
+            <column name="editor_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-13">
+        <createIndex indexName="fk_wpRuvF8_ef_item_history_reviewer_idx" tableName="wpRuvF8_ef_item_history">
+            <column name="reviewer_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-14">
+        <createIndex indexName="fk_wpRuvF8_ef_item_user_idx" tableName="wpRuvF8_ef_item">
+            <column name="owner_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-15">
+        <createIndex indexName="fk_wpRuvF8_ef_tax_permission_item_term_tax_idx" tableName="wpRuvF8_ef_tax_permission_item">
+            <column name="tax_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-16">
+        <createIndex indexName="fk_wpRuvF8_ef_user_permission_item_user_idx" tableName="wpRuvF8_ef_user_permission_item">
+            <column name="user_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-17">
+        <addForeignKeyConstraint baseColumnNames="item_ID" baseTableName="wpRuvF8_ef_item_history" constraintName="fk_item_history_item1" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="ID" referencedTableName="wpRuvF8_ef_item"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-18">
+        <addForeignKeyConstraint baseColumnNames="item_ID" baseTableName="wpRuvF8_ef_item" constraintName="fk_item_item1" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="ID" referencedTableName="wpRuvF8_ef_item"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-19">
+        <addForeignKeyConstraint baseColumnNames="item_ID" baseTableName="wpRuvF8_ef_tax_permission_item" constraintName="fk_tax_perm_item_item1" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="ID" referencedTableName="wpRuvF8_ef_item"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-20">
+        <addForeignKeyConstraint baseColumnNames="item_ID" baseTableName="wpRuvF8_ef_user_permission_item" constraintName="fk_user_perm_item_item1" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="ID" referencedTableName="wpRuvF8_ef_item"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-21">
+        <addForeignKeyConstraint baseColumnNames="editor_id" baseTableName="wpRuvF8_ef_item_history" constraintName="fk_wpRuvF8_ef_item_history_editor" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="ID" referencedTableName="wpRuvF8_users"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-22">
+        <addForeignKeyConstraint baseColumnNames="reviewer_id" baseTableName="wpRuvF8_ef_item_history" constraintName="fk_wpRuvF8_ef_item_history_reviewer" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="ID" referencedTableName="wpRuvF8_users"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-23">
+        <addForeignKeyConstraint baseColumnNames="owner_id" baseTableName="wpRuvF8_ef_item" constraintName="fk_wpRuvF8_ef_item_user" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="ID" referencedTableName="wpRuvF8_users"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-24">
+        <addForeignKeyConstraint baseColumnNames="tax_id" baseTableName="wpRuvF8_ef_tax_permission_item" constraintName="fk_wpRuvF8_ef_tax_permission_item_term_tax" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="term_taxonomy_id" referencedTableName="wpRuvF8_term_taxonomy"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1464875890191-25">
+        <addForeignKeyConstraint baseColumnNames="user_id" baseTableName="wpRuvF8_ef_user_permission_item" constraintName="fk_wpRuvF8_ef_user_permission_item_user" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="ID" referencedTableName="wpRuvF8_users"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1465207237745-1">
+        <addColumn tableName="wpRuvF8_ef_item_history">
+            <column name="action" type="VARCHAR(45)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1465207237745-2">
+        <dropForeignKeyConstraint baseTableName="wpRuvF8_ef_item_history" constraintName="fk_wpRuvF8_ef_item_history_reviewer"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1465207237745-3">
+        <dropColumn columnName="reviewed_date" tableName="wpRuvF8_ef_item_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1465207237745-4">
+        <dropColumn columnName="reviewer_id" tableName="wpRuvF8_ef_item_history"/>
+    </changeSet>
+
+    <changeSet author="ashraf (generated)" id="1465207237745-12">
+        <dropNotNullConstraint columnDataType="int(10)" columnName="item_ID" tableName="wpRuvF8_ef_item_history"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1465305999936-1">
+        <createTable tableName="wpRuvF8_ef_anon_permission_item">
+            <column autoIncrement="true" name="ID" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="type" type="VARCHAR(45)"/>
+            <column name="name" type="VARCHAR(45)"/>
+            <column name="item_ID" type="INT"/>
+            <column name="permission" type="VARCHAR(45)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1465305999936-2">
+        <createIndex indexName="fk_wpRuvF8_ef_anon_permission_item_idx" tableName="wpRuvF8_ef_anon_permission_item">
+            <column name="item_ID"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1465305999936-3">
+        <addForeignKeyConstraint baseColumnNames="item_ID" baseTableName="wpRuvF8_ef_anon_permission_item" constraintName="fk_wpRuvF8_ef_anon_permission_item" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="ID" referencedTableName="wpRuvF8_ef_item"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1465471069834-10">
+        <modifyDataType columnName="is_space" newDataType="tinyint(3)" tableName="wpRuvF8_ef_item"/>
+    </changeSet>
+    <changeSet author="ahmed (generated)" id="1465993008489-1">
+        <addColumn tableName="wpRuvF8_ef_item_history">
+            <column name="status" type="VARCHAR(45)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ahmed (generated)" id="1465993008489-2">
+        <dropColumn columnName="action" tableName="wpRuvF8_ef_item_history"/>
+    </changeSet>
+    <changeSet author="ahmed (generated)" id="1466414483938-1">
+        <addColumn tableName="wpRuvF8_ef_item_history">
+            <column name="section" type="VARCHAR(45)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1467115102018-2">
+        <addColumn tableName="wpRuvF8_ef_tax_permission_item">
+            <column name="taxonomy" type="VARCHAR(45)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ahmed (generated)" id="1468231813523-1">
+        <addColumn tableName="wpRuvF8_ef_user_permission_item">
+            <column name="permission_from" type="VARCHAR(45)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1468340180371-2">
+        <addColumn tableName="wpRuvF8_ef_tax_permission_item">
+            <column name="permission_from" type="VARCHAR(45)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1468340180371-3">
+        <addColumn tableName="wpRuvF8_ef_anon_permission_item">
+            <column name="permission_from" type="VARCHAR(45)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ahmed (generated)" id="1470654154215-1">
+        <createTable tableName="wpRuvF8_mlw_qm_audit_trail">
+            <column autoIncrement="true" name="trail_id" type="MEDIUMINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="action_user" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="action" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="time" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ahmed (generated)" id="1470654154215-2">
+        <createTable tableName="wpRuvF8_mlw_questions">
+            <column autoIncrement="true" name="question_id" type="MEDIUMINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="quiz_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="question_name" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_array" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_one" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_one_points" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_two" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_two_points" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_three" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_three_points" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_four" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_four_points" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_five" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_five_points" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_six" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="answer_six_points" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="correct_answer" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="question_answer_info" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="comments" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="hints" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="question_order" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="question_type" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="question_type_new" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="question_settings" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="category" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="deleted" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ahmed (generated)" id="1470654154215-3">
+        <createTable tableName="wpRuvF8_mlw_quizzes">
+            <column autoIncrement="true" name="quiz_id" type="MEDIUMINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="quiz_name" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="message_before" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="message_after" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="message_comment" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="message_end_template" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_email_template" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="admin_email_template" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="submit_button_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name_field_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="business_field_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email_field_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="phone_field_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="comment_field_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email_from_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="question_answer_template" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="leaderboard_template" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="system" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="randomness_order" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="loggedin_user_contact" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="show_score" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="send_user_email" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="send_admin_email" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="contact_info_location" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_name" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_comp" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_email" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_phone" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="admin_email" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="comment_section" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="question_from_total" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="total_user_tries" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="total_user_tries_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="certificate_template" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="social_media" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="social_media_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="pagination" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="pagination_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="timer_limit" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="quiz_stye" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="question_numbering" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="quiz_settings" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="theme_selected" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="last_activity" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="require_log_in" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="require_log_in_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="limit_total_entries" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="limit_total_entries_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="scheduled_timeframe" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="scheduled_timeframe_text" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="disable_answer_onselect" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ajax_show_correct" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="quiz_views" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="quiz_taken" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="deleted" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ahmed (generated)" id="1470654154215-4">
+        <createTable tableName="wpRuvF8_mlw_results">
+            <column autoIncrement="true" name="result_id" type="MEDIUMINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="quiz_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="quiz_name" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="quiz_system" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="point_score" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="correct_score" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="correct" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="total" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="business" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="phone" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_ip" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="time_taken" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="time_taken_real" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="quiz_results" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="deleted" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1471879677160-1">
+        <createTable tableName="wpRuvF8_ef_reviews">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="rateable_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="provider_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="reviewer_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="0" name="rate" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="review" type="TEXT"/>
+            <column name="created_at" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-1">
+        <createTable tableName="wpRuvF8_efb_actions">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(45)"/>
+            <column name="post_type" type="VARCHAR(45)"/>
+            <column name="post_status" type="VARCHAR(45)"/>
+            <column name="description" type="TEXT"/>
+            <column name="is_point_granted" type="TINYINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-2">
+        <createTable tableName="wpRuvF8_efb_badges">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(45)"/>
+            <column name="img" type="TEXT"/>
+            <column name="granted_permission" type="VARCHAR(45)"/>
+            <column name="type" type="VARCHAR(45)"/>
+            <column name="min_threshold" type="INT"/>
+            <column name="description" type="TEXT"/>
+            <column name="description_ar" type="TEXT"/>
+            <column name="title" type="VARCHAR(45)"/>
+            <column name="title_ar" type="VARCHAR(45)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-3">
+        <createTable tableName="wpRuvF8_efb_badges_actions">
+            <column name="badge_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="action_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-4">
+        <createTable tableName="wpRuvF8_efb_badges_users">
+            <column name="badge_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-5">
+        <createTable tableName="wpRuvF8_efb_credited_user_posts">
+            <column name="user_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="post_id" type="VARCHAR(45)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="action_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="omar_fathy (generated)" id="1472652428221-1">
+        <createTable tableName="wpRuvF8_api_keys">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="api_key" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_at" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="is_enabled" type="BIT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-6">
+        <addPrimaryKey columnNames="badge_id, action_id" constraintName="PRIMARY" tableName="wpRuvF8_efb_badges_actions"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-7">
+        <addPrimaryKey columnNames="badge_id, user_id" constraintName="PRIMARY" tableName="wpRuvF8_efb_badges_users"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-8">
+        <addPrimaryKey columnNames="user_id, post_id, action_id" constraintName="PRIMARY" tableName="wpRuvF8_efb_credited_user_posts"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-9">
+        <createIndex indexName="fk_badges_actions_actions1_idx" tableName="wpRuvF8_efb_badges_actions">
+            <column name="action_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-10">
+        <createIndex indexName="fk_badges_actions_badges_idx" tableName="wpRuvF8_efb_badges_actions">
+            <column name="badge_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-11">
+        <createIndex indexName="fk_badges_users_badges1_idx" tableName="wpRuvF8_efb_badges_users">
+            <column name="badge_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-12">
+        <createIndex indexName="fk_credited_user_posts_actions1_idx" tableName="wpRuvF8_efb_credited_user_posts">
+            <column name="action_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-13">
+        <addForeignKeyConstraint baseColumnNames="action_id" baseTableName="wpRuvF8_efb_badges_actions" constraintName="fk_badges_actions_actions1" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="wpRuvF8_efb_actions"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-14">
+        <addForeignKeyConstraint baseColumnNames="badge_id" baseTableName="wpRuvF8_efb_badges_actions" constraintName="fk_badges_actions_badges" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="wpRuvF8_efb_badges"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-15">
+        <addForeignKeyConstraint baseColumnNames="badge_id" baseTableName="wpRuvF8_efb_badges_users" constraintName="fk_badges_users_badges1" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="wpRuvF8_efb_badges"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1472730445318-16">
+        <addForeignKeyConstraint baseColumnNames="action_id" baseTableName="wpRuvF8_efb_credited_user_posts" constraintName="fk_credited_user_posts_actions1" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="wpRuvF8_efb_actions"/>
+    </changeSet>
+    <changeSet author="yomna (generated)" id="1472655415027-1">
+        <addNotNullConstraint columnDataType="float(12)" columnName="rate" tableName="wpRuvF8_ef_reviews"/>
+        <addDefaultValue columnDataType="float(12)" columnName="rate" defaultValueNumeric="0.0" tableName="wpRuvF8_ef_reviews"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1473081723317-4">
+      <addColumn tableName="wpRuvF8_efb_badges_users">
+            <column name="created_date" type="datetime"/>
+            <column name="is_notified" type="INT"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1473168180995-4">
+        <createTable tableName="wpRuvF8_efb_badges_history">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="badge_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="threshold" type="INT"/>
+            <column name="created_at" type="datetime"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1473168180995-12">
+        <createIndex indexName="fk_badges_history_badges1_idx" tableName="wpRuvF8_efb_badges_history">
+            <column name="badge_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1473168180995-17">
+        <addForeignKeyConstraint baseColumnNames="badge_id" baseTableName="wpRuvF8_efb_badges_history" constraintName="fk_badges_history_badges1" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="wpRuvF8_efb_badges"/>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1474280819481-1">
+      <addColumn tableName="wpRuvF8_efb_actions">
+            <column name="parent_id" type="INT"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1475074420727-26">
+        <addColumn tableName="wpRuvF8_efb_badges">
+            <column name="parent_id" type="INT"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="ashraf (generated)" id="1476026357282-11">
+        <addColumn tableName="wpRuvF8_efb_actions">
+          <column name="points_weight" type="INT" defaultValue="0"/>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>

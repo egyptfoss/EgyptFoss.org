@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: yomna <yomna.fahmy@espace.com.eg>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Invalid ict_technology."
+msgstr "ICT Technologies must at least contain one letter."
+
+msgid "Invalid interest."
+msgstr "Interests must at least contain one letter."
+
+msgid "Invalid sub_type."
+msgstr "Invalid Sub Type."
+
+msgid "Invalid industry."
+msgstr "Invalid Industry."
+
+msgid "Linking"
+msgstr "Linked Accounts"
+
+msgid "Load more..."
+msgstr "Show more"
+
+msgid "Venue"
+msgstr "Location"
+
+msgid "Logout"
+msgstr "Log out"
+
+msgid "Join Our Platform Today, It's FREE."
+msgstr "Join EgyptFOSS Platform Today, It's FREE.."
+
+msgid "Or complete the form below."
+msgstr "Or complete the form below.."
+
+msgid "Account sub type"
+msgstr "Account subtype"
+
+msgid "Select Account Sub Type"
+msgstr "Select Account subtype"
+
+msgid "event-platform"
+msgstr "Platform"
+
+msgid "Login/ Register"
+msgstr "Log in"
+
+msgid "Login"
+msgstr "Log in"
+
+msgid "Login to your Account"
+msgstr "Log in to Your Account"
+
+msgid "ef_open_dataset_intro_text"
+msgstr ""
+"<p>You can suggest an open dataset that enriches EgyptFOSS content.</"
+"p><p>Your content will be reviewed and published by the administrator. and "
+"you should receive an email after publishing your content.</p><p>Relating "
+"your content with interests helps others to make the best benefit from your "
+"content.</p>"
+
+msgid "activation_ending_msg"
+msgstr ""
+"We look forward to your contributions.<br/><br/>Sincerely,<br/>EgyptFOSS Team"

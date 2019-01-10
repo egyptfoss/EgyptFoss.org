@@ -1,0 +1,19 @@
+# Translation of Development in English
+# This file is distributed under the same license as the Development package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: yomna <yomna.fahmy@espace.com.eg>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "<strong>ERROR</strong>: Invalid username. <a href=\"%s\">Lost your password?</a>"
+msgstr "<strong>ERROR</strong>: Username or password is incorrect."
+
+msgid "<strong>ERROR</strong>: The password you entered for the username <strong>%1$s</strong> is incorrect. <a href=\"%2$s\">Lost your password?</a>"
+msgstr "<strong>ERROR</strong>: Username or password is incorrect."
+

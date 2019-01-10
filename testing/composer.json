@@ -1,0 +1,23 @@
+{
+    "require": {
+        "behat/behat": "3.*@stable",
+        "behat/mink": "1.7.*@stable",
+        "behat/mink-extension": "@stable",
+        "behat/mink-goutte-driver": "@stable",
+        "behat/mink-selenium2-driver": "*",
+        "emuse/behat-html-formatter": "0.1.*",
+        "behat/mink-browserkit-driver": "*",
+        "behat/symfony2-extension": "2.0.*@dev",
+        "illuminate/database": "*"
+    },
+    "require-dev": {
+        "tpayne/behat-mail-extension": "~1.0",
+        "phpunit/phpunit": "~4.1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "../foss-api/api-v2/app/models",
+            "../foss-api/api-v2/PasswordHash.php"
+        ]
+    }
+}

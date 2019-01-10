@@ -1,0 +1,16 @@
+#/usr/bin/env bash
+echo 'Running Post Merge Hook'
+
+echo '=================================='
+echo 'Updating Database'
+echo '=================================='
+
+cd /usr/share/nginx/html/egyptfoss/database
+bash fossdb.sh -u
+
+echo '=================================='
+echo 'Running Tests'
+echo '=================================='
+
+cd /usr/share/nginx/html/egyptfoss/testing
+vendor/bin/behat --tags="done" --format=progress

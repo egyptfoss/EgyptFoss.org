@@ -1,0 +1,28 @@
+a,
+a:visited,
+a:focus,
+a:active,
+.join-foss-headline,
+.categories-list a,
+#buddypress .activity-header a,
+.has-error .label
+{
+    color: #218FB9;
+}
+
+.btn-primary,
+.current-menu-item,
+.current_page_item,
+.login-sub,
+.bottom-bar,
+.no-count,
+.count,.menu-main-nav-container > ul > li:hover
+{
+    background-color: #218FB9 !important;
+}
+
+.btn-primary,
+.btn-primary:hover
+{
+    border-color: #218FB9 !important;
+}

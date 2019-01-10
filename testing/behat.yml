@@ -1,0 +1,59 @@
+default:
+    autoload:
+        '': %paths.base%/features/bootstrap
+    suites:
+        default:
+            contexts:
+                - FeatureContext
+        Current:
+            contexts:
+                - FeatureContext
+            paths:
+                - %paths.base%/features/Expert_Thoughts
+#                - %paths.base%/features/Badges
+        Regression:
+            contexts:
+                - FeatureContext
+            paths:
+                - %paths.base%/features/Success_Stories
+                - %paths.base%/features/Request_center
+                - %paths.base%/features/Open_Datasets
+                - %paths.base%/features/CollaborationCenter
+                - %paths.base%/features/Expert_Thoughts
+                - %paths.base%/features/Market_Place
+                - %paths.base%/features/Awareness_Center
+                - %paths.base%/features/News
+                - %paths.base%/features/Badges
+    formatters: 
+      html:
+        output_path: %paths.base%/scenarios/
+    extensions:
+       # Behat\Symfony2Extension: ~
+        tPayne\BehatMailExtension\ServiceContainer\MailExtension:
+            driver: mailcatcher
+            base_url: localhost # optional
+            http_port: 1080 # optional
+        Behat\MinkExtension:
+            base_url: http://egyptfoss.com
+            files_path: %paths.base%/testImages/
+            browser_name: phantomjs
+            javascript_session: selenium2
+            #default_session: 'symfony2'
+            sessions:
+                goutte: # fast, CLI, browser, no javascript support
+                    goutte: ~
+                selenium2: # fast, CLI, opens up ait browser
+                    selenium2: 
+                        capabilities:
+                            acceptSslCerts: false
+                            javascriptEnabled: true
+                            #webSecurityEnabled: true
+            #    symfony2:
+            #        symfony2: ~
+        emuse\BehatHTMLFormatter\BehatHTMLFormatterExtension:
+            name: html
+            renderer: Twig #,Behat2
+            file_name: Index
+            print_args: true
+            print_outp: true
+            loop_break: true

@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <title>EgyptFOSS - Live Documentation</title>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="angular.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+        <link rel="stylesheet" href="dashboard.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="display.js"></script>
+        <script src="inject.js"></script>
+    </head>    
+    <body ng-app="viewerApp" style="padding-top: 10px;">
+<!--        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">EgyptFOSS</a>
+                </div>
+            </div>
+        </nav>        -->
+<!--        <div id="preview">
+            
+        </div>-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="main" ng-controller="ViewerController as viewer">
+                    <button type="button" class="center-block close" aria-label="Close"><span style="font-size: 50px;"aria-hidden="true">&times;</span></button>
+                    <h1 class="page-header">EgyptFOSS </h1>
+
+                    <div class="my_sidebar" id="sidebar1" >
+                        <h5 class="sidebar_desc" >EgyptFOSS Test Cases</h5>
+                        <!--<h3 class="suite_title"></h3>-->
+                        <table class="table table-bordered table-condensed" ng-repeat="module in modules.modules" style="background-color: #eee">
+                            <thead></thead>
+                            <tbody> 
+                                <tr>
+                                    <td class="suite accordion-toggle" data-toggle="collapse" data-target=".feature[class~=collapse][suite={{$index+1}}]">
+                                        <!--<span class="glyphicon glyphicon-exclamation-sign"></span>-->
+                                        <span style="background-color: {{module.color}};padding: 5px;font-weight: bold;color: #fff;">
+                                            {{module.name}}
+                                        </span>
+                                        <!--<div class="progress" >-->
+                                            <!--<div class="progress-bar progress-bar-success" style="width:100%;background-color: {{module.color}};background-image: none"><span class="sr-only"></span></div>-->
+<!--                                            <div class="progress-bar progress-bar-warning progress-bar-strped"  style="width:10%"><span class="sr-only"></span></div>
+                                            <div class="progress-bar progress-bar-danger"  style="width:20%"><span class="sr-only"></span></div>-->
+                                        <!--</div>-->
+                                    </td>
+                                </tr>
+                                <tr ng-repeat="feature in module.features" suite="{{$parent.$index+1}}" class="feature collapse">
+                                    
+                                    <td style="padding-left: 30px;">
+                                        <div suite="{{$parent.$index+1}}" class="feature collapse">
+                                            <table class="table-condensed table table-hover">
+                                                <tr class="feature" suite="{{$parent.$index+1}}" suitename="{{module.name}}" feature="{{$index+1}}">
+                                                    <td style="padding-top: 14px;">
+                                                        <!--<span class="glyphicon glyphicon-exclamation-sign"></span>-->
+                                                        <a target="_blank" href="{{feature.url}}">{{feature.title}}</a>
+                                                        <!--<br/>-->
+                                                        <!--{{feature.body}}-->
+                                                        <div style="width: 20%;float: right;margin-top: -5px;">
+                                                            <span>{{feature.implementedPercentage| number:2}}%</span>
+                                                            <div class="progress" style="">
+                                                                <div class="progress-bar progress-bar-success" style="width:{{feature.implementedPercentage}}%"><span class="sr-only"></span></div>
+                                                                <div class="progress-bar progress-bar-danger"  style="width:{{100-feature.implementedPercentage}}%"><span class="sr-only"></span></div>
+                                                            </div>
+                                                        </div>
+                                                        
+
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="my_sidebar" id="sidebar2"  >
+                        <h5 class="sidebar_desc" >Scenarios</h5>
+                        <h3 class="feature_title"></h3>
+                        <table class="table table-bordered table-condensed table-hover">
+                            <thead></thead>
+                            <tbody>
+                                <tr ng-repeat="scenarioRecord in modules.modules|allScenarios">
+                                    <td suite="{{scenarioRecord.moduleIndex}}" feature="{{scenarioRecord.featureIndex}}" scenario="{{scenarioRecord.scenarioIndex}}" class="hidden scenario accordion-toggle">
+                                        <span class="glyphicon glyphicon-exclamation-sign"></span>
+                                        {{scenarioRecord.text}}
+                                        <div class="progress" >
+                                            <div class="progress-bar progress-bar-success" style="width:100%" ng-if="scenarioRecord.isImplemented">
+                                                <span class="sr-only"></span>
+                                            </div>
+                                            <div class="progress-bar progress-bar-danger"  style="width:100%" ng-if="!scenarioRecord.isImplemented">
+                                                <span class="sr-only"></span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>                 
+                    </div>
+
+                    <div class="my_sidebar" id="sidebar3"  >
+                        <h5 class="sidebar_desc" >Steps</h5>
+                        <h3 class="scenario_title"></h3>
+
+                        <table class="table table-bordered table-condensed background-table">
+                            <tr>
+                                <td aria-expanded="true" ng-repeat="background in modules.modules|allBackgrounds" suite="{{background.moduleIndex}}" feature="{{background.featureIndex}}" background class="background active" data-toggle="collapse" data-target="[class~=collapse][feature={{background.featureIndex}}][background][suite={{background.moduleIndex}}]">
+                                    Background 
+                                    <span class="glyphicon"></span>
+                                </td>
+
+                            </tr>
+                            <tr ng-repeat="background in modules.modules|allBackgrounds" suite="{{background.moduleIndex}}" feature="{{background.featureIndex}}" background class="collapse in" >
+                                <td style="padding-left: 15px;">
+                                    <div suite="{{background.moduleIndex}}" feature="{{background.featureIndex}}" background class="collapse in">
+                                        <table class="table-condensed table table-hover">
+                                            <tr ng-repeat="step in background.steps">
+                                                <td class="collapse in" data-toggle="collapse" data-target="[exception=111]">
+                                                    <span class="step_type">{{step.type}}</span> {{step.text}}
+                                                    <div class="panel panel-default stepargument" ng-if="step.hasOutline">
+                                                        <div class="panel-body">
+                                                            <table class="table table-condensed table-hover">
+                                                                <tbody>
+                                                                    <tr ng-repeat="line in step.outline">
+                                                                        <td ng-repeat="item in line" > {{ item }}</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>   
+
+                        <table class="table table-condensed table-hover">
+                            <thead></thead>
+                            <tbody ng-repeat="scenario in modules.modules|allScenarios">
+                                <tr  ng-repeat="step in scenario.steps">
+                                    <td suite="{{scenario.moduleIndex}}" feature="{{scenario.featureIndex}}" scenario="{{scenario.scenarioIndex}}" step="{{$index+1}}" class="step">
+                                        <span class="step_type">{{step.type}}</span> {{step.text}}
+                                        <div class="panel panel-default stepargument" ng-if="step.hasOutline">
+                                            <div class="panel-body">
+                                                <table class="table table-condensed table-hover">
+                                                    <tbody>
+                                                        <tr ng-repeat="line in step.outline">
+                                                            <td ng-repeat="item in line" > {{ item }}</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

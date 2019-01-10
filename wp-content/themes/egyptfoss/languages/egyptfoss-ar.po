@@ -1,0 +1,3412 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPML_EXPORT_RegisterPage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: yomna <yomna.fahmy@espace.com.eg>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: </label> </div>
+msgid "EgyptFOSS Terms of services"
+msgstr "شروط الخدمات الخاصة ب EgyptFOSS "
+
+# wpml-name: 5de39b29e814c07c90bd8bbc32c539ee
+#: </label> </div>
+msgid "I agree to"
+msgstr "أوافق على "
+
+# wpml-name: f22101e354e0bf56272ef305fd8cf3bb
+#: </select> </div>
+msgid "Select Account Sub Type"
+msgstr "نوع الحساب الفرعى"
+
+#: </optgroup> </select> </div>
+msgid "SoftwareEngineer"
+msgstr ""
+
+#: <option value="software_engineer"><?php _e( 'SoftwareEngineer',
+#: 'RegisterPage' ); ?></option> </optgroup> </select>
+msgid "openSource"
+msgstr ""
+
+# wpml-name: cd32106bcb6de321930cf34574ea388c
+#: <option value="open_source"><?php _e( 'openSource', 'RegisterPage' );
+#: ?></option> value="software_engineer"><?php 'SoftwareEngineer', </optgroup>
+msgid "IT"
+msgstr ""
+
+#: <optgroup> <option value="it"><?php _e( 'IT', 'RegisterPage' ); ?></option>
+#: value="open_source"><?php 'openSource',
+msgid "Write options"
+msgstr "الاختيار"
+
+# wpml-name: d73e224d90421f341c028b6b6671f6f1
+#: </div>
+msgid "Type your functionality here"
+msgstr "نوع الوظيفة"
+
+# wpml-name: 791a030a93a85bf6376c3048ac12d50a
+#: <?php /** * Fires and displays any member registration password
+#: confirmation errors.
+msgid "Please confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+# wpml-name: 90542b2e41eb58108bdd49303f0b0e85
+#: <?php /** * Fires and displays any member registration password errors.
+msgid "Please enter Password at least 8 characters"
+msgstr "أدخل كلمة المرور بحد أدنى 8 حروف أو أرقام"
+
+# wpml-name: cffa70587159989d91e6ce586ea65c14
+#: </div>
+msgid "Enter a valid email address"
+msgstr "أدخل بريد إلكتروني صحيح"
+
+# wpml-name: 0f7167c890691aa3eb140afb4482a313
+#: </div>
+msgid "Please enter Username (Username at least 4 characters)"
+msgstr "اسم المستخدم بحد أدنى 4 حروف"
+
+# wpml-name: f4ec5f57bd4d31b803312d873be40da9
+#: </p> <div class="field-visibility-settings"
+#: id="field-visibility-settings-<?php bp_the_profile_field_id() ?>">
+msgctxt "Change profile field visibility level"
+msgid "Change"
+msgstr "تغيير"
+
+# wpml-name: 1a3401472591afe7936e8bd562dcd306
+#: </div>
+msgid "Complete Sign Up"
+msgstr "تسجيل"
+
+# wpml-name: 01d3b1525e3cdb3ef5bff36966192945
+#: <a href="#" class="sprite sprite-square-facebook"></a>
+#: sprite-square-twitter"></a> sprite-square-linkedin"></a>
+msgid "Login using one of your social account"
+msgstr "الدخول عن طريق مواقع التواصل الاجتماعي"
+
+# wpml-name: 940aec48deea3e1bf522e3dc3c6c5955
+#: <p><?php _e( 'Login using one of your social account', 'RegisterPage' );
+#: ?></p> <a href="#" class="sprite sprite-square-facebook"></a>
+#: sprite-square-twitter"></a>
+msgid "Login With Social Account"
+msgstr "الدخول عن طريق مواقع التواصل الاجتماعى"
+
+# wpml-name: 18e67159bc73d769b63add5b7ad72e63
+#: <?php endif; ?>
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr "لقد اتممت التسجيل بنجاح ادخل بواسطة اسم المستخدم وكلمة المرور"
+
+# wpml-name: 4ad3b7720a21ffa3ce4e159dd80e84e5
+#: <?php else : ?> <p><?php _e( 'You have successfully created your account!
+#: Please log in using the username and password you just created.',
+#: 'RegisterPage' ); ?></p> endif;
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr "لقد قمت بالتسجيل بنجاح يرجى تفعيل حسابك لاتمام عملية التسجيل"
+
+# wpml-name: bafd7322c6e97d25b6299b5d6fe8920b
+#: <?php /**
+msgid "No"
+msgstr "ﻻ"
+
+# wpml-name: 93cba07454f06a4a960172bbd6e2a435
+#: <label for="signup_blog_privacy_private"><input type="radio"
+#: name="signup_blog_privacy" id="signup_blog_privacy_private"
+#: value="private"<?php if ( 'private' == bp_get_signup_blog_privacy_value() )
+#: : ?> checked="checked"<?php endif; /> <?php _e( 'No', 'RegisterPage' );
+#: ?></label>
+msgid "Yes"
+msgstr "نعم"
+
+# wpml-name: fad42104c24ebb1c49dd872f23942b41
+#: <?php /** * Fires and displays any member registration blog privacy errors.
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr "اريد موقعى ان يظهر فى محركات البحث "
+
+# wpml-name: 1c30ff4da9d87eb559d726c72af85e2a
+#: <?php /** * Fires and displays any member registration blog title errors.
+msgid "Site Title"
+msgstr "عنوان الموقع"
+
+# wpml-name: 289da0ad40466463eb76a11cce587742
+#: <?php /** * Fires and displays any member registration blog URL errors.
+msgid "Blog URL"
+msgstr "رابط الموقع"
+
+# wpml-name: ac178a771fcfcfcbe0a801c4344c889d
+#: <div id="blog-details"<?php if ( (int) bp_get_signup_with_blog_value() ) :
+#: ?>class="show"<?php endif; ?>> <label for="signup_blog_url"><?php _e( 'Blog
+#: URL', 'RegisterPage' ); ?> <?php '(required)', ?></label>
+msgid "Yes, I'd like to create a new site"
+msgstr "نعم اريد انشاء موقع جديد"
+
+# wpml-name: c971740688657dc13072cb2da0bd1663
+#: <p><label for="signup_with_blog"><input type="checkbox"
+#: name="signup_with_blog" id="signup_with_blog" value="1"<?php if ( (int)
+#: bp_get_signup_with_blog_value() ) : ?> checked="checked"<?php endif; />
+#: <?php _e( 'Yes, I\'d like to create a new site', 'RegisterPage' );
+#: ?></label></p> <div id="blog-details"<?php ?>class="show"<?php ?>> <label
+#: for="signup_blog_url"><?php 'Blog URL', '(required)', ?></label>
+msgid "Blog Details"
+msgstr "تفاصيل المدونة"
+
+# wpml-name: bcc254b55c4a1babdf1dcb82c207506b
+#: <input type="tel" class="form-control" placeholder="Entity Phone Number">
+#: </div>
+msgid "Phone"
+msgstr "التليفون"
+
+# wpml-name: b475b49a3a13f5253c9cdea9ac9626f3
+#: <input type="text" class="form-control" placeholder="Entity Email"> </div>
+#: <div class="col-md-6">
+msgid "Entity Email"
+msgstr "البريد الإلكترونى"
+
+# wpml-name: c00c8ee9c3a4382d270dc939649f9b53
+#: </div> <div class="form-group row">
+msgid "Contact Information"
+msgstr "معلومات عن جهة الاتصال"
+
+# wpml-name: d3d2e617335f08df83599665eef8a418
+#: </div> <?php else : ?> <p class="field-visibility-settings-notoggle"
+#: id="field-visibility-settings-toggle-<?php bp_the_profile_field_id() ?>">
+msgid "Close"
+msgstr "غلق"
+
+# wpml-name: 6dcf013d186ced5dd054ed507bce1a1d
+#: <?php bp_profile_visibility_radio_buttons() ?> </fieldset> <a
+#: class="field-visibility-settings-close" href="#"><?php _e( 'Close',
+#: 'RegisterPage' ) ?></a>
+msgid "Who can see this field?"
+msgstr "من يستطيع مشاهدة هذا الحقل"
+
+# wpml-name: d2d95bc437d8e4960ac81fe9439a290b
+#: <?php /* Use the profile field loop to render input fields for 'base' group
+#: */ ?> if ( bp_is_active( 'xprofile' ) : bp_has_profile( array(
+#: 'profile_group_id' => 1, 'fetch_field_data' false while bp_profile_groups()
+#: bp_the_profile_group();
+msgid "Profile Details"
+msgstr "تفاصيل الحساب الشخصى"
+
+#: <select data-tags="true" name="ict_technology" data-placeholder="<?php _e(
+#: 'Write options', 'RegisterPage' ); ?>" class="js-example-tags form-control"
+#: style="width:100%; visibility: hidden;" multiple="multiple"> <optgroup>
+#: <option value="it"><?php 'IT', ?></option>
+msgid "ICT Technologies"
+msgstr "تقنية"
+
+# wpml-name: e7e0038bb30579a3120d266861982881
+#: <textarea class="form-control" name="functionality" id="" rows="3"
+#: placeholder="<?php _e( 'Type your functionality here', 'RegisterPage' );
+#: ?>"></textarea> </div>
+msgid "Functionality"
+msgstr "الوظيفة"
+
+# wpml-name: 9c4b7bd67176708a74fd5801fd88e936
+#: </div>
+msgid "Please type your Industry"
+msgstr "يرجى كتابة مجال صناعتك"
+
+# wpml-name: 9c4b7bd67176708a74fd5801fd88e936
+msgid "Please type your Category"
+msgstr "يرجى إختيار التصنيف"
+
+# wpml-name: 4fd0a37b0a02153b23bbb61d7915a429
+#: <input type="text" name="industry" class="form-control" placeholder="<?php
+#: _e( 'Please type your Industry', 'RegisterPage' ); ?>"> </div>
+msgid "Industry"
+msgstr "المجال"
+
+# wpml-name: d2c9ac3a4170e2d8cb18e01ba7fbc727
+#: <select name="sub_type" id=""> <option value=""><?php _e('Select Account
+#: Sub Type','RegisterPage');?></option> </select>
+msgid "Sub Type"
+msgstr "النوع الفرعى"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+#: </select> </div> <div class="col-md-6">
+msgid "Event"
+msgstr "الفعالية"
+
+# wpml-name: 1a434befae3f49ae09347ded52032f6f
+#: <option value="event"><?php _e( 'Event', 'RegisterPage' ); ?></option>
+#: </select> </div>
+msgid "Entity"
+msgstr "هيئة"
+
+# wpml-name: 2dd4472245a696bc0b4b944db2a8b519
+#: <option value="entity"><?php _e( 'Entity', 'RegisterPage' ); ?></option>
+#: value="event"><?php 'Event', </select>
+msgid "Individual"
+msgstr "فرد"
+
+# wpml-name: 80f3eecb62ac37399077e4c38e654b54
+#: <option value="individual"><?php _e( 'Individual', 'RegisterPage' );
+#: ?></option> value="entity"><?php 'Entity', value="event"><?php 'Event',
+msgid "Please choose your Type"
+msgstr "يرجى اختيار نوعك"
+
+# wpml-name: 06d960789f90fb6cfd52bc1a905fd36d
+#: <select name="account_type" id=""> <option value="" selected disabled><?php
+#: _e( 'Please choose your Type', 'RegisterPage' ); ?></option>
+#: value="individual"><?php 'Individual',
+msgid "Account Type"
+msgstr "نوع الحساب"
+
+# wpml-name: 899062f5fd2987d7c987164640ba60cf
+#: <input type="password" name="signup_password_confirm" placeholder="<?php
+#: _e( 'Please confirm Password', 'RegisterPage' ); ?>"
+#: id="signup_password_confirm" value="" class="password-entry-confirm
+#: form-control" <?php bp_form_field_attributes( 'password' ?>/> /**
+msgid "Confirm Password "
+msgstr "تأكيد كلمة المرور"
+
+# wpml-name: 8b6ebe03ab995306fbbba6bffe6a96fd
+#: <input type="password" name="signup_password" placeholder="<?php _e(
+#: 'Please enter Password at least 8 characters', 'RegisterPage' ); ?>"
+#: id="signup_password" value="" class="password-entry form-control" <?php
+#: bp_form_field_attributes( 'password' ?>/> /**
+msgid "Choose a Password"
+msgstr "اختر كلمة المرور"
+
+# wpml-name: 643a860f992333b8600ea264aca7c4fc
+#: <?php /** * Fires and displays any member registration email errors.
+msgid "Email Address"
+msgstr "البريد الإلكترونى"
+
+# wpml-name: 9bfb6e6af6e6793bfa9387e728187c87
+#: <select name="account_type" id=""> <option value="" selected disabled><?php
+#: _e( 'Please choose your Type', 'RegisterPage' ); ?></option>
+#: value="individual"><?php 'Individual',
+msgid "(required)"
+msgstr "(مطلوب)"
+
+# wpml-name: f6039d44b29456b20f8f373155ae4973
+#: <?php /** * Fires and displays any member registration username errors.
+msgid "Username"
+msgstr "اسم المستخدم"
+
+# wpml-name: b5c72ece441c59ad77a8f5cc23e2ccdb
+#: </div>
+msgid "Main Information"
+msgstr "معلومات أساسية"
+
+# wpml-name: ebddadb670efd1fffce49d86c205f483
+#: <?php /**
+msgid ""
+"Registering for this site is easy. Just fill in the fields below, and we'll "
+"get a new account set up for you in no time."
+msgstr "التسجيل فى هذا الموقع سهل فقط املئ الحقول التالية"
+
+# wpml-name: fd59a8830e9900f1e2dceef04f82f70d
+#: <?php /**
+msgid "User registration is currently not allowed."
+msgstr "التسجيل فى الموقع غير مسموح به حاليا"
+
+# wpml-name: 4bdb8baf10b291c82372fa8ac5d4cfad
+#: '<span class="current-visibility-level">' .
+#: bp_get_the_profile_field_visibility_level_label() '</span>' ); ?>
+#, c-format
+msgid "This field can be seen by: %s"
+msgstr "هذا الحقل ممكن ان يرى بواسطة %s"
+
+# wpml-name: 01d3b1525e3cdb3ef5bff36966192945
+msgid "Login using one of your social accounts"
+msgstr "الدخول عن طريق مواقع التواصل الاجتماعى"
+
+# wpml-name: 4fd0a37b0a02153b23bbb61d7915a429
+msgid "Select Industry"
+msgstr "المجال"
+
+msgid "Select Category"
+msgstr "اختر التصنيف"
+
+# wpml-name: 940aec48deea3e1bf522e3dc3c6c5955
+msgid "Login to your Account"
+msgstr "تسجيل الدخول إلى حسابك"
+
+# wpml-name: f6039d44b29456b20f8f373155ae4973
+msgid "E-mail or Username"
+msgstr "البريد الإلكتروني أو اسم المستخدم"
+
+# wpml-name: 899062f5fd2987d7c987164640ba60cf
+msgid "Forgot Password?"
+msgstr "نسيت كلمة المرور؟"
+
+msgid "FOSSPedia"
+msgstr "مركز المعرفة"
+
+# wpml-name: 8b6ebe03ab995306fbbba6bffe6a96fd
+msgid "Reset Password"
+msgstr "تعيين كلمة مرور جديدة"
+
+# wpml-name: 791a030a93a85bf6376c3048ac12d50a
+msgid "Reset your Password"
+msgstr "تأكيد كلمة المرور"
+
+msgid "To reset your password, visit the following address"
+msgstr "لاستعادة كلمة المرور فضلاً قم بزيارة الموقع التالى"
+
+# wpml-name: 940aec48deea3e1bf522e3dc3c6c5955
+msgid "Activate your account"
+msgstr "تفعيل الحساب الجديد"
+
+msgid "To activate your account, visit the following address"
+msgstr "لتفعيل حسابك فضلاً قم بزيارة الموقع التالى"
+
+msgid "Activate account"
+msgstr "تفعيل الحساب"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "Events"
+msgstr "الفعاليات"
+
+msgid "Awareness Center"
+msgstr "مركز التقييم"
+
+msgid "FOSS Map"
+msgstr "الخريطة"
+
+msgid "Edit Profile"
+msgstr "تعديل الملف الشخصي"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Logout"
+msgstr "خروج"
+
+msgid "Login/ Register"
+msgstr "دخول"
+
+msgid "Login"
+msgstr "دخول"
+
+msgid "Register"
+msgstr "تسجيل"
+
+msgid "Welcome"
+msgstr "مرحبا"
+
+msgid "Serach Site"
+msgstr "بحث"
+
+msgid "Search Site"
+msgstr "بحث"
+
+msgid "Home"
+msgstr "الرئيسية"
+
+msgid "Link your account with Social Networks"
+msgstr "قم ربط حسابك مع مواقع التواصل الاجتماعى"
+
+msgid "Link With"
+msgstr "قم بالربط مع"
+
+# wpml-name: 06d960789f90fb6cfd52bc1a905fd36d
+msgid "account"
+msgstr "  "
+
+msgid "Unlink"
+msgstr "حذف حسابك"
+
+# wpml-name: 940aec48deea3e1bf522e3dc3c6c5955
+msgid "Link Account"
+msgstr "ربط حسابك"
+
+msgid "Facebook"
+msgstr "فيسبوك"
+
+msgid "Google+"
+msgstr "جوجل بلس"
+
+msgid "Twitter"
+msgstr "تويتر"
+
+msgid "LinkedIn"
+msgstr "لينكدإن"
+
+msgid "Linking"
+msgstr "الحسابات المتصلة"
+
+msgid "sorry you cannot remove last link"
+msgstr "عفوا لا تستطيع حذف اخر حساب لك"
+
+msgid "you are not logged in"
+msgstr "انت غير موجود بالموقع"
+
+msgid "Please enter a Product Title."
+msgstr "يرجى ادخال عنوان المنتج"
+
+msgid "Please enter the Product Description."
+msgstr "يرجى ادخال وصف المنتج"
+
+msgid "Product Contributions"
+msgstr "المشاركات فى المنتجات"
+
+msgid "already exists"
+msgstr "مسجل مسبقا"
+
+msgid "Added successfully, it is now under review"
+msgstr "تم الإرسال بنجاح .. وهى الأن تحت المراجعة"
+
+# wpml-name: 1c30ff4da9d87eb559d726c72af85e2a
+msgid "Title"
+msgstr "العنوان "
+
+msgid "Description"
+msgstr "الوصف"
+
+# wpml-name: d73e224d90421f341c028b6b6671f6f1
+msgid "Type product description here"
+msgstr "الوصف"
+
+msgid "Product Logo"
+msgstr "شعار المنتج"
+
+msgid "Clear"
+msgstr "مسح"
+
+msgid "References"
+msgstr "المراجع"
+
+# wpml-name: d73e224d90421f341c028b6b6671f6f1
+msgid "Type product references here"
+msgstr "المراجع"
+
+# wpml-name: 940aec48deea3e1bf522e3dc3c6c5955
+msgid "Link to source"
+msgstr "ربط بالمصدر"
+
+# wpml-name: d2c9ac3a4170e2d8cb18e01ba7fbc727
+msgid "Type"
+msgstr "النوع"
+
+msgid "Technology"
+msgstr "التقنية"
+
+msgid "Select Technologies"
+msgstr "اختر التقنية المستخدمة"
+
+msgid "Platform"
+msgstr "المنصة"
+
+msgid "Select Platforms"
+msgstr "اختر المنصة"
+
+msgid "License"
+msgstr "الترخيص"
+
+# wpml-name: 4fd0a37b0a02153b23bbb61d7915a429
+msgid "Select Licenses"
+msgstr "اختر التراخيص"
+
+msgid "Keywords"
+msgstr "الكلمات الدلالية"
+
+# wpml-name: 4fd0a37b0a02153b23bbb61d7915a429
+msgid "Select Keywords"
+msgstr "اختر الكلمات الدلالية"
+
+msgid "Add Product"
+msgstr "اضف منتج"
+
+msgid "Product Screenshots"
+msgstr "صور عن المنتج"
+
+msgid "Developer"
+msgstr "المبرمج"
+
+# wpml-name: d73e224d90421f341c028b6b6671f6f1
+msgid "Type product functionality here"
+msgstr "وظيفة المنتج"
+
+msgid "Usage hints"
+msgstr "إرشادات الإستخدام"
+
+# wpml-name: d73e224d90421f341c028b6b6671f6f1
+msgid "Type product usage hints here"
+msgstr "تلميحات الاستخدام"
+
+msgid "Browse"
+msgstr "تصفح"
+
+# wpml-name: d73e224d90421f341c028b6b6671f6f1
+msgid "Add Your functionality here"
+msgstr "نوع الوظيفة"
+
+# wpml-name: 643a860f992333b8600ea264aca7c4fc
+msgid "Address"
+msgstr "العنوان"
+
+msgid "Add Your address here"
+msgstr "اضف عنوانك"
+
+msgid "Add Your phone here"
+msgstr "اضف الهاتف"
+
+# wpml-name: 940aec48deea3e1bf522e3dc3c6c5955
+msgid "Social Accounts"
+msgstr "حسابات التواصل الاجتماعى"
+
+msgid "Interests"
+msgstr "الاهتمامات"
+
+msgid "Entity Contact Person Data"
+msgstr "بيانات جهة الاتصال"
+
+msgid "Contact Name"
+msgstr "اسم جهة الاتصال"
+
+# wpml-name: b475b49a3a13f5253c9cdea9ac9626f3
+msgid "Contact Email"
+msgstr "بريد إلكترونى لجهة الاتصال"
+
+msgid "Add Your contact person name here"
+msgstr "اضف اسم جهة الاتصال"
+
+# wpml-name: 643a860f992333b8600ea264aca7c4fc
+msgid "Contact Address"
+msgstr "عنوان جهة الاتصال"
+
+msgid "Add Your contact person address here"
+msgstr "اضف عنوان جهة الاتصال"
+
+msgid "Add Your contact person email here"
+msgstr "اضف البريد الإلكترونى لجهة الاتصال"
+
+# wpml-name: c00c8ee9c3a4382d270dc939649f9b53
+msgid "Contact Phone"
+msgstr "رقم هاتف جهة الاتصال"
+
+msgid "Add Your contact person phone here"
+msgstr "اضف الهاتف الخاص بجهة الاتصال"
+
+# wpml-name: f4ec5f57bd4d31b803312d873be40da9
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+msgid "Cancel"
+msgstr "الغاء"
+
+# wpml-name: f6039d44b29456b20f8f373155ae4973
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+msgid "Your password has been reset."
+msgstr "لقد تم تعيين كلمة المرور الخاصة بك"
+
+msgid ""
+"Hint: The password should be at least eight characters long. To make it "
+"stronger, use upper and lower case letters, numbers, and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+"تلميح: مفضّل أن تتكوّن كلمة المرور من 8 خانات على الأقل. لجعلها أقوى، استخدم "
+"الحروف الكبيرة والصغيرة، الأرقام والرموز مثل ! \" ? $ % ^ &amp; )"
+
+# wpml-name: 791a030a93a85bf6376c3048ac12d50a
+msgid "Set your new password"
+msgstr "تعيين كلمة المرور الجديدة"
+
+msgid "Load more..."
+msgstr "عرض المزيد"
+
+msgid "There are no products yet,"
+msgstr "ﻻ يوجد منتجات"
+
+msgid "Add new product"
+msgstr "اضف منتج جديد"
+
+msgid "By"
+msgstr "بواسطة"
+
+msgid "Please log in to suggest a new product"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح منتج جديد"
+
+msgid "Invalid ict_technology."
+msgstr "التقنية يجب أن تحتوي على ما لا يقل عن حرف واحد."
+
+msgid "Invalid interest."
+msgstr "قيم الاهتمامات يجب أن تحتوي على ما لا يقل عن حرف واحد."
+
+msgid "Invalid sub_type."
+msgstr "النوع الفرعى غير صحيح."
+
+msgid "Invalid industry."
+msgstr "المجال غير صحيح"
+
+msgid "Invalid category."
+msgstr "قيمة التصنيف يجب أن تحتوي على ما لا يقل عن حرف واحد."
+
+# wpml-name: b5c72ece441c59ad77a8f5cc23e2ccdb
+msgid "Main Info."
+msgstr "معلومات أساسية"
+
+# wpml-name: c00c8ee9c3a4382d270dc939649f9b53
+msgid "Contact Info"
+msgstr "معلومات الاتصال"
+
+msgid "On The Web"
+msgstr "على الإنترنت"
+
+msgid "Not Specified"
+msgstr "غير محدد"
+
+msgid "Edit"
+msgstr "تعديل"
+
+msgid "Activity"
+msgstr "منشورات"
+
+msgid "profile"
+msgstr "الصفحة الشخصية"
+
+msgid "settings"
+msgstr "الإعدادت"
+
+# wpml-name: c00c8ee9c3a4382d270dc939649f9b53
+msgid "Entity Contact Info."
+msgstr "بيانات التواصل مع المنظمة"
+
+msgid "This info is not shared with you"
+msgstr "لم تُشارك هذه المعلومات معك"
+
+# wpml-name: 9c4b7bd67176708a74fd5801fd88e936
+msgid "Please choose your Industry"
+msgstr "يرجى إختيار مجال صناعتك"
+
+# wpml-name: 9c4b7bd67176708a74fd5801fd88e936
+msgid "Please choose your Category"
+msgstr "يرجى إختيار الفئة"
+
+msgid "Product Description"
+msgstr "وصف المنتج"
+
+msgid "Product Info"
+msgstr "معلومات المنتج"
+
+msgid "Screenshots"
+msgstr "صور عن المنتج"
+
+msgid "Published products."
+msgstr "منتج "
+
+# wpml-name: 4fd0a37b0a02153b23bbb61d7915a429
+msgid "Find by Industry"
+msgstr "البحث بالمجال"
+
+# wpml-name: 4fd0a37b0a02153b23bbb61d7915a429
+msgid "Find by Category"
+msgstr "البحث بالتصنيف"
+
+msgid "All Products"
+msgstr "كل المنتجات"
+
+msgid "Filter"
+msgstr "ترشيح"
+
+msgid "Reset"
+msgstr "مسح"
+
+msgid "There are no results,"
+msgstr "لا توجد نتائج"
+
+msgid "Add Interests"
+msgstr "أضف إهتمامات"
+
+msgid "Post Update"
+msgstr "نشر"
+
+msgid "What's new in %s, %s?"
+msgstr "ما الجديد في %s، %s؟"
+
+msgid "What's new, %s?"
+msgstr "ما الجديد، %s؟"
+
+msgid "The public activity for everyone on this site."
+msgstr "الإهتمامات المعلنة لكل شخص في الموقع"
+
+msgid "All Members %s"
+msgstr "الأعضاء %s"
+
+msgid "The activity I've marked as a like."
+msgstr "التحديثات التي أعجبتي"
+
+msgid "My Likes %s"
+msgstr "إعجاباتي %s"
+
+msgid "Show:"
+msgstr "عرض"
+
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+msgid "Like %s"
+msgstr "إلغاء الإعجاب %s"
+
+msgid "Like  %s"
+msgstr "أعجبني %s"
+
+msgid "Mark as Like"
+msgstr "إعجاب"
+
+msgid "Remove Like"
+msgstr "إلغاء اﻹعجاب"
+
+msgid "View Conversation"
+msgstr "عرض المحادثة"
+
+msgid "Comment %s"
+msgstr "تعليق %s"
+
+msgid "Comment"
+msgstr "تعليق"
+
+msgid "Post"
+msgstr "أضف تعليق"
+
+msgid "Reply"
+msgstr "أضف رد"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Post what's new"
+msgstr "نشر الجديد"
+
+msgid "Remove a Like"
+msgstr "إلغاء الإعجاب"
+
+msgid "you are trying to cheat"
+msgstr "تحاول خداع"
+
+msgid "No product found"
+msgstr "ﻻ يوجد منتج"
+
+msgid "Product updated successfully"
+msgstr "تم تعديل المنتج بنجاح"
+
+msgid "Product title is required"
+msgstr "عنوان المنتج مطلوب"
+
+# wpml-name: d73e224d90421f341c028b6b6671f6f1
+msgid "Product description is required"
+msgstr "وصف المنتج مطلوب"
+
+msgid "Product industry is required"
+msgstr "مجال المنتج مطلوب"
+
+msgid "Product category is required"
+msgstr "تصنيف المنتج مطلوب"
+
+msgid "Product type is required"
+msgstr "نوع المنتج مطلوب"
+
+msgid "Edit product"
+msgstr "تعديل المنتج"
+
+msgid "Ok"
+msgstr "موافق"
+
+msgid "Delete Activity"
+msgstr "حذف النشاط"
+
+msgid "Leave a Comment"
+msgstr "اترك تعليقاً"
+
+msgid "Leave a Comment to %s"
+msgstr "اترك تعليقاً ل %s"
+
+msgid "Cancel Comment"
+msgstr "مسح التعليق"
+
+msgid "SENT"
+msgstr "ارسال"
+
+msgid "Please log in to suggest"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح"
+
+msgid "added successfully, it is now under review"
+msgstr "تم اضافته بنجاح , ينتظر تأكيده من قبل الادارة"
+
+msgid "should not be more than %d characters"
+msgstr "يجب الا يزيد عن %d حرف"
+
+# wpml-name: 90542b2e41eb58108bdd49303f0b0e85
+msgid "should be at least %d characters"
+msgstr " يجب أن يحتوي على %d حروف على الأقل"
+
+# wpml-name: 9bfb6e6af6e6793bfa9387e728187c87
+msgid "is required"
+msgstr "مطلوب"
+
+msgid "must at least contain one letter"
+msgstr " يجب أن يحتوي على حرف واحد على الأقل"
+
+msgid "please enter correct image type"
+msgstr "يرجى ادخال نوع صورة صحيح"
+
+msgid "News"
+msgstr "الأخبار"
+
+msgid "image"
+msgstr "صورة"
+
+msgid "News image"
+msgstr "صورة الخبر"
+
+# wpml-name: 1c30ff4da9d87eb559d726c72af85e2a
+msgid "Subtitle"
+msgstr "العنوان الفرعى"
+
+# wpml-name: 643a860f992333b8600ea264aca7c4fc
+msgid "Add"
+msgstr "أضف"
+
+msgid "Created at"
+msgstr "تم الإنشاء فى"
+
+msgid "Updates"
+msgstr "التحديثات"
+
+msgid "Additions"
+msgstr "الإضافات"
+
+msgid "Modified at"
+msgstr "تم التعديل في"
+
+msgid "Products"
+msgstr "المنتجات"
+
+msgid "Notifications Settings"
+msgstr "اعدادات الإشعارات"
+
+msgid "Profile Updates Email Notifications"
+msgstr "ارسال بريد الكتروني لمنشورات الأعضاء"
+
+msgid "Product Updates Email Notifications"
+msgstr "ارسال بريد الكتروني لتعديلات المنتجات"
+
+msgid "Daily"
+msgstr "يومياً"
+
+msgid "Weekly"
+msgstr "أسبوعياً"
+
+msgid "Monthly"
+msgstr "شهرياً"
+
+msgid "Never"
+msgstr "لا اشعارات"
+
+msgid "Latitude"
+msgstr "خط العرض"
+
+msgid "Longitude"
+msgstr "خط الطول"
+
+msgid "Add / Update Location"
+msgstr "اضف / عدل موقع"
+
+msgid "Invalid platform."
+msgstr "قيمة المنصة يجب أن تحتوي على ما لا يقل عن حرف واحد."
+
+msgid "Add Event"
+msgstr "أضف فعالية"
+
+msgid "Please enter all the required fields"
+msgstr "رجاء إدخال جميع الحقول المطلوبة"
+
+msgid "Event title length must be between 2 and 100 characters"
+msgstr "يجب أن يكون طول عنوان الفعالية ما بين 2 و 100 حرفا"
+
+msgid "Event title must at least contain one letter"
+msgstr "عنوان الفعالية يجب أن يحتوي العنوان على حرف واحد على الأقل"
+
+msgid "Event description must at least contain one letter"
+msgstr "وصف الفعالية يجب أن يحتوي العنوان على حرف واحد على الأقل"
+
+msgid "Invalid Start datetime"
+msgstr "ميعاد البدء غير صحيح"
+
+msgid "Start date can not be in the past"
+msgstr "ميعاد البدء لا يمكن ان يكون فى الماضى"
+
+msgid "Invalid End datetime"
+msgstr "ميعاد الانتهاء غير صحيح"
+
+msgid "End date can not be before the start date"
+msgstr "ميعاد الانتهاء يجب ان يكون بعد ميعاد البدء"
+
+msgid "Invalid Event Website"
+msgstr "موقع الكتروني للحدث غير صحيح"
+
+msgid "Invalid Cost"
+msgstr "التكلفة غير صحيحة"
+
+msgid "Invalid Audience"
+msgstr "الجمهور غير صحيح"
+
+msgid "Invalid Objectives"
+msgstr "الاهداف غير صحيحة"
+
+msgid "Invalid Prerequisites"
+msgstr "الشروط غير صحيحة"
+
+msgid "Invalid Functionality"
+msgstr "الوظائف غير صحيحة"
+
+msgid "Invalid Event Type"
+msgstr "نوع الفعالية غير صحيح"
+
+msgid "Invalid Currency"
+msgstr "العملة غير صحيحة"
+
+msgid "Venue Name must at least contain one letter"
+msgstr "اسم المدينة يجب أن تحتوي العنوان على حرف واحد على الأقل"
+
+msgid "Venue Address must at least contain one letter"
+msgstr "عنوان المكان يجب أن يحتوي العنوان على حرف واحد على الأقل"
+
+msgid "Venue City must at least contain one letter"
+msgstr "اسم المدينة يجب أن تحتوي العنوان على حرف واحد على الأقل"
+
+msgid "Venue Country must at least contain one letter"
+msgstr "اسم البلد يجب أن يحتوي العنوان على حرف واحد على الأقل"
+
+msgid "Invalid Venue Province"
+msgstr "اسم الولاية غير صحيح"
+
+msgid "Invalid Venue Phone"
+msgstr "هاتف المكان غير صالح"
+
+msgid "Invalid Venue Website"
+msgstr "موقع الكتروني المكان غير صحيح"
+
+msgid "Organizer Name must at least contain one letter"
+msgstr "اسم المنظم يجب أن يحتوي العنوان على حرف واحد على الأقل"
+
+msgid "Invalid Organizer Phone"
+msgstr "هاتف المنظم غير صالح"
+
+msgid "Invalid Organizer Website"
+msgstr "الموقع الكتروني للمنظم غير صحيح"
+
+msgid "Invalid Organizer Email"
+msgstr "البريد الكتروني للمنظم غير صحيح"
+
+msgid "Please log in to edit a product"
+msgstr "يرجى تسجيل الدخول لتتمكن من تعديل المنتج"
+
+msgid "Please log in to suggest a new event"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح فعالية جديدة"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Start Date & Time"
+msgstr "تاريخ ووقت البدء"
+
+msgid "End Date & Time"
+msgstr "تاريخ ووقت النهاية"
+
+msgid "Venue"
+msgstr "المكان"
+
+msgid "Use New Venue"
+msgstr "مكان جديد"
+
+msgid "Venue Name"
+msgstr "اسم المكان"
+
+msgid "Country"
+msgstr "البلد"
+
+msgid "City"
+msgstr "المدينة"
+
+msgid "Website"
+msgstr "الموقع الكتروني"
+
+msgid "Organizer"
+msgstr "المنظم"
+
+msgid "Use New Organizer"
+msgstr "منظم جديد"
+
+msgid "Organizer Name"
+msgstr "اسم المنظم"
+
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+msgid "Audience"
+msgstr "الجمهور"
+
+msgid "Currency"
+msgstr "العملة"
+
+msgid "Cost"
+msgstr "التكلفة"
+
+msgid "Objectives"
+msgstr "الأهداف"
+
+msgid "Prerequisites"
+msgstr "المتطلبات الأساسية"
+
+msgid "Type event description here"
+msgstr "الوصف"
+
+msgid "Type the event objectives here"
+msgstr "الأهداف"
+
+msgid "Type the event prerequisites here"
+msgstr "المتطلبات الأساسية"
+
+msgid "Type event functionality here"
+msgstr "وظيفة الفعالية"
+
+msgid "Please choose the event industry"
+msgstr "رجاء اختيار مجال الفعالية"
+
+msgid "Please choose the event category"
+msgstr "رجاء اختيار تصنيف الفعالية"
+
+msgid "Please choose the event type"
+msgstr "رجاء اختيار نوع الفعالية"
+
+msgid "Type the event audience here"
+msgstr "الجمهور"
+
+msgid "Choose a venue"
+msgstr "اختر المكان"
+
+msgid "Choose organizer"
+msgstr "اختر المنظم"
+
+msgid "Add New"
+msgstr "اضف جديد"
+
+msgid "Please log in to add your location"
+msgstr "يرجى تسجيل الدخول لتتمكن من إضافة موقعك"
+
+msgid "Your location has been added successfully"
+msgstr "تمت إضافة موقعك بنجاح"
+
+msgid "Venue field required"
+msgstr "يجب ادخال المكان"
+
+msgid "Organizer field required"
+msgstr "يجب ادخال المنظم"
+
+msgid "There are no updates by "
+msgstr "لا توجد تعديلات بواسطة "
+
+msgid "There are no additions by "
+msgstr "لا توجد إضافات بواسطة "
+
+msgid "Share Profile"
+msgstr "مشاركة الملف الشخصي"
+
+msgid "Share Product"
+msgstr "مشاركة المنتج"
+
+# wpml-name: 791a030a93a85bf6376c3048ac12d50a
+msgid "Change Your Password"
+msgstr "تغيير كلمة المرور"
+
+msgid "Change Your Email"
+msgstr "تغيير البريد الإلكترونى"
+
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "ﻻ يوجد تعليقات"
+msgstr[1] "تعليق واحد"
+msgstr[2] " %1$s تعليق"
+msgstr[3] " %1$s تعليق"
+msgstr[4] " %1$s تعليق"
+msgstr[5] " %1$s تعليق"
+
+msgid "Source"
+msgstr "المصدر"
+
+msgid "Select Interests"
+msgstr "اختر الاهتمامات"
+
+msgid "Interest"
+msgstr "الاهتمام"
+
+msgid "Leave the cost field empty if the event is for FREE."
+msgstr "اترك التكلفة فارغة إذا كانت الفعالية مجانية"
+
+msgid "Save Location"
+msgstr "حفظ الموقع"
+
+msgid "Add Location"
+msgstr "إضافة الموقع"
+
+msgid "Featured Products"
+msgstr "أبرز المنتجات"
+
+msgid "Share News"
+msgstr "مشاركة الخبر"
+
+msgid "There are no News yet, "
+msgstr "لا يوجد أخبار، "
+
+msgid "Add News"
+msgstr "أضف خبر"
+
+msgid "Visit Event Website"
+msgstr "اذهب لموقع الفعالية"
+
+msgid "Recent News"
+msgstr "آخر الأخبار"
+
+msgid "Share Page"
+msgstr "مشاركة الصفحة"
+
+msgid "There are no events added by %s"
+msgstr "لا توجد فعاليات بواسطة %s"
+
+msgid "Share Event"
+msgstr "مشاركة الفعالية"
+
+msgid "Event Updates Email Notifications"
+msgstr "ارسال بريد الكتروني لتعديلات الفعالية"
+
+msgid "News Updates Email Notifications"
+msgstr "ارسال بريد الكتروني لمنشورات الأخبار"
+
+msgid "Success Stories Updates Email Notifications"
+msgstr "ارسال بريد الكتروني لمنشورات قصص النجاح"
+
+msgid "Open Datasets Updates Email Notifications"
+msgstr "ارسال بريد الكتروني لمنشورات البيانات المفتوحة"
+
+msgid "New Products Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث المنتجات"
+
+msgid "New Events Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث الفعاليات"
+
+msgid "New News Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث الأخبار"
+
+msgid "New Success Stories Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث قصص النجاح"
+
+msgid "New Open Datasets Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث البيانات المفتوحة"
+
+msgid "Please enter valid product screenshots (jpeg,jpg,png)."
+msgstr "يرجى ادخال صور صالحة عن المنتج و تتبع الصيغ )jpg,jpeg,png)"
+
+msgid "Drag&Drop files here"
+msgstr "قم بسحب الملفات في هذه المساحة"
+
+msgid "or"
+msgstr "او"
+
+msgid "Browse Files"
+msgstr "تصفح الملفات "
+
+msgid "news"
+msgstr "الأخبار"
+
+msgid "Latest News"
+msgstr "آخر الأخبار"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "All Events"
+msgstr "جميع الفعاليات"
+
+msgid "Products Portfolio"
+msgstr "المنتجات"
+
+msgid "Read more..."
+msgstr "المزيد..."
+
+msgid "FOSSpedia"
+msgstr "مركز المعرفة"
+
+msgid "Join Now"
+msgstr "انضم الان"
+
+msgid "FOSS Pedia"
+msgstr "مركز المعرفة"
+
+msgid "Platform <strong>Categories</strong>"
+msgstr "الأقسام"
+
+msgid "Follow <strong>Us</strong>"
+msgstr "تابعنا"
+
+msgid "Powered by"
+msgstr "مدعومة من"
+
+msgid "Contact us"
+msgstr "اتصل بنا"
+
+msgid "Privacy policy"
+msgstr "سياسة الخصوصية"
+
+msgid "Terms of sevices"
+msgstr "شروط الخدمة"
+
+msgid "© 2016 EgyptFOSS. All rights reserved"
+msgstr "© 2016 منصة مصر للبرمجيات الحرة. جميع الحقوق محفوظة"
+
+msgid "Check Map"
+msgstr "تصفح الخريطة"
+
+msgid "Check FOSSPedia"
+msgstr "اطلع  على مركز المعرفة"
+
+msgid "Locate FOSS Entites, Events, Individuals and much more..."
+msgstr ""
+"حدد اماكن الفعاليات والهيئات والافراد الداعمين للبرمجيات الحرة مفتوحة المصدر "
+"والمزيد..."
+
+msgid "The Biggest FOSS Knowledge Base..."
+msgstr "اكبر قاعدة معرفية للبرمجيات الحرة مفتوحة المصدر..."
+
+msgid "Search"
+msgstr "بحث"
+
+msgid ""
+"There are no upcoming events for the next year. If you know any, please "
+"share with us."
+msgstr ""
+"لا توجد فعاليات قادمة للعام المقبل. إن كنت تعرف أي منها ، يرجى مشاركتها معنا.‎"
+
+msgid "Free of Charge"
+msgstr "مجاني"
+
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذرا، هذه الصفحة غير موجودة"
+
+msgid ""
+"It looks like nothing was found at this location. Why not try to search?"
+msgstr "يبدو ان هذه الصفحة غير موجودة. يمكنك استخدام البحث"
+
+msgid "We are currently down."
+msgstr "الخدمة متوقفة الآن، برجاء المعاودة بعد قليل"
+
+msgid "Internal Server Error."
+msgstr "نأسف يوجد عطل"
+
+msgid ""
+"You are not authorized to perform this action. Please contact us for more "
+"information."
+msgstr ""
+"عفوا لا تملك صلاحية تنفيذ هذة العملية. فضلا اتصل بنا لمزيد من المعلومات."
+
+msgid "Contributions"
+msgstr "المساهمات"
+
+msgid "Related interests"
+msgstr "اهتمامات ذات صلة"
+
+msgid "Edits"
+msgstr "التعديلات"
+
+msgid "Notifications"
+msgstr "الإشعارات"
+
+msgid "Links"
+msgstr "الروابط"
+
+msgid "Technologies"
+msgstr "التقنيات"
+
+msgid "Share"
+msgstr "مشاركة"
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Check"
+msgstr "إطلع على"
+
+msgid "Complete knowledge base for FOSS"
+msgstr "قاعدة معرفية متكاملة للبرمجيات الحرة مفتوحة المصدر"
+
+msgid "Join EgyptFOSS Today..."
+msgstr "انضم الآن إلى منصة مصر للبرمجيات الحرة مفتوحة المصدر"
+
+msgid "Contribute and meet people with similar interests today."
+msgstr "ساهم معنا اليوم وقابل أشخاص يشاركوك نفس الإهتمامات"
+
+msgid ""
+"Our Target is to boost, promote and enhance the required awareness in Egypt "
+"about FOSS and the relevant ecosystem, besides exposing the country’s FOSS "
+"capabilities and resources locally and worldwide."
+msgstr ""
+"هدفنا هو دعم وتشجيع استخدام البرمجيات الحرة مفتوحة المصدر في مصر وتوفير "
+"المعرفة المطلوبة حولها، وذلك إلى جانب استعراض القدرات المصرية والمصادر "
+"المتاحة لدي مصر في المجال للمستويين المحلي والعالمي."
+
+msgid "To verify your new email address, visit the following address"
+msgstr "لتأكيد تغيير بريد الالكتروني، فضلاً قم بزيارة الموقع التالى"
+
+msgid "Verify your new email"
+msgstr "تأكيد البريد الالكتروني"
+
+# wpml-name: b475b49a3a13f5253c9cdea9ac9626f3
+msgid "Verify Email"
+msgstr "تأكيد البريد الإلكترونى"
+
+msgid "All Types"
+msgstr "جميع الأنواع"
+
+msgid ""
+"Hi ###USERNAME###,<br/> This email confirms that your password has been "
+"changed. If you did not request this change, please contact the <a "
+"href='###ADMIN_EMAIL###'>Site Administrator</a>."
+msgstr ""
+"مرحبا ###USERNAME###،<br/> هذه الرسالة تؤكد أنه تم تغيير كلمة المرور الخاصة "
+"بك. إذا كنت لم تطلب هذا التغيير، يرجى الاتصال <a "
+"href='###ADMIN_EMAIL###'>ادارة الموقع</a>."
+
+msgid "Your password has been changed"
+msgstr "تم تغيير كلمة المرور الخاصة بك"
+
+msgid "Your email address has been changed by the administrator"
+msgstr "تم تغيير عنوان البريد الإلكتروني الخاص بك"
+
+msgid ""
+"Hi ###USERNAME###,<br/> This email confirms that your email address has been "
+"changed on EgyptFOSS. If you did not request this change, please contact the "
+"<a href='###ADMIN_EMAIL###'>Site Administrator</a>."
+msgstr ""
+"مرحبا ###USERNAME###,<br/> تؤكد هذه الرسالة أنه تم تغيير عنوان البريد "
+"الإلكتروني الخاص بك على EgyptFOSS. إذا كنت لم تطلب هذا التغيير، يرجى الاتصال "
+"ب <a href='###ADMIN_EMAIL###'>ادارة الموقع</a>."
+
+msgid "Create an Account"
+msgstr "إنشاء حساب جديد"
+
+msgid "Search Results for: %s"
+msgstr "البحث عن: %s"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "All Results"
+msgstr "جميع النتائج"
+
+msgid "Showing"
+msgstr "عرض"
+
+msgid "of"
+msgstr "من"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "results"
+msgstr "نتائج"
+
+# wpml-name: 940aec48deea3e1bf522e3dc3c6c5955
+msgid "Activate Your Account"
+msgstr "تفعيل الحساب الخاص بك"
+
+msgid "Create an Account "
+msgstr "انشاء حساب جديد"
+
+# wpml-name: 940aec48deea3e1bf522e3dc3c6c5955
+msgid "Activate Your Account "
+msgstr "تفعيل الحساب الخاص بك"
+
+msgid " FOSS Map "
+msgstr "الخرائط"
+
+msgid "FOSS Map "
+msgstr "الخرائط"
+
+msgid "Join Our Platform Today, It's FREE."
+msgstr "انضم إلى منصة مصر للبرمجيات الحرة مفتوحة المصدر الآن، التسجيل مجاني.."
+
+msgid "Or complete the form below."
+msgstr "أو قم بملء النموذج التالي..‎"
+
+# wpml-name: 06d960789f90fb6cfd52bc1a905fd36d
+msgid "Account sub type"
+msgstr "نوع الحساب الفرعى"
+
+msgid "Choose"
+msgstr "اختر"
+
+msgid "event-platform"
+msgstr "المنصة"
+
+msgid "Venue Name already exists"
+msgstr "اسم المكان موجود بالفعل"
+
+msgid "Organizer Name already exists"
+msgstr "اسم المنظم موجود بالفعل"
+
+#: bp-activity/bp-activity-loader.php:159
+msgctxt "feminist"
+msgid "Added successfully, it is now under review"
+msgstr "تمت اضافتها بنجاح , ينتظر تأكيدها من قبل الادارة"
+
+# wpml-name: 791a030a93a85bf6376c3048ac12d50a
+msgid "Wrong username or password"
+msgstr "اسم المستخدم او كلمة المرور غير صحيحة"
+
+msgid "Product"
+msgstr "المنتج"
+
+msgctxt "indefinite"
+msgid "Product"
+msgstr "منتج"
+
+msgctxt "up"
+msgid "Product"
+msgstr "منتجاً"
+
+msgid "[EgyptFOSS] New Comment on "
+msgstr "[EgyptFOSS] تعليق جديد علي "
+
+msgid " commented on your news "
+msgstr " قام بالتعليق علي الخبر "
+
+msgid "To view the comment,follow the link below"
+msgstr "لمشاهدة التعليق، يمكنك الذهاب الي الرابط التالي"
+
+msgid "View Comment"
+msgstr "مشاهدة التعليق"
+
+msgid " commented on your product "
+msgstr " قام بالتعليق علي المنتج "
+
+msgid "Please log in to suggest a new (Product, Event, News)"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح (منتج - خبر - فعالية) جديدة"
+
+msgid "Suggest"
+msgstr "اقترح"
+
+msgctxt "indefinite"
+msgid "News"
+msgid_plural "News"
+msgstr[0] "خبر"
+msgstr[1] "خبر"
+msgstr[2] "أخبار"
+msgstr[3] "أخبار"
+msgstr[4] "أخبار"
+msgstr[5] "أخبار"
+
+msgctxt "definite"
+msgid "News"
+msgid_plural "News"
+msgstr[0] "الخبر"
+msgstr[1] "الخبر"
+msgstr[2] "الأخبار"
+msgstr[3] "الأخبار"
+msgstr[4] "الأخبار"
+msgstr[5] "الأخبار"
+
+msgctxt "up"
+msgid "News"
+msgstr "خبراً"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgctxt "indefinite"
+msgid "Event"
+msgid_plural "Events"
+msgstr[0] "فعالية"
+msgstr[1] "فعالية"
+msgstr[2] "فعاليات"
+msgstr[3] "فعاليات"
+msgstr[4] "فعاليات"
+msgstr[5] "فعاليات"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgctxt "definite"
+msgid "Event"
+msgid_plural "Events"
+msgstr[0] "الفعالية"
+msgstr[1] "الفعالية"
+msgstr[2] "الفعاليات"
+msgstr[3] "الفعاليات"
+msgstr[4] "الفعاليات"
+msgstr[5] "الفعاليات"
+
+# wpml-name: 1a434befae3f49ae09347ded52032f6f
+msgctxt "definite"
+msgid "Entity"
+msgid_plural "Entities"
+msgstr[0] "الهيئة"
+msgstr[1] "الهيئة"
+msgstr[2] "الهيئات"
+msgstr[3] "الهيئات"
+msgstr[4] "الهيئات"
+msgstr[5] "الهيئات"
+
+# wpml-name: 2dd4472245a696bc0b4b944db2a8b519
+msgctxt "definite"
+msgid "Individual"
+msgid_plural "Individuals"
+msgstr[0] "الفرد"
+msgstr[1] "الفرد"
+msgstr[2] "الأفراد"
+msgstr[3] "الأفراد"
+msgstr[4] "الأفراد"
+msgstr[5] "الأفراد"
+
+msgid "View Comment on the News"
+msgstr "مشاهدة التعليق على الخبر"
+
+msgid "View Comment on the Product"
+msgstr "مشاهدة التعليق على المنتج"
+
+msgid "View Comment on the Event"
+msgstr "مشاهدة التعليق على الفاعلية"
+
+msgid "Display name"
+msgstr "إسم العرض"
+
+msgid "Invalid %s ."
+msgstr "%s غير صحيح"
+
+msgid "Add %s here"
+msgstr "اضف %s"
+
+msgid "Please log in to suggest a new news"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح خبر جديد"
+
+msgid "Pending Approval"
+msgstr "في انتظار الموافقة"
+
+msgid "This work is licensed under a"
+msgstr "هذا العمل مُرخص تحت"
+
+msgid "Creative Commons Attribution 4.0 International License."
+msgstr "رخصة المشاع الإبداعي نَسب المُصنَّف 4.0 دولي"
+
+msgid "Please log in to suggest a new success story"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح قصة نجاح جديدة"
+
+msgid "Success Story image"
+msgstr "صورة قصة النجاح"
+
+msgid "Send"
+msgstr "ارسال"
+
+msgid "See more"
+msgstr "المزيد..."
+
+msgid "Top 10 in %s"
+msgstr "أفضل 10 فى %s"
+
+msgid "Top 10 Products"
+msgstr "أفضل 10 منتجات"
+
+msgid "Nothing Found"
+msgstr "لا توجد نتائج"
+
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"لا توجد نتائج مطابقة لعملية البحث الخاصة بك. يرجى المحاولة مرة أخرى باستخدام "
+"كلمات اخري."
+
+msgid "No likes for this activity yet."
+msgstr "لا إعجابات بعد لهذا النشاط."
+
+msgid "Likes"
+msgstr "إعجابات"
+
+msgid "Featured products aren't specified"
+msgstr "لم تحدد ابرز المنتجات ‎"
+
+msgid "replied"
+msgstr "قام باضافة تعليق جديد منذ"
+
+msgid " commented on one of your statuses "
+msgstr " قام بالتعليق علي احد منشوراتك"
+
+msgid "A new comment on one of your status"
+msgstr "يوجد تعليق جديد علي احد منشوراتك"
+
+msgid "Egypt Free And Open Source Software Platform"
+msgstr "منصة مصر للبرمجيات الحرة مفتوحة المصدر"
+
+msgid "Success Stories"
+msgstr "قصص النجاح"
+
+msgid "Editor's Choice"
+msgstr "اختيار المحررين‎"
+
+msgid "Updated Successfully"
+msgstr "تم تعديلها بنجاح"
+
+msgid "Start"
+msgstr "البدء"
+
+msgid "End"
+msgstr "النهاية"
+
+msgid "Dislike"
+msgstr "إلغاء الإعجاب"
+
+msgid "Like"
+msgstr "إعجاب"
+
+msgid "Search Results for "
+msgstr "البحث عن "
+
+msgid "Change Profile Photo"
+msgstr "تغيير الصورة الشخصية"
+
+msgid "Google"
+msgstr "جوجل بلس"
+
+msgid "View the content page [c]"
+msgstr "مشاهدة محتوي الصفحة [c]"
+
+msgid "Past revisions of this page [h]"
+msgstr "تاريخ الصفحة [h]"
+
+msgid "PROTECT this page [h]"
+msgstr "حماية الصفحة [h]"
+
+msgid "UNPROTECT this page [h]"
+msgstr "غير حماية الصفحة [h]"
+
+msgid "You have to agree the EgyptFOSS Terms of services."
+msgstr "يجب أن توافق على شروط الخدمات الخاصة ب EgyptFOSS "
+
+msgid "linked with your %s account successfully"
+msgstr "تم ربط حسابك على %s بنجاح"
+
+msgid "There are no Success Stories"
+msgstr "عفوا، لا توجدد قصص نجاح"
+
+msgid "All Stories"
+msgstr "كل قصص النجاح"
+
+msgid "There are no Success Stories yet, "
+msgstr "لا توجد قصص نجاح، "
+
+msgid "Success Story"
+msgstr "قصة نجاح"
+
+msgid "Read Full Story"
+msgstr "عرض القصة كاملة"
+
+msgid "Category"
+msgstr "التصنيف"
+
+msgid "Recent Success Stories"
+msgstr "آخر قصص النجاح"
+
+msgid "%s has been published"
+msgstr "تم نشر %s"
+
+msgid "Hi, %s"
+msgstr "مرحبا %s"
+
+msgid "Thank you for your valuable contributions in EgyptFOSS."
+msgstr "شكرا لمساهمتك القيمة في اثراء EgyptFOSS."
+
+msgid "We have reviewed your %s and it has been published."
+msgstr "لقد قمنا بمراجعة %s و تم نشرها بنجاح."
+
+msgid ""
+"We are looking forward more contribution from your side to enrich EgyptFOSS."
+msgstr "نتطلع دائما  إلى المزيد من المساهمة من جانبكم لإثراء EgyptFOSS."
+
+msgid "Thank you again!"
+msgstr "شكرا مرة اخرى!‎"
+
+msgid "Content"
+msgstr "المحتوى"
+
+msgid "Image"
+msgstr "الصورة"
+
+msgid "Passed"
+msgstr "مرت"
+
+msgid "This event has passed."
+msgstr "لقد مرت هذه الفاعلية."
+
+msgid "View Comment on the %s"
+msgstr "مشاهدة التعليق على %s"
+
+msgid " commented on your %s "
+msgstr " قام بالتعليق علي %s  "
+
+msgctxt "definite"
+msgid "Product"
+msgid_plural "Products"
+msgstr[0] "المنتج"
+msgstr[1] "المنتج"
+msgstr[2] "المنتجين"
+msgstr[3] "المنتجات"
+msgstr[4] "المنتج"
+msgstr[5] "المنتج"
+
+msgctxt "definite"
+msgid "Success story"
+msgid_plural "Products"
+msgstr[0] "قصة النجاح"
+msgstr[1] "قصة النجاح"
+msgstr[2] "قصص النجاح"
+msgstr[3] "قصص النجاح"
+msgstr[4] "قصة النجاح"
+msgstr[5] "قصة النجاح"
+
+msgid "Please select already exist %s"
+msgstr "من فضلك اختر %s مسجل مسبقاً"
+
+msgctxt "register"
+msgid "Description"
+msgstr "نبذة"
+
+msgid "Type %s here"
+msgstr "اضف %s هنا"
+
+msgid "ef_open_dataset_intro_text"
+msgstr ""
+"<p>يمكنك اقتراح بيانات مفتوحة لإثراء محتوى EgyptFOSS.</p><p>سيتم مراجعة "
+"المحتوى الخاص بك، ونشره من قبل المسؤول. سوف تتلقى بريد إلكترونى لتأكيد نشر "
+"المحتوى الخاص بك.</p><p>ربط المحتوى الخاص بك بالإهتمامات المناسبة يساعد "
+"الآخرين لتحقيق أفضل استفادة من المحتوى المنشور.</p>"
+
+msgid "Please log in to suggest a new open dataset"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح بيانات مفتوحة"
+
+msgid "Theme"
+msgstr "المجال"
+
+msgid "Publisher"
+msgstr "الناشر"
+
+msgid "Creator"
+msgstr "المُنتِج"
+
+msgid "Please choose your Theme"
+msgstr "يرجى اختيار المجال"
+
+msgid "Please choose your License"
+msgstr "يرجى اختيار الترخيص"
+
+msgid "Resources"
+msgstr "المصادر"
+
+msgid "One or more of resources exceeded the max file size: 20MB"
+msgstr "احدي المصادر تعدي الحد الأقصي المسموح به: 20MB"
+
+# wpml-name: 9bfb6e6af6e6793bfa9387e728187c87
+msgid "are required"
+msgstr "مطلوب"
+
+msgid ""
+"One or more of resources have invalid file type, please add resources to the "
+"following types: %s"
+msgstr "برجاء رفع المصادر بأن تكون احدي الصيغ التالية:%s"
+
+msgid "Target business relationship"
+msgstr "التعاون المستهدف"
+
+# wpml-name: 80f3eecb62ac37399077e4c38e654b54
+msgid "Please choose your %s"
+msgstr "يرجى اختيار %s"
+
+msgid "Requirements"
+msgstr "المتطلبات"
+
+msgid "Constraints"
+msgstr "القيود"
+
+msgid "Deadline"
+msgstr "الموعد النهائى"
+
+msgid "Request"
+msgstr "الطلب"
+
+msgctxt "indefinite"
+msgid "Request"
+msgstr "طلب"
+
+msgid "HINT:"
+msgstr "ملحوظة:"
+
+msgid "Max Allowed Size per file: 20MB"
+msgstr "الحد الأقصي المسموح به لكل ملف:  20  ميجابيت"
+
+msgid " & "
+msgstr " و "
+
+msgid "Allowed formats : "
+msgstr "الصيغ المسموح بها: "
+
+msgid "Add %s"
+msgstr "أضف %s"
+
+msgid "Please choose the event theme"
+msgstr "رجاء اختيار مجال الفعالية"
+
+# wpml-name: 4fd0a37b0a02153b23bbb61d7915a429
+msgid "Select Theme"
+msgstr "اختر المجال"
+
+msgid "There are no Open Datasets"
+msgstr "لا يوجد بيانات مفتوحة"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "All Datasets"
+msgstr "كل البيانات المفتوحة"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "Open Dataset"
+msgid_plural "Open Datasets"
+msgstr[0] "بيانات مفتوحة"
+msgstr[1] "البيانات المفتوحة"
+msgstr[2] "البيانات المفتوحة"
+msgstr[3] "بيانات مفتوحة"
+msgstr[4] "البيانات المفتوحة"
+msgstr[5] "البيانات المفتوحة"
+
+msgid "Dataset Info."
+msgstr "معلومات قاعدة بيانات"
+
+msgid "Downloads & Resources"
+msgstr "المصادر "
+
+msgid "Format"
+msgstr "الصيغة"
+
+msgid "There are no Open Datasets yet, "
+msgstr "لا يوجد بيانات مفتوحة، "
+
+msgid ""
+"You can suggest a success story that inspires and motivates EgyptFOSS "
+"members."
+msgstr "يمكنك اقتراح  قصة نجاح لإلهام وتحفيز أعضاء EgyptFOSS."
+
+msgid ""
+"Your content will be reviewed and published by the administrator. and you "
+"should receive an email after publishing your content."
+msgstr ""
+"سيتم مراجعة المحتوى الخاص بك، ونشره من قبل المسؤول. سوف تتلقى بريد إلكترونى "
+"لتأكيد نشر المحتوى الخاص بك."
+
+msgid ""
+"Relating your content with interests helps others to make the best benefit "
+"from your content."
+msgstr ""
+"ربط المحتوى الخاص بك بالإهتمامات المناسبة يساعد الآخرين لتحقيق أفضل استفادة "
+"من المحتوى المنشور."
+
+msgid "Thanks"
+msgstr "شكراً"
+
+msgid "Related News"
+msgstr "أخبار ذات صلة"
+
+msgid "All"
+msgstr "الجميع"
+
+# wpml-name: 791a030a93a85bf6376c3048ac12d50a
+msgid "Wrong username or email"
+msgstr "اسم المستخدم أو البريد الإلكترونى غير صحيح"
+
+msgid "There are no news added by %s"
+msgstr "لا توجد أخبار بواسطة %s"
+
+msgid "Access Denied"
+msgstr "لا يمكنك الوصول لهذة الصفحة"
+
+msgid "You don't have permission to access this page or you have signed out."
+msgstr "ليست لديك صلاحية الوصول لهذه الصفحة أو قمت بتسجيل الخروج."
+
+msgid "Go Back"
+msgstr "اذهب للصفحة السابقة"
+
+msgid "There are no open datasets added by %s"
+msgstr "لا يوجد بيانات مفتوحة بواسطة %s"
+
+msgid "There are no success stories added by %s"
+msgstr "لا يوجد قصص نجاح بواسطة %s"
+
+msgid "Timeline"
+msgstr "اليوميات"
+
+# wpml-name: 940aec48deea3e1bf522e3dc3c6c5955
+msgid "Linked Accounts"
+msgstr "الحسابات المتصلة"
+
+# wpml-name: 06d960789f90fb6cfd52bc1a905fd36d
+msgid "Account"
+msgstr "الحساب"
+
+msgid "There are no contributions by "
+msgstr "لا يوجد مساهمات بواسطة "
+
+# wpml-name: 4fd0a37b0a02153b23bbb61d7915a429
+msgid "Select"
+msgstr "اختر"
+
+msgid "From"
+msgstr "من"
+
+msgid "To"
+msgstr "الى"
+
+msgid "Last Update"
+msgstr "آخر تعديل"
+
+msgid "%s update"
+msgid_plural "%s updates"
+msgstr[0] "تعديل"
+msgstr[1] "تعديل واحد"
+msgstr[2] "تعديلين"
+msgstr[3] "%s تعديلات"
+msgstr[4] "%s تعديل"
+msgstr[5] "%s تعديل"
+
+msgid "%s Contributor"
+msgid_plural "%s Contributors"
+msgstr[0] "مساهم"
+msgstr[1] "%s مساهم"
+msgstr[2] "%s مساهمين"
+msgstr[3] "%s مساهمين"
+msgstr[4] "%s مساهم"
+msgstr[5] "%s مساهم"
+
+msgid "New Requests Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث الطلبات"
+
+msgid "Interesting Requests at EgyptFOSS"
+msgstr "طلبات تناسب اهتماماتي على EgyptFOSS"
+
+msgid "Interesting Requests"
+msgstr "طلبات تناسب اهتماماتي"
+
+msgid "Please log in to edit a request"
+msgstr "يرجى تسجيل الدخول لتتمكن من تعديل الطلب"
+
+msgid "Target Relationship"
+msgstr "التعاون المستهدف"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "Due Date"
+msgstr "الموعد النهائى"
+
+msgid "Request Info"
+msgstr "معلومات الطلب"
+
+msgid "Respond to request"
+msgstr "إضافة رد على الطلب"
+
+msgid "edited successfully, it is now under review"
+msgstr "تم تعديله بنجاح , ينتظر تأكيده من قبل الادارة"
+
+msgid "There are no Requests in Request Center"
+msgstr "لا توجد طلبات في مركز الطلبات"
+
+msgid "Request Center"
+msgstr "مركز الطلبات"
+
+msgid "Welcome To Requests Center"
+msgstr "مرحباً في مركز الطلبات"
+
+msgid "Service Request"
+msgstr "طلب خدمة"
+
+msgid "Please log in to suggest a new request"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح طلب جديد"
+
+msgid "Here are your daily %s updates based on your interests"
+msgstr "فيما يلي تحديثات %s اليومية وفقا لاهتماماتك"
+
+msgid "Here are your weekly %s updates based on your interests"
+msgstr "فيما يلي تحديثات %s الأسبوعية وفقا لاهتماماتك"
+
+msgid "Here are your monthly %s updates based on your interests"
+msgstr "فيما يلي تحديثات %s الشهرية وفقا لاهتماماتك"
+
+msgid "Monthly %s Updates"
+msgstr "تحديثات %s الشهرية "
+
+msgid "Weekly %s Updates"
+msgstr "تحديثات %s الأسبوعية"
+
+msgid "Daily %s Updates"
+msgstr "تحديثات %s اليومية"
+
+msgid ""
+"You are receiving this email because you are subscribed to EgyptFOSS "
+"notifications. Unsubscribe from these emails by changing your"
+msgstr ""
+"أنت تتلقي هذه الرسالة لأنك مشترك في إشعارات EgyptFOSS.  لالغاء الاشتراك من "
+"هذه الرسالة يمكنك تغيير "
+
+msgid "Requests"
+msgstr "الطلبات"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "Open Datasets"
+msgstr "البيانات المفتوحة"
+
+msgid "posted:"
+msgstr "نشر:"
+
+msgid "New Request"
+msgstr "طلب جديد"
+
+msgid "My Docs"
+msgstr "ملفاتى"
+
+msgid "My Spaces"
+msgstr "مجلداتى"
+
+msgid "My Shared Docs and Spaces"
+msgstr "ملفات تمت مشاركتها معى"
+
+msgid "My Shared Docs"
+msgstr "ملفات تمت مشاركتها معى"
+
+msgid "Shared with me"
+msgstr "تمت مشاركتها معي"
+
+msgid "Invite"
+msgstr "مشاركة"
+
+# wpml-name: f6039d44b29456b20f8f373155ae4973
+msgid "Rename"
+msgstr "اعادة تسمية"
+
+msgid "There are no requests added by"
+msgstr "لا يوجد طلبات بواسطة"
+
+msgid "There are no responses by"
+msgstr "لا يوجد رد على طلب بواسطة "
+
+msgid "Responses"
+msgstr "الردود"
+
+msgid "No Documents Found"
+msgstr "ﻻ توجد ملفات"
+
+msgid "New Document"
+msgstr "ملف جديد"
+
+msgid "New Space"
+msgstr "مجلد جديد"
+
+msgid "There are no documents or spaces shared with you !"
+msgstr "لاتوجد ملفات او مجلدات تمت مشاركتها معك !"
+
+msgid "There are no spaces found !"
+msgstr "لا توجد مجلدات !"
+
+msgid "No published documents!"
+msgstr "لا توجد ملفات منشورة!"
+
+msgid "Add More Resources"
+msgstr "أضف المزيد من المصادر"
+
+msgid "Please log in to suggest a new resource"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح مصادر جديدة"
+
+msgid "Hello %s,"
+msgstr "مرحبا %s،"
+
+msgid "View All"
+msgstr "عرض جميع"
+
+msgid "Please log in to access this page"
+msgstr "يرجى تسجيل الدخول لتتمكن من الوصول لهذه الصفحة"
+
+msgid ""
+"In the Request Center you can submit various types of requests and, once "
+"approved, they will be published so that interested members can respond to "
+"them."
+msgstr ""
+"في مركز الطلبات يمكنك تقديم أنواع مختلفة من الطلبات، وبمجرد الموافقة عليها "
+"سوف يتم نشرها بحيث يمكن للأعضاء المهتمين الاستجابة لها."
+
+msgctxt "definite"
+msgid "Document"
+msgid_plural "Documents"
+msgstr[0] "الملف"
+msgstr[1] "الملف"
+msgstr[2] "الملفين"
+msgstr[3] "الملفات"
+msgstr[4] "الملف"
+msgstr[5] "الملف"
+
+msgctxt "indefinite"
+msgid "document"
+msgid_plural "documents"
+msgstr[0] "ملف"
+msgstr[1] "ملف"
+msgstr[2] "ملفين"
+msgstr[3] "ملفات"
+msgstr[4] "ملف"
+msgstr[5] "ملف"
+
+msgid "Untitled %s"
+msgstr "%s بدون عنوان"
+
+msgid "Type %s Name"
+msgstr "اضف اسم %s"
+
+# wpml-name: 1c30ff4da9d87eb559d726c72af85e2a
+msgid "%s Title"
+msgstr "عنوان %s "
+
+msgid "added successfully"
+msgstr "تم إضافته بنجاح"
+
+msgid "%s already exists"
+msgstr "%s موجود بالفعل"
+
+msgid ""
+"Archiving a request will prevent further responses and you can not undo this "
+"action."
+msgstr "أرشفة الطلب تمنع المزيد من الردود ولا يمكنك التراجع عن هذا الإجراء."
+
+msgid "Archive"
+msgstr "أرشفة"
+
+msgid "Archive Request"
+msgstr "أرشفة الطلب"
+
+msgid "Archive Response"
+msgstr "أرشفة الرد"
+
+msgid ""
+"Archiving a response will prevent further replies and you can not undo this "
+"action."
+msgstr "أرشفة الرد تمنع المزيد من الردود ولا يمكنك التراجع عن هذا الإجراء."
+
+msgid ""
+"Request is archived, no further responses. The old responses are still active"
+msgstr ""
+"تم أرشفة الطلب، لا يمكن ارسال ردود أخرى. مازال يمكنك التواصل على الردود "
+"القديمة"
+
+msgid "Request is archived, no further responses."
+msgstr "تم أرشفة الطلب، لا يمكن ارسال ردود أخرى"
+
+msgid "Response is archived, no further replies"
+msgstr "تم أرشفة الرد، لا يمكن ارسال ردود أخرى"
+
+msgid "View Full Request Details"
+msgstr "عرض تفاصيل الطلب"
+
+msgid "Archived"
+msgstr "مؤرشف"
+
+msgid "Sections"
+msgstr "الأقسام"
+
+msgid "Feedback"
+msgstr "آراء ومقترحات"
+
+msgid "Check your response"
+msgstr "متابعة ردك"
+
+msgid "Total Responses"
+msgstr "اجمالى عدد الردود"
+
+msgid "Please log in to suggest a new feedback"
+msgstr "يرجى تسجيل الدخول لتتمكن من اضافة اراء ومقترحات"
+
+msgid "Please enter a valid user"
+msgstr "يرجى ادخال مستخدم صحيح"
+
+# wpml-name: f6039d44b29456b20f8f373155ae4973
+msgid "Users"
+msgstr "المستخدمين"
+
+msgid "Groups"
+msgstr "الفئات"
+
+msgid "Sharing Settings"
+msgstr "اعدادات المشاركة"
+
+msgid "Type user email here"
+msgstr "يرجي كتابة البريد الالكتروني للمستخدم"
+
+msgctxt "indefinite"
+msgid "Editor"
+msgstr "محرر"
+
+msgctxt "indefinite"
+msgid "Reviewer"
+msgstr "مراجع"
+
+msgid "Please log in to respond to a request"
+msgstr "يرجى تسجيل الدخول لتتمكن من الرد على الطلب"
+
+msgid "responses"
+msgstr "الردود"
+
+msgid "No responses"
+msgstr "لا يوجد ردود"
+
+msgid "This resquest has no responses"
+msgstr "لا يوجد ردود على هذا الطلب"
+
+msgid "You can't add the creator of the space"
+msgstr "عذرا، لا يمكن اضافة منشئ المجلد"
+
+msgid "You can't add the creator of the document"
+msgstr "عذرا، لا يمكن اضافة منشئ الملف"
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "Draft"
+msgstr "مسودة"
+
+msgid "Reviewed"
+msgstr "تمت المراجعة"
+
+msgid "Published"
+msgstr "منشور"
+
+msgctxt "indefinite"
+msgid "Publisher"
+msgstr "ناشر"
+
+msgid "%s invited you to collaborate on a %s"
+msgstr "%s يدعوك للمشاركة في %s"
+
+msgid "%s invited you to collaborate on \"%s\" as %s"
+msgstr "%s يدعوك للمشاركة على \"%s\" ك%s"
+
+msgctxt "indefinite"
+msgid "Space"
+msgstr "مجلد"
+
+msgid "Something wrong has happened. Please try again"
+msgstr "لقد حدث خطأ. برجاء اعادة المحاولة"
+
+msgid "Resource Description"
+msgstr "وصف المصدر"
+
+msgid "Document"
+msgstr "ملف"
+
+msgid "Space"
+msgstr "مجلد"
+
+msgid "Editor"
+msgstr "محرر"
+
+msgid "Reviewer"
+msgstr "مراجع"
+
+msgid "User is not authorized to be invited as a publisher"
+msgstr "هذا المستخدم لا يملك صلاحية النشر"
+
+msgid "User is not authorized to be invited"
+msgstr "هذه المستخدم لا يملك صلاحية ليتم دعوته"
+
+msgid "About"
+msgstr "حول"
+
+# wpml-name: 80f3eecb62ac37399077e4c38e654b54
+msgid "Please select your Account Type"
+msgstr "يرجى اختيار نوع الحساب"
+
+# wpml-name: f22101e354e0bf56272ef305fd8cf3bb
+msgid "Please select your Account Subtype"
+msgstr "يرجى اختيار نوع الحساب الفرعى"
+
+msgid "Request Archived Successfully"
+msgstr "تم أرشفة الطلب بنجاح"
+
+msgid "Error Archiving Request"
+msgstr "حدث خطأ اثناء أرشفة الطلب"
+
+msgid "Response Archived Successfully"
+msgstr "تم أرشفة الرد بنجاح"
+
+msgid "Error Archiving Response"
+msgstr "حدث خطأ اثناء أرشفة الرد"
+
+msgid "There are no open datasets contributions by %s"
+msgstr "لا توجد مساهمات في البيانات المفتوحة بواسطة %s"
+
+msgid "Your feedback submitted successfully"
+msgstr "تم اضافة مقترحاتك بنجاح"
+
+msgid "Thank you for your feedback , we will reply on your feedback shortly"
+msgstr "تم اضافة مقترحاتك بنجاح ، سوف نقوم بالرد عليك قريبا"
+
+msgid "please choose at least 1 feature to share"
+msgstr "يرجى اختيار خاصية واحدة على الاقل للمشاركة"
+
+msgid "you don't have permission to share this item"
+msgstr "ليست لديك صلاحية لمشاركة هذا الملف"
+
+msgid "Invalid %s."
+msgstr "%s غير صحيح"
+
+msgctxt "feminist"
+msgid "Invalid %s."
+msgstr "%s غير صحيحة"
+
+msgid "Sharing Settings saved successfully."
+msgstr "اعدادات المشاركة تمت حفظها بنجاح"
+
+msgid "Request Archived"
+msgstr "تم أرشفة الطلب"
+
+msgid "new responses"
+msgstr "ردود"
+
+msgid "seen"
+msgstr "تم رؤيتها"
+
+msgid "unseen"
+msgstr "لم يتم رؤيتها"
+
+msgid "Start conversation by writing your response below"
+msgstr "ابدء المحادثة عن طريق كتابة ردكم أدناه"
+
+msgid "Write your replay..."
+msgstr "اكتب الرد ..."
+
+msgid "Type user display name here"
+msgstr "يرجي كتابة اسم المستخدم"
+
+msgid "Me"
+msgstr "أنا"
+
+msgid "Document edited successfully"
+msgstr "تم تعديل الملف"
+
+msgid "Related to"
+msgstr "متعلق ب"
+
+msgid "Collaboration Center"
+msgstr "مركز المشاركة"
+
+msgid "Document is"
+msgstr "الملف"
+
+msgid "and you can't make new changes"
+msgstr "و لا يمكنك اضافة تعديلات"
+
+msgid "reviewed"
+msgstr "تمت مراجعته"
+
+msgid "published"
+msgstr "منشور"
+
+msgctxt "indefinite"
+msgid "file"
+msgid_plural "files"
+msgstr[0] "ملف"
+msgstr[1] "ملف"
+msgstr[2] "ملف"
+msgstr[3] "ملفات"
+msgstr[4] "ملف"
+msgstr[5] "ملف"
+
+msgid "New Spaces/Documents Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث المجلدات و الملفات"
+
+msgid "Spaces/Documents"
+msgstr "مجلدات/ملفات"
+
+msgid "Add Feedback"
+msgstr "أضف مقترح"
+
+msgid "You can suggest a product that enriches EgyptFOSS content."
+msgstr "يمكنك اقتراح منتج لإثراء محتوى EgyptFOSS."
+
+msgid "You can suggest a news that enriches EgyptFOSS content."
+msgstr "يمكنك اقتراح خبر لإثراء محتوى EgyptFOSS."
+
+msgid "You can suggest an event that enriches EgyptFOSS content."
+msgstr "يمكنك اقتراح فعالية لإثراء محتوى EgyptFOSS."
+
+msgid "You can suggest an open dataset that enriches EgyptFOSS content."
+msgstr "يمكنك اقتراح بيانات مفتوحة لإثراء محتوى EgyptFOSS."
+
+msgid "Let us know what you think about EgyptFOSS and how to make it better."
+msgstr "شاركنا رأيك حول EgyptFOSS وكيفية جعله أفضل."
+
+msgid "You can add a request and get responses from members on EgyptFOSS.‎"
+msgstr "يمكنك إضافة طلب والحصول على ردود من الاعضاء على EgyptFOSS."
+
+msgid "Published Documents"
+msgstr "ملفات منشورة"
+
+msgid "Created by"
+msgstr "بواسطة"
+
+# wpml-name: 9c4b7bd67176708a74fd5801fd88e936
+msgid "Please type a keyword to search"
+msgstr "فضلا ادخل كلمة بحث"
+
+msgid "Change Photo"
+msgstr "تغيير الصورة الشخصية"
+
+msgid "OK"
+msgstr "حسناً"
+
+msgid "Event Name"
+msgstr "اسم الفعالية"
+
+msgid "Please <a href=\"%s\">log in</a> to share your comments."
+msgstr "يرجى <a href=\"%s\">تسجيل الدخول</a> لتتمكن من التعليق."
+
+msgid "Related to section"
+msgstr "متعلق بقسم"
+
+msgid "General"
+msgstr "عام"
+
+msgid "Submit feedback"
+msgstr "شارك برأيك"
+
+msgid ""
+"Your feedback has been submitted successfully, we will get back to you soon."
+msgstr "تم ارسال رأيك بنجاح، سنحاول الرجوع إليك فى أقرب فرصة."
+
+msgid "Thanks for your feedback"
+msgstr "شكرا لمشاركتنا رأيك"
+
+msgid "Expert"
+msgstr "خبير"
+
+msgctxt "feminist"
+msgid "must at least contain one letter"
+msgstr " يجب أن تحتوي على حرف واحد على الأقل"
+
+msgid "Please log in to write a new thought"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح رأى جديد"
+
+msgid "Thought"
+msgstr "الرأى"
+
+msgid ""
+"You can suggest a thought that inspires and motivates EgyptFOSS members."
+msgstr "يمكنك اقتراح رأى لإلهام وتحفيز أعضاء EgyptFOSS."
+
+msgid "Expert Thought"
+msgid_plural "Expert Thoughts"
+msgstr[0] "رأى الخبراء"
+msgstr[1] "أراء الخبراء"
+msgstr[2] "أراء الخبراء"
+msgstr[3] "أراء الخبراء"
+msgstr[4] "أراء الخبراء"
+msgstr[5] "أراء الخبراء"
+
+msgid "There are no published Thoughts Yet."
+msgstr "ﻻ يوجد أراء منشورة"
+
+msgid "Posted on"
+msgstr "تاريخ النشر"
+
+msgid "View Profile"
+msgstr "مشاهدة الملف الشخصي"
+
+msgid "More thoughts by this expert"
+msgstr "المزيد من أراء الخبير"
+
+msgid "You have got a new reply on %s request"
+msgstr "لديك رد جديد على طلب %s"
+
+msgid "You have got a new reply from %s on %s request, check it %s."
+msgstr "لديك رد جديد من %s على طلب %s, يمكنك مراجعته من %s."
+
+msgid "here"
+msgstr "هنا"
+
+msgid "you have inserted the same title before"
+msgstr "لقد أدخلت هذا العنوان من قبل"
+
+msgid "Thought edited successfully"
+msgstr "تم تعديل الرأي بنجاح"
+
+msgid "There are no expert thoughts added by %s"
+msgstr "لا توجد آراء مضافة بواسطة %s"
+
+msgid "Expert Thoughts"
+msgstr "مدونة الخبراء"
+
+msgid "Remove"
+msgstr "حذف"
+
+msgid "Token"
+msgstr "رمز"
+
+# wpml-name: 18e67159bc73d769b63add5b7ad72e63
+msgid ""
+"Your account was activated successfully! <br/> You can now <a href=\"%s"
+"\">log in</a> with the username and password you provided when you signed up."
+msgstr ""
+"تم تفعيل الحساب الخاص بك بنجاح! <br/> يمكنك <a href=\"%s\">الدخول</a> علي "
+"حسابك الآن"
+
+msgid "Invalid Activation URL."
+msgstr "رابط التفعيل غير صحيح"
+
+msgid "This Document is Shared with connections who care about."
+msgstr "هذا الملف تحت المشاركة مع جهات الاتصال التي تهتم بالآتي"
+
+msgid "Market Place"
+msgstr "معرض الخدمات"
+
+msgid "Please log in to suggest a new service"
+msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح خدمة جديدة"
+
+msgid "You can add a service and get responses from members on EgyptFOSS."
+msgstr "يمكنك إضافة خدمة والحصول على ردود من الاعضاء على EgyptFOSS."
+
+msgid "You don't have spaces yet!"
+msgstr "لا توجد لديك مجلدات!"
+
+msgid "Conditions"
+msgstr "الشروط"
+
+msgid "Service Info"
+msgstr "معلومات الخدمة"
+
+msgid "Request Service"
+msgstr "طلب الخدمة"
+
+msgid "Reviews"
+msgstr "الآراء"
+
+msgid "View All Reviews"
+msgstr "عرض جميع الآراء"
+
+msgid "Service"
+msgstr "الخدمة"
+
+msgid ""
+"You are not authorized to reply to this response. Please contact us for more "
+"information."
+msgstr ""
+"عفوا لا تملك صلاحية تنفيذ هذة العملية. فضلا اتصل بنا لمزيد من المعلومات."
+
+msgid ""
+"You are not authorized to reply to this request. Please contact us for more "
+"information."
+msgstr ""
+"عفوا لا تملك صلاحية تنفيذ هذة العملية. فضلا اتصل بنا لمزيد من المعلومات."
+
+msgid "This Responder is no longer active."
+msgstr "لا يمكنك التواصل على هذا الرد لان المستخدم غير نشط"
+
+msgid "This Request author is no longer active."
+msgstr "لا يمكنك التواصل على هذا الطلب لان المستخدم غير نشط"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "Open Data"
+msgstr "البيانات المفتوحة"
+
+msgid "Stories"
+msgstr "قصص النجاح"
+
+msgid "Thoughts"
+msgstr "الآراء"
+
+msgid "Please log in to proceed"
+msgstr "يرجى تسجيل الدخول للمتابعة"
+
+msgid "No documents!"
+msgstr "ﻻ توجد ملفات!"
+
+msgid "There are no quizzes"
+msgstr "عفواً.. لا توجد اختبارات حالياً"
+
+msgid "There are no quizzes in this category"
+msgstr "عفواً.. لا يوجد اختبارات لهذا التصنيف حالياً"
+
+msgid "You have got a new reply on %s service"
+msgstr "لديك رد جديد على خدمة %s"
+
+msgid "You have got a new reply from %s on %s service, check it %s."
+msgstr "لديك رد جديد من %s على خدمة %s, يمكنك مراجعته من %s."
+
+msgid "Expert thoughts Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث آراء الخبراء"
+
+msgid ""
+"There are no services under this criteria, please try different filters."
+msgstr "لا يوجد خدمات تحت هذا التصنيف. فضلا قم بتجربة خيارات اخرى."
+
+msgid "Offered by"
+msgstr "مقدمة من"
+
+msgid "Suggest Service"
+msgstr "اقترح خدمة"
+
+msgid ""
+"Whether you are an individual or entity, offer your services in the "
+"Marketplace and receive requests from interested members."
+msgstr ""
+"سواء كنت فردا أو هيئة، يمكنك تقديم خدماتك فى معرض الخدمات وتلقي طلبات من "
+"الأعضاء المهتمين."
+
+msgid "edited successfully"
+msgstr "تم تعديلها بنجاح"
+
+msgid "Try Again"
+msgstr "إعادة المحاولة"
+
+msgid "Success Rate:"
+msgstr "معدل النجاح:"
+
+msgid "Take Quiz"
+msgstr "بدء الأختبار"
+
+msgid "%s trial"
+msgid_plural "%s trials"
+msgstr[0] "محاولة"
+msgstr[1] "محاولة واحدة"
+msgstr[2] "محاولتين"
+msgstr[3] "%s محاولات"
+msgstr[4] "%s محاولة"
+msgstr[5] "%s محاولة"
+
+msgid "Welcome To the Marketplace"
+msgstr "مرحباً في معرض الخدمات"
+
+msgid ""
+"Offer your services to grow your business or find the right service "
+"providers for your needs."
+msgstr ""
+"إعرض الخدمات الخاصة بك لتنمية أعمالك أو جد مقدم الخدمة المناسب لاحتياجاتك"
+
+msgid "Offer Your Services"
+msgstr "اعرض الخدمات الخاصة بك"
+
+msgid "Offer your services to receive requests from interested members."
+msgstr ""
+"اعرض الخدمات الخاصة بك فى معرض الخدمات لتتلقى طلبات من الأعضاء المهتمين."
+
+msgid "Find the Right Providers"
+msgstr "جد مقدم الخدمة المناسب"
+
+msgid "Find the right service providers for your needs."
+msgstr "جد مقدم الخدمة المناسب لاحتياجاتك"
+
+msgid "Discuss and Review"
+msgstr "ناقش وقيم"
+
+msgid ""
+"Discuss with service providers in private messages and rate the service once "
+"done."
+msgstr "تناقش مع مقدمي الخدمات في رسائل خاصة.. وقيم الخدمات فور الإنتهاء منها"
+
+msgid "Browse Services"
+msgstr "استعراض الخدمات"
+
+msgid "View All Services"
+msgstr "عرض جميع الخدمات"
+
+msgid "Start Selling Your Services Now"
+msgstr "ابدأ ببيع الخدمات الخاصة بك الآن"
+
+msgid "Start selling your services to grow your business."
+msgstr "ابدأ عرض الخدمات الخاصة بك للبيع لتنمية أعمالك"
+
+msgid "Start Now"
+msgstr "ابدأ الآن"
+
+msgid "Service edited successfully"
+msgstr "تم تعديل الخدمة بنجاح"
+
+msgid "There are no services added by"
+msgstr "لا توجد خدمات مضافة بواسطة"
+
+msgid "Services"
+msgstr "الخدمات"
+
+msgid "New Service"
+msgstr "خدمة جديدة"
+
+msgid "Submit"
+msgstr "إرسال"
+
+msgid "Hint"
+msgstr "مساعدة"
+
+msgid ""
+"Service is archived, no further requests. The old requests are still active"
+msgstr ""
+"تم أرشفة الخدمة، لا يمكن ارسال طلبات أخرى. مازال يمكنك التواصل على الطلبات "
+"القديمة"
+
+msgid "Service is archived, no further requests."
+msgstr "تم أرشفة الخدمة، لا يمكن ارسال طلبات أخرى"
+
+msgid "Request is archived, no further replies"
+msgstr "تم أرشفة الطلب، لا يمكن ارسال ردود أخرى"
+
+msgid "Service Archived Successfully"
+msgstr "تم أرشفة الخدمة بنجاح"
+
+msgid "Error Archiving Service"
+msgstr "حدث خطأ اثناء أرشفة الخدمة"
+
+msgid ""
+"Archiving a service will prevent further requests and you can not undo this "
+"action."
+msgstr "أرشفة الخدمة تمنع المزيد من الطلبات ولا يمكنك التراجع عن هذا الإجراء."
+
+msgid "Archive Service"
+msgstr "أرشفة الخدمة"
+
+msgid ""
+"Archiving a request will prevent further replies and you can not undo this "
+"action."
+msgstr "أرشفة الطلب تمنع المزيد من الردود ولا يمكنك التراجع عن هذا الإجراء."
+
+msgid "The service has no requests"
+msgstr "لا يوجد طلبات على هذة الخدمة"
+
+msgid "Service Archived"
+msgstr "تم أرشفة الخدمة"
+
+msgid "Comments"
+msgstr "التعليقات"
+
+msgid "I got %s in the %s Quiz on #EgyptFOSS"
+msgstr "حصلت على %s في اختبار %s على موقع #EgyptFOSS"
+
+msgid "Please log in to take the quiz"
+msgstr "يرجى تسجيل الدخول لتتمكن من بدء الأختبار"
+
+msgid "Quizzes Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث الاختبارات"
+
+msgid "Quizzes"
+msgstr "الاختبارات"
+
+msgid "View Full Service Details"
+msgstr "عرض تفاصيل الخدمة"
+
+msgid "Submit Review"
+msgstr "شارك بتقييمك الخاص"
+
+msgid "Write Your Feedback"
+msgstr "اكتب التقييم الخاص بك ..."
+
+msgid "Write Your Review For This Service..."
+msgstr "اكتب تقييمك الخاص لهذة الخدمة ..."
+
+msgid "Rate This Service"
+msgstr "قيم هذة الخدمة"
+
+msgid "Service Rate"
+msgstr "تقييم الخدمة"
+
+msgid "Rated by "
+msgstr "تم التقييم بواسطة "
+
+msgid " customers"
+msgstr " عملاء"
+
+msgid "More Services"
+msgstr "خدمات اخري"
+
+msgid "You don't have services' requests"
+msgstr "لا يوجد لديك طلبات علي خدمات"
+
+msgid "There are no services yet"
+msgstr "لا يوجد خدمات"
+
+msgid "Add new Service"
+msgstr "اضف خدمة جديدة"
+
+msgid "Check your request"
+msgstr "متابعة طلبك"
+
+msgid "You're not logged in"
+msgstr "أنت لم تقم بتسجيل الدخول"
+
+msgid ""
+"If your interests match %s, and would like to compete the Highest Score %s. "
+"Ready to Take the Quiz?"
+msgstr ""
+"اذا كانت اهتماماتك تتناسب مع %s، و ترغب في المنافسة علي اعلي نتيجة للاختبار "
+"%s. جاهز لبد الاختبار؟"
+
+msgid "Log In"
+msgstr "دخول"
+
+msgid "New Services Email Notifications"
+msgstr "ارسال بريد الكتروني لأحدث الخدمات"
+
+msgid "Related Documents"
+msgstr "ملفات ذات صلة"
+
+msgid "No published documents in this section"
+msgstr "لا توجد ملفات منشورة في هذا القسم"
+
+msgid "Highest Score"
+msgstr "افضل نتيجة"
+
+msgid "Latest Score"
+msgstr "آخر نتيجة"
+
+msgid "There are no quizzes taken by %s"
+msgstr "لا يوجد اختبارات مأخوذة بواسطة %s"
+
+msgid "Show More"
+msgstr "عرض المزيد"
+
+msgid "No requests"
+msgstr "لا يوجد طلبات"
+
+msgid "Your Highest Score"
+msgstr "افضل نتيجة لك"
+
+msgid "Your review has been submitted"
+msgstr "تم تسجيل تقييمك الخاص لهذة الخدمة"
+
+msgid "Top Services"
+msgstr "افضل الخدمات"
+
+msgid "Top Providers"
+msgstr "افضل مقدمي الخدمات"
+
+msgid "%s Service"
+msgid_plural "%s Services"
+msgstr[0] "%s خدمة"
+msgstr[1] "%s خدمة"
+msgstr[2] "%s خدمة"
+msgstr[3] "%s خدمات"
+msgstr[4] "الخدمة"
+msgstr[5] "الخدمة"
+
+msgid "Congratulations You've earned %s Badge"
+msgstr "تهانينا , لقد حصلت علي وسام %s"
+
+msgid "find your badges"
+msgstr "ابحث عن اوسمتك"
+
+msgid "New Badge Acheived"
+msgstr "تم الحصول علي وسام جديد"
+
+msgid "Hi"
+msgstr "مرحباً"
+
+msgid "You are not authorized to perform this action."
+msgstr "عفوا لا تملك صلاحية تنفيذ هذة العملية."
+
+msgid "This Requester is no longer active."
+msgstr "لا يمكنك التواصل على هذا الطلب لان المستخدم غير نشط"
+
+msgid "New Post"
+msgstr "مقال جديد"
+
+msgid "Activist Center"
+msgstr "أبرز الأعضاء"
+
+msgid "Pt"
+msgid_plural "Pts"
+msgstr[0] "نقطة"
+msgstr[1] "نقطة"
+msgstr[2] "نقطتين"
+msgstr[3] "نقاط"
+msgstr[4] "نقطة"
+msgstr[5] "نقطة"
+
+msgid "Activist Center Top 10"
+msgstr "أبرز 10 أعضاء"
+
+msgid "Services Market"
+msgstr "معرض الخدمات"
+
+msgctxt "header"
+msgid "Expert Thoughts"
+msgstr "مدونة الخبراء"
+
+msgid "Badges"
+msgstr "الأوسمة"
+
+msgid "Achieved"
+msgstr "حققتها"
+
+msgid "Locked"
+msgstr "في انتظارك"
+
+msgctxt "definite"
+msgid "Published Documents"
+msgstr "الملفات المنشورة"
+
+msgid "Start conversation by writing your request below"
+msgstr "ابدء المحادثة عن طريق كتابة طلبكم أدناه"
+
+msgid "Requester Rate"
+msgstr "تقييم طالب الخدمة"
+
+msgid ""
+"Top members based on the points earned for their contributions in EgyptFOSS"
+msgstr " أبرز الأعضاء وفقاً للنقاط التي حصلوا عليها لمساهماتهم في EgyptFOSS "
+
+msgid ""
+"Please verify your email address. If you didn't receive the verification "
+"email, we can "
+msgstr ""
+"فضلا قم بتأكيد عنوان بريدك الإلكتروني. إذا لم تتلقى رسالة التأكيد يمكننا "
+
+msgid "resend it"
+msgstr "إعادة إرسالها"
+
+msgid "Map"
+msgstr "الخريطة"
+
+msgid "Marketplace"
+msgstr "معرض الخدمات"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "Data"
+msgstr "البيانات"
+
+msgid "success story"
+msgstr "قصة نجاح"
+
+msgid "expert thought"
+msgstr "رأى الخبراء"
+
+msgid "Platform Sections"
+msgstr "اقسام المنصة"
+
+msgid "Latest local and international FOSS news."
+msgstr "آخر أخبار البرمجيات الحرة مفتوحة المصدر المحلية والعالمية"
+
+msgid "Upcoming local and international FOSS events and happenings."
+msgstr "أبرز الفعاليات المحلية والعالمية المتعلقة بالبرمجيات الحرة"
+
+msgid "An interactive map of FOSS users, entities, and events."
+msgstr ""
+"خريطة تفاعلية لمستخدمي البرمجيات الحرة والهيئات المستخدمة والداعمة لها وأبرز "
+"الفعاليات"
+
+msgid "Useful FOSS products in different categories."
+msgstr "مجموعة من منتجات حرة ومفتوحة المصدر في مجالات مختلفة"
+
+msgid "FOSS open datasets in different categories."
+msgstr "مجموعة من البيانات الحرة والمفتوحة في مجالات مختلفة"
+
+msgid "Create, share and publish documents together."
+msgstr "إصنع وشارك وأنشر الملفات مع الأخرين"
+
+msgid "Offer your services, find the right providers, and share your reviews."
+msgstr "إعرض خدماتك أو جد مزودي الخدمات المناسبين لك وشارك رأيك فيهم"
+
+msgid "Submit your requests and receive responses from the community."
+msgstr "أنشر طلبك لتحصل على الإجابات والدعم من أعضاء مجتمعنا"
+
+msgid "A FOSS encyclopedia."
+msgstr "قاعدة معرفية متكاملة للبرمجيات الحرة مفتوحة المصدر"
+
+msgid "Measure your awareness of FOSS topics."
+msgstr "قيم مدى معرفتك بموضوعات البرمجيات الحرة"
+
+msgid "Blog posts by FOSS experts and activists."
+msgstr "تدوينات يكتبها مجموعة من ناشطي وخبراء البرمجيات الحرة"
+
+msgid "Lessons learned from migration to FOSS."
+msgstr "قصص ودروس مستفادة من التحول لاستخدام البرمجيات الحرة"
+
+msgid "Revisions"
+msgstr "تاريخ الملف"
+
+msgid "there are no revisions"
+msgstr "لا يوجد تاريخ لهذه الصفحة "
+
+msgid "Terms of Services"
+msgstr "شروط الخدمة"
+
+msgid "Top 10 Members"
+msgstr "أبرز 10 أعضاء"
+
+msgid "Latest Services"
+msgstr "احدث الخدمات"
+
+msgid "Latest Providers"
+msgstr "احدث مقدمي الخدمات"
+
+msgid "Download All"
+msgstr "تحميل الكل"
+
+msgid "Mobile Apps"
+msgstr "تطبيقات الموبايل"
+
+msgid "Revision of"
+msgstr "نسخة"
+
+msgid "Gallery"
+msgstr "مكتبة الصور"
+
+msgid "Your Score:"
+msgstr "نتيجتك:"
+
+msgid "Share your score on"
+msgstr "انشر نتيجتك على"
+
+msgid "Take this quiz to test your FOSS knowledge"
+msgstr "اختبر معلموماتك في البرمجيات الحرة مفتوحة المصدر"
+
+msgid "Please log in"
+msgstr "يرجى تسجيل الدخول"
+
+msgid "to take this quiz and test your FOSS knowledge"
+msgstr "لتختبر معلوماتك في البرمجيات الحرة مفتوحة المصدر"
+
+msgid "Location field required"
+msgstr "يجب ادخال المكان"
+
+msgid "activation_ending_msg"
+msgstr "نتطلع الي مشاركاتك<br/><br/>مع تحيات<br/>فريق EgyptFOSS"
+
+msgid "Welcome to EgyptFOSS"
+msgstr "مرحبا بك في EgyptFOSS"
+
+msgid ""
+"Thank you for joining EgyptFOSS. To activate your account, please click the "
+"following link:"
+msgstr ""
+"شكرا لإنضمامك EgyptFOSS . لتفعيل حسابك , من فضلك إضغط على الرابط التالي:"
+
+msgid "Hello"
+msgstr "مرحبا"
+
+msgid "Read"
+msgstr "إقرأ"
+
+msgid "Something went wrong."
+msgstr "لقد حدث خطأً ما."
+
+# wpml-name: 2dd4472245a696bc0b4b944db2a8b519
+msgid "Individuals"
+msgstr "الأفراد"
+
+# wpml-name: 1a434befae3f49ae09347ded52032f6f
+msgid "Entities"
+msgstr "الهيئات"
+
+msgid "%s became a registered member"
+msgstr "%s اصبح عضو مسجل جديد"
+
+msgid "%s changed their profile picture"
+msgstr "%s قام بتغيير الصورة الشخصية"
+
+msgid "Related Links"
+msgstr "روابط ذات صلة"
+
+msgid "More info on Wikipedia"
+msgstr "المزيد من ويكيبيديا"
+
+msgid "In"
+msgstr "في"
+
+msgid "No expert thoughts are found"
+msgstr "لا يوجد آراء خبراء"
+
+msgid "No success stories are found"
+msgstr "لا يوجد قصص نجاح"
+
+msgid "Published date"
+msgstr "تاريخ النشر"
+
+msgid "Open Dataset Resources added successfully, it is now under review"
+msgstr "المصادرالجديدة تم اضافتها بنجاح , ينتظر تأكيدها من قبل الادارة"
+
+msgid "Get the mobile App"
+msgstr "حمل تطبيقاتنا للموبايل"
+
+msgid ""
+"Download our mobile apps to contribute and get the latest updates from "
+"EgyptFOSS community."
+msgstr ""
+"حمل تطبيقاتنا للموبايل للمشاركة والحصول على جديد منصة مصر للبرمجيات الحرة "
+"مفتوحة المصدر.‎"
+
+msgid "Start contributing to join the list of Top Members"
+msgstr "ابدء في المشاركة لتنضم لقائمة أبرز الأعضاء"
+
+msgid "Welcome to the Collaboration Center"
+msgstr "مرحباً بك في مركز المشاركة"
+
+msgid ""
+"In the Collaboration Center you can create, share and publish documents "
+"together."
+msgstr "في مركز المشاركة يمكنك صناعة و نشر و مشاركة الملفات مع الأخرين"
+
+msgid "Coming Soon"
+msgstr "قريباً"
+
+msgid ""
+"In the Collaboration Center you can create documents and share them with "
+"some members to contribute, then publish them to be be available for all "
+"members."
+msgstr ""
+"مركز المشاركة يتيح لك إنشاء الملفات ومشاركتها مع بعض الأعضاء للمساهمة في "
+"تعديلها ثم نشرها على المنصة لتصبح متاحة لجميع الأعضاء‎"
+
+msgid "No resources"
+msgstr "لا يوجد مصادر"
+
+msgctxt "up"
+msgid "Quiz"
+msgstr "اختباراً"
+
+msgid "Developers"
+msgstr "المطورون"
+
+msgid "Add Your Location"
+msgstr "اضف موقعك"
+
+msgid "Have an account ?"
+msgstr "لديك حساب ؟"
+
+msgid "Don't have an account ?"
+msgstr "ليس لديك حساب ؟"
+
+msgid ""
+"Great you almost start to collaborate in EgyptFOSS, You can use this page to "
+"create your document, and it will be saved as a draft before you choose "
+"either to share it with another user in our community to review it and "
+"publish it, or to review it by yourself. Remember you need to be an author "
+"before you can publish your document. Thanks."
+msgstr ""
+"رائع أنت على وشك المشاركة في منصة مصر للبرمجيات الحرة مفتوحة المصدر، تستطيع "
+"استخدام هذه الصفحة لإنشاء المستند الخاص بك، والذي سيتم حفظه كمسودة قبل أن "
+"تقرر مشاركته إما مع أحد أعضاء مجتمعنا ليراجعه أو ينشره، أو تقرر أن تراجعه "
+"وتنشره بنفسك. تذكر أنك تحتاج للحصول على وسام كاتب قبل نشر هذا المستند. شكرا "
+"لك."
+
+msgid ""
+"Thanks for collaborating in EgyptFOSS, you need to get author badge before "
+"you can publish your document. It's so easy! you just need to suggest a "
+"news, product, dataset, service in our marketplace, or event and we will "
+"review and publish it as soon as possible. Thanks again for making a "
+"difference."
+msgstr ""
+"نشكرك لمساهمتك في منصة مصر للبرمجيات الحرة مفتوحة المصدر، تحتاج للحصول على "
+"وسام كاتب قبل أن تتمكن من نشر المستند. هذا سهل للغاية!،  أنت تحتاج لإقتراح "
+"خبر أو منتج أو بيانات مفتوحة أو خدمة في سوق الخدمات أو فاعلية، وسنقوم نحن "
+"بمراجعتها ونشرها في أسرع وقت. نشكرك مرة أخرى لإحداثك الفارق."
+
+msgid "Copied!"
+msgstr "تم النسخ!"
+
+msgid "Copy To clipboard"
+msgstr "انسخ الرابط"
+
+msgid "Copy the link or"
+msgstr "قم بنسخ الرابط او"
+
+msgid "start downloading"
+msgstr "ابدأ بالتحميل"
+
+msgid "now"
+msgstr "الآن"
+
+msgid "Subscribe"
+msgstr "اشترك"
+
+msgid "Newsletter"
+msgstr "القائمة البريدية"
+
+msgid "Type Your Email"
+msgstr "ادخل بريدك الإلكتروني"
+
+msgid "Sort"
+msgstr "رتب حسب"
+
+msgid "By Name"
+msgstr "حسب الاسم"
+
+msgid "By Size"
+msgstr "حسب الحجم"
+
+# wpml-name: d2c9ac3a4170e2d8cb18e01ba7fbc727
+msgid "By Type"
+msgstr "حسب النوع"
+
+msgid "Sort By Name"
+msgstr "رتب حسب الاسم"
+
+msgid "Sort By Size"
+msgstr "رتب حسب الحجم"
+
+# wpml-name: d2c9ac3a4170e2d8cb18e01ba7fbc727
+msgid "Sort By Type"
+msgstr "رتب حسب النوع"
+
+msgid "View"
+msgstr "عرض"
+
+# wpml-name: a4ecfc70574394990cf17bd83df499f7
+msgid "Local Event"
+msgstr "فعالية محلية"
+
+msgid "International Event"
+msgstr "فعالية عالمية"
+
+msgid "Virus detected! , Uploading proccess has been terminated."
+msgstr "تم اكتشاف فيروس! , لذا تم ايقاف عملية التحميل."
+
+msgid "Telephone Number"
+msgstr "رقم الهاتف"
+
+# wpml-name: cffa70587159989d91e6ce586ea65c14
+msgid "Enter a valid telephone number"
+msgstr "أدخل رقم هاتف صحيح"
+
+msgid ""
+"Display your services and show yourself to the world!. Click on \"add your "
+"location\" button <i class=\"fa fa-plus plus-icon\"></i>, then pin your "
+"location on our map by dragging the pointer, finally click on \"Save\""
+msgstr ""
+"اعرض خدماتك وأظهر نفسك للعالم!.. إضغط على زر أضف موقعك <i class=\"fa fa-plus "
+"plus-icon\"></i> ثم حدد مكانك على الخريطة عبر سحب المؤشر، وأخيرا إضغط على "
+"حفظ.  "
+
+msgid ""
+"Display your services and show yourself to the world!. Please <a href=\"%s"
+"\">Register</a> or <a href=\"%s\">Sign in</a> to pin your location on our map"
+msgstr ""
+"اعرض خدماتك وأظهر نفسك للعالم!.. قم <a href=\"%s\">بتسجيل حساب جديد</a> أو "
+"<a href=\"%s\">الدخول</a> لحسابك لإضافة موقعك على الخريطة."
+
+msgid "Welcome to the Foss Map"
+msgstr "مرحباً بك في الخريطة"
+
+msgctxt "splash-screen"
+msgid "Welcome to EgyptFOSS"
+msgstr "أهلا بك في منصة مصر للبرمجيات الحرة مفتوحة المصدر"
+
+msgid ""
+"Here!, You'll find a content specially developed for Serving Free and Open "
+"Source Software community in Egypt. Please, <a href=\"%s\" target=\"_blank"
+"\">Register</a> or <a href=\"%s\" target=\"_blank\">Log in</a> to join our "
+"community and to enjoy using our services or to do the following:"
+msgstr ""
+"في هذه المنصة سوف تجد محتوى متنوع صنع خصيصا من أجل خدمة مجتمع البرمجيات "
+"الحرة والمفتوحة المصدر في مصر. من فضلك قم <a href=\"%s\" target=\"_blank"
+"\">بتسجيل حساب جديد</a> أو <a href=\"%s\" target=\"_blank\">الدخول</a> "
+"للإنضمام إلى مجتمعنا أو التمتع باستخدام خدماتنا أو القيام بالآتي:"
+
+msgid ""
+"Adding <a href=\"%s\" target=\"_blank\">News</a>, <a href=\"%s\" target="
+"\"_blank\">Events</a>, <a href=\"%s\" target=\"_blank\">Open Data Sets</a>, "
+"and <a href=\"%s\" target=\"_blank\">FOSS Products</a> or Write Articles on "
+"our <a href=\"%s\" target=\"_blank\">FOSSpedia</a>"
+msgstr ""
+"إضافة <a href=\"%s\" target=\"_blank\">أخبار</a> أو <a href=\"%s\" target="
+"\"_blank\">فعاليات</a> أو <a href=\"%s\" target=\"_blank\">بيانات</a> أو <a "
+"href=\"%s\" target=\"_blank\">منتجات</a>، أو كتابة مقالات على <a href=\"%s\" "
+"target=\"_blank\">مركز المعرفة</a>"
+
+msgid ""
+"Creating your Freelancer or Company profile and pin your location to <a href="
+"\"%s\" target=\"_blank\">FOSS Map</a>"
+msgstr ""
+"إنشاء حساب خاص لك كمقدم خدمات حر أو لشركتك، وإضافة موقعك على <a href=\"%s\" "
+"target=\"_blank\">خريطة المنصة</a>"
+
+msgid ""
+"Growing your business by Adding your services to our <a href=\"%s\" target="
+"\"_blank\">Services Market</a>"
+msgstr ""
+"تحسين وزيادة أعمالك عبر إضافة الخدمات التي تقدمها إلى <a href=\"%s\" target="
+"\"_blank\">معرض الخدمات</a>"
+
+msgid ""
+"Evaluate your FOSS Knowledge using our <a href=\"%s\" target=\"_blank"
+"\">Awareness Center</a>"
+msgstr ""
+" تقييم معرفتك بالبرمجيات الحرة مفتوحة المصدر مستخدما <a href=\"%s\" target="
+"\"_blank\">مركز التقييم</a>"
+
+msgid ""
+"Ask for Help or For services to get done using our <a href=\"%s\" target="
+"\"_blank\">Request Center</a>"
+msgstr ""
+"طلب الحصول على مشورة تقنية أو خدمة عبر <a href=\"%s\" target=\"_blank\">مركز "
+"الطلبات</a>"
+
+msgid ""
+"You'll be honoured by badges for you contributions on EgyptFOSS platform"
+msgstr ""
+"لكل مشاركة معنا في منصة مصر للبرمجيات الحرة مفتوحة المصدر سوف تكرم بالحصول "
+"على مجموعة من الأوسمة المتنوعة"
+
+msgid "Partners"
+msgstr "الشركاء"
+
+msgid "EgyptFOSS in Numbers"
+msgstr "إحصائيات المنصة"
+
+msgid "Registered Users"
+msgstr "المستخدمين"
+
+#~ msgid ""
+#~ "Here!, You'll find a great content specially directed for Serving Free "
+#~ "and Open Source Software community in Egypt. Please, <a href=\"%s\" "
+#~ "target=\"_blank\">Register</a> or <a href=\"%s\" target=\"_blank\">Log "
+#~ "in</a> to join our community and to enjoy using our services or to do the "
+#~ "following:"
+#~ msgstr ""
+#~ "في هذه المنصة سوف تجد محتوى متنوع صنع خصيصا من أجل خدمة مجتمع البرمجيات "
+#~ "الحرة والمفتوحة المصدر في مصر. من فضلك قم <a href=\"%s\" target=\"_blank"
+#~ "\">بتسجيل حساب جديد</a> أو <a href=\"%s\" target=\"_blank\">الدخول</a> "
+#~ "للإنضمام إلى مجتمعنا أو التمتع باستخدام خدماتنا أو القيام بالآتي:"
+
+#~ msgid ""
+#~ "You'll be honoured by great badges for you contributions on EgyptFOSS "
+#~ "platform"
+#~ msgstr ""
+#~ "لكل مشاركة معنا في منصة مصر للبرمجيات الحرة مفتوحة المصدر سوف تكرم "
+#~ "بالحصول على مجموعة من الأوسمة المتنوعة."
+
+#~ msgid "Related Results"
+#~ msgstr "نتائج ذات صلة"
+
+#~ msgid "Download our apps to stay connected"
+#~ msgstr "حمل تطبيقاتنا لتظل علي"
+
+#~ msgid "SUCCESS STORY"
+#~ msgstr "قصة نجاح"
+
+#~ msgctxt "button"
+#~ msgid "Thought"
+#~ msgstr "رأي"
+
+#~ msgid "services"
+#~ msgstr "خدمة"
+
+#~ msgid "Please log in to request a service"
+#~ msgstr "يرجى تسجيل الدخول لتتمكن من اقتراح خدمة جديدة"
+
+#~ msgid "New Thought"
+#~ msgstr "رأي جديد"
+
+#~ msgid "New News"
+#~ msgstr "خبر جديد"

@@ -1,0 +1,1 @@
+UPDATE `wpRuvF8_options` SET `option_value` = '2' WHERE `option_name` = 'wsl_settings_bouncer_accounts_linking_enabled';

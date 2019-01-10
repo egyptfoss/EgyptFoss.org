@@ -1,0 +1,12 @@
+server1-user: foss
+server1-password: F0$$
+server1-port: 3306 # for MySQL this is 3306
+server1-host: localhost # usually localhost or 127.0.0.1
+server2-user: foss
+server2-password: F0$$
+server2-port: 3306 # for MySQL this is 3306
+server2-host: localhost # usually localhost or 127.0.0.1
+template: templates/simple-db-migrate.tmpl
+type: data
+include: all
+no-comments: true

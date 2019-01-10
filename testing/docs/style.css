@@ -1,0 +1,93 @@
+.table-condensed {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.stepargument {
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+body { padding-top: 70px; }
+
+.my_sidebar {
+    -webkit-transition: left 0.3s ease, width 0.3s ease;
+    -moz-transition: left 0.3s ease, width 0.3s ease;
+    -o-transition: left 0.3s ease, width 0.3s ease;
+    transition: left 0.3s ease, width 0.3s ease;
+
+    box-sizing: border-box; 
+
+    position: absolute;
+    width: 0;
+    left: 100%;
+    overflow: auto;
+    background: #fff;
+    z-index: 1;
+    transition-property: width,left;
+    transition-duration: .4s;
+    height: 90%;
+}
+
+.suite, .background, .feature, .scenario:hover {
+    cursor: pointer;
+}
+
+.step[exception]:hover {
+    cursor: pointer;
+}
+
+.background:before, .suite:before {
+    content:'+';
+}
+
+.background.active:before, .suite.active:before{
+    content:'-';
+}
+
+.feature.active td {
+    background-color: #ccc !important;
+}
+
+.scenario.active {
+    background-color: #ccc !important;
+}
+
+.background-table {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.progress {
+    height: 7px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.parameters {
+    font-weight: bold;
+}
+
+.step_type {
+    font-weight: bold;
+    color: indigo;
+}
+
+.sidebar_super {
+    float: left;
+    width: 90px;
+}
+
+.suite_title,.feature_title,.scenario_title {
+    padding-left: 10px;
+}
+.sidebar_desc{
+    color: grey;
+    padding-left: 10px;
+}
+
+.modal-backdrop {
+    position: relative; 
+}
+
+.clickable {
+    cursor: pointer;
+}

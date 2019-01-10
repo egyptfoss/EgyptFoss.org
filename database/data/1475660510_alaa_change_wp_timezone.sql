@@ -1,0 +1,1 @@
+UPDATE `wpRuvF8_options` SET `option_value`='Africa/Cairo' WHERE `option_name`='timezone_string';

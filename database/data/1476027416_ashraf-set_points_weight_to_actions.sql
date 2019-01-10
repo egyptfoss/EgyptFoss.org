@@ -1,0 +1,1 @@
+UPDATE `wpRuvF8_efb_actions` SET `points_weight` = '10' where `is_point_granted` = '1' and `parent_id` is null; 

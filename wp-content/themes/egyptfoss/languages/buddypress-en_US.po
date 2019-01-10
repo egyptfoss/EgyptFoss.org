@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: yomna <yomna.fahmy@espace.com.eg>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "sub1"
+msgstr "Sub Type 1"
+
+msgid "sub2"
+msgstr "Sub Type 2"
+
+msgid "sub3"
+msgstr "Sub Type 3"
+
+msgid "industry1"
+msgstr "Industry 1"
+
+msgid "industry2"
+msgstr "Industry 2"
+
+msgid "technology1"
+msgstr "Technology 1"
+
+msgid "technology2"
+msgstr "Technology 2"
+
+msgid "ruby"
+msgstr "Ruby"
+
+msgid "python"
+msgstr "Python"
+
+msgctxt "Profile activity screen nav"
+msgid "Activity"
+msgstr "Timeline"
+
+msgid "What's new, %s?"
+msgstr "What's on your mind?"
+
+msgid "General"
+msgstr "Account"
+
+#: bp-templates/bp-legacy/buddypress/activity/entry.php:75
+#: bp-templates/bp-legacy/buddypress-functions.php:301
+#: bp-templates/bp-legacy/buddypress-functions.php:1202
+#: bp-templates/bp-legacy/buddypress-functions.php:1220
+msgid "Favorite"
+msgstr "Mark as Like"
+
+#: bp-templates/bp-legacy/buddypress/activity/entry.php:79
+#: bp-templates/bp-legacy/buddypress-functions.php:304
+#: bp-templates/bp-legacy/buddypress-functions.php:1200
+#: bp-templates/bp-legacy/buddypress-functions.php:1222
+msgid "Remove Favorite"
+msgstr "Remove a Like"
+
+#: bp-activity/bp-activity-functions.php:1303
+msgid "%s posted an update"
+msgstr "%s posted a status"
+
+msgid "There was a problem cropping your profile photo."
+msgstr ""
+"There was a problem cropping your profile photo. Please make sure to upload "
+"photo with allowed formats (JPG, GIF or PNG)"

@@ -1,0 +1,769 @@
+/*
+Theme Name: egyptfoss
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+/*
+body {
+    direction: rtl;
+}*/
+
+@import 'css/bootstrap-rtl.css';
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Droid Arabic Kufi', 'Monda', Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+body {
+    font-family: 'Droid Arabic Naskh', Arial, Tahoma, sans-serif;
+    ;
+    font-size: 14px;
+}
+.label {
+    font-size: 14px;
+}
+.form-control,
+span.error {
+    font-size: 12px !important;
+}
+h1 {
+    font-size: 1.9em
+}
+h2 {
+    font-size: 1.6em
+}
+h3 {
+    font-size: 1.4em
+}
+h4 {
+    font-size: 1.2em
+}
+h5 {
+    font-size: 0.9em
+}
+h6 {
+    font-size: 0.7em;
+}
+/*login fixes for rtl */
+
+.login-form .input-group {
+    float: right;
+}
+.wp-social-login-widget {
+    float: left;
+}
+.radio input[type=radio],
+.radio-inline input[type=radio],
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox] {
+    float: right;
+    margin-right: -20px;
+    margin-left: 0;
+}
+/*floating class*/
+
+.rfloat {
+    float: left;
+}
+.lfloat {
+    float: right;
+}
+#user-activity:before {
+    margin-left: 5px;
+}
+.wiki-container .secondary-options {
+    right: -20px;
+    left: auto;
+}
+.primary-navigation {
+    padding-left: 0px;
+    padding-right: auto;
+}
+.menu-main-nav-container {
+    float: left;
+}
+.menu-main-nav-container ul {
+    font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+#whats-new-textarea:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: -13px;
+    top: 15px;
+    background-image: url(img/arrow-right.png);
+    width: 14px;
+    height: 16px;
+}
+.list-social-networks li .btn {
+    float: left;
+}
+.menu-item-has-children > a:after {
+    margin-right: 5px;
+}
+.login-register {
+    height: 37px;
+    font-size: 14px;
+    padding: 8px 9px;
+}
+.ddown-arrow {} .menu-main-nav-container > ul > li > .sub-menu {
+    right: 0px;
+    left: auto;
+    text-align: right;
+}
+.menu-main-nav-container > ul > li:last-child .sub-menu {
+    left: 0px;
+    right: auto;
+}
+.sub-menu a,
+.children a {
+    color: #FFF;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.profile-label,
+.profile-fields dt {
+    float: right;
+    font-size: 13px;
+}
+.profile-fields dd {
+    float: right;
+}
+.profile-content {
+    border-right: 1px solid #ccc;
+    min-height: 500px;
+    border-left: 0px;
+}
+.bp-avatar .avatar-crop-management.adjust {
+    direction: ltr;
+}
+.data-view-section .section-name {
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.technology-tag {
+    margin-right: 0px;
+    margin-left: 4px;
+}
+.product-info dl dt {
+    width: 22%;
+    float: right;
+}
+.login-form-wrapper .wp-social-login-widget {
+    float: left;
+}
+.product-info dl dd {
+    width: 68%;
+    float: right;
+}
+.filter-btns {
+    float: left;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+/*#product-images {direction: ltr;}*/
+
+ul.heateor_sss_sharing_ul li {
+    float: right!important;
+}
+.search-btn-big {
+    right: auto;
+    left: 8px;
+    top: 8px;
+}
+.share-box {
+    left: 10px;
+    right: auto;
+}
+.share-box ul.heateor_sss_sharing_ul li.heateorSssSharingRound {
+    float: left !important;
+}
+.secondary-options {
+    margin-left: auto;
+    margin-right: 50px;
+}
+.tribe-events-event-meta .column,
+.tribe-events-event-meta .tribe-events-meta-group {
+    float: right;
+    text-align: right;
+}
+.event-website {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.search-btn {
+    left: 0px;
+    right: auto;
+}
+.product-card {
+    float: right;
+}
+.open-menu {
+    left: 10px;
+    right: auto;
+}
+.sidr-open .sidr {
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.4);
+}
+.profile-card {
+    float: right;
+}
+.profile-card .card-thumb {
+    margin-left: 10px;
+    direction: ltr;
+}
+#object-nav ul li a:before {
+    margin-left: 5px;
+}
+.featured-icon {
+    left: 5px;
+    right: auto;
+}
+.jFiler-items-grid .jFiler-item {
+    float: right;
+}
+.news-grid .news-card {
+    float: right;
+}
+.news-card .post-date {
+    left: 5px;
+    right: auto;
+}
+.single-news-meta .news-author,
+.single-news-meta .post-date {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+#comments #submit.submit {
+    margin-left: 15px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+#cancel-comment-reply-link {
+    float: left;
+    padding-left: 10px;
+}
+.home-highlights .box--25 {
+    float: right;
+}
+.home-highlights .item {
+    border-right: 0px;
+    border-left: solid 1px;
+}
+.day-square.front-card {
+    margin-left: 10px;
+}
+.join-icon {
+    margin-left: 15px;
+}
+.article-tag {
+    left: auto;
+    right: 20px;
+    border-right: solid #f44336;
+    border-left: 0px;
+}
+ol.comment-list li div.vcard img.avatar {
+    float: right;
+}
+.comment ol.children {
+    margin-right: 1.5em;
+    margin-left: 0px;
+}
+ol.comment-list li.comment {
+    padding-right: auto;
+    padding-left: 0px;
+}
+.comment ol.children {
+    padding-left: 0px;
+    padding-right: auto;
+}
+.mfp-counter {
+    direction: ltr;
+}
+.event-info dl dd,
+.event-info dl dt {
+    float: right;
+}
+.home-highlights .grid-box,
+.home-highlights .featured--article {
+    float: right;
+}
+.events-list--upcoming .event-data {
+    direction: rtl;
+}
+.tribe-bar-search-filter,
+.tribe-bar-date-filter {
+    float: right;
+}
+.tribe-bar-submit {
+    float: left;
+}
+.products .owl-prev,
+.news-list .owl-prev,
+.default-carousel .owl-prev {
+    right: -45px;
+    left: auto;
+}
+.mp-carousel .owl-prev {
+    right: 10px;
+    left: auto;
+}
+#product-images .owl-prev {
+    right: 10px;
+    left: auto;
+    color: #FFF;
+    border-color: #FFF;
+}
+.default-carousel .owl-prev {
+    right: 0px;
+    left: auto;
+}
+.products .owl-next,
+.news-list .owl-next {
+    left: -45px;
+    right: auto;
+}
+.mp-carousel .owl-next {
+    left: 10px;
+    right: auto;
+}
+#product-images .owl-next {
+    left: 10px;
+    right: auto;
+    color: #FFF;
+    border-color: #FFF;
+}
+.default-carousel .owl-next {
+    left: 0px;
+    right: auto;
+}
+.owl-next:before {
+    font-family: 'FontAwesome';
+    content: '\f053';
+    display: table;
+}
+.owl-prev:before {
+    font-family: 'FontAwesome';
+    content: '\f054';
+    display: table;
+}
+@media screen and (max-width: 960px) {
+    .search-btn {
+        left: 55px;
+    }
+    #tribe-bar-collapse-toggle span.tribe-bar-toggle-arrow {
+        left: 25px;
+        right: auto;
+    }
+    .profile-content {
+        border-right: 0px;
+    }
+    .profile-card {
+        float: none;
+        width: 100%;
+    }
+    .home-highlights .box--25 {
+        height: 150px;
+    }
+    .search-field {
+        left: -10px !important;
+        right: auto !important;
+    }
+}
+@media screen and (max-width: 680px) {
+    #contributions-personal-li {
+        width: 20%;
+    }
+    #xprofile-personal-li {
+        width: 33%;
+    }
+}
+.login-sub {
+    left: 4px;
+    right: auto;
+    margin-left: -4px;
+}
+.login-sub.non-user {
+    left: 0px;
+    right: auto;
+    width: 150px;
+}
+.datepicker-dropdown.datepicker-orient-left:before {
+    left: 160px;
+}
+.datepicker-dropdown.datepicker-orient-left:after {
+    left: 161px;
+}
+th.prev {
+    left: 5px;
+    right: auto;
+    position: absolute;
+}
+th.next {
+    right: 5px;
+    left: auto;
+    position: absolute;
+}
+.search-btn-md {
+    left: 7px;
+    right: auto;
+}
+.popover.bottom > .arrow:after {
+    right: -10px;
+}
+#buddypress a.button {
+    color: #49aa32;
+}
+#buddypress a.bp-primary-action span {
+    background-color: #49aa32;
+}
+.nav.nav-tabs.page-tabs {
+    margin-left: 0px;
+}
+#buddypress .activity-header {
+    margin-left: 0px;
+}
+.categories-list li {
+    padding-left: auto;
+    padding-right: 30px;
+}
+.categories-list li.active {
+    border-right: solid 3px #4caf50;
+    border-left: 0px;
+}
+.menu-left .categories-list li {
+    padding: 10px;
+}
+.list-icon {
+    margin-right: -30px;
+    margin-left: auto;
+}
+.enlarge-img {
+    left: 5px;
+    right: auto;
+}
+@-moz-document url-prefix() {
+    .nano > .nano-content {
+        left: -20px !important;
+    }
+}
+.nano>.nano-content {
+    padding-right: 17px;
+}
+.events-venue-title {
+    padding-right: 40px;
+    padding-left: auto;
+}
+.added-by {
+    margin-left: 25px;
+    margin-right: 0px;
+}
+.tribe-events-cost {
+    margin-left: 25px;
+}
+.story .story-content {
+    padding-right: 10px;
+    padding-left: auto;
+}
+.story-category {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.no-count,
+.count {
+    float: left
+}
+.related-to {
+    border-left: none;
+    border-right: solid 2px #49aa32;
+}
+.story-category {
+    border-left: 0px;
+    border-right: solid 2px #49aa32;
+}
+.ds-type {
+    right: auto;
+    left: 10px;
+}
+.dataset-card .card-title {} .files-list li a:before {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.contributors-list .avatar {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.top-ten-icon {
+    right: auto;
+    left: 5px;
+}
+.events-list--upcoming .owl-prev {
+    right: -45px;
+    left: auto;
+    top: 15px;
+}
+.events-list--upcoming .owl-next {
+    left: -45px;
+    right: auto;
+    top: 15px;
+}
+.files-list li a:before {
+    float: right;
+}
+.profile-nav i {
+    margin-right: auto;
+    margin-left: 5px;
+}
+/*Align social url fields*/
+
+#gplus_url,
+#twitter_url,
+#facebook_url,
+#linkedin_url {
+    direction: ltr;
+}
+.searchbox,
+.searchbox .search-field {
+    float: left;
+    margin-left: 20px;
+}
+.save-value {
+    color: #FFF!important;
+    border: solid 1px #49AA32 !important;
+}
+.sub-tabs li {
+    margin-right: 0px !important;
+}
+.wide-card-bottom strong {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.type-list li .icon {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.wide-card .card-summary {
+    padding-right: 10px;
+}
+.share-profile {
+    padding-left: auto;
+    padding-right: 4px;
+}
+.tribe-events-nav-previous {
+    float: right !important;
+    text-align: right!important;
+}
+.tribe-events-nav-next {
+    float: left!important;
+    text-align: left!important;
+}
+.responses-sidebar {
+    border-left: solid 1px #ddd;
+    border-right: none;
+}
+.get-description {
+    float: left;
+}
+.unread-indicator,
+.read-indicator {
+    float: left;
+}
+.last-message-date {
+    text-align: left;
+}
+.user-row .actions,
+.user-row .doc-date {
+    text-align: left;
+}
+.spaces-listing .nano-content {
+    right: 0px !important;
+    left: -17px !important;
+}
+.respond-btns .btn {
+    margin-right: 4px;
+    margin-left: 0px;
+}
+.btn-cat-join {
+    font-family: 'Droid Arabic Kufi', Tahoma, sans-serif !important;
+}
+select.form-control {
+    background-position: left 10px center !important;
+}
+.breadcrumb > li:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: '\f104';
+    float: left;
+}
+#other_language_link {
+    padding-right: 0px;
+    padding-left: 20px;
+}
+.expert-sign {
+    right: auto;
+    left: 74px;
+}
+.category-row .select2-container {
+    float: left;
+}
+.wiki-container input[type=submit],
+#comments #submit.submit {
+    float: left;
+}
+/*Market Place*/
+
+.service-card {
+    float: right;
+}
+.provider-type-label {
+    right: auto;
+    left: 5px;
+}
+.user-name {
+    padding-left: auto;
+    padding-right: 5px;
+}
+.reviewer-identity {
+    padding-left: auto;
+    padding-right: 10px;
+}
+.cat-box-bar .icon {
+    padding-right: auto;
+    padding-left: 5px;
+}
+.services-list li span {
+    margin-left: auto;
+    margin-right: 5px;
+}
+.surveys-list .q-count {
+    border-left: solid 1px #ddd;
+    border-right: 0px;
+}
+.categories-list,
+.type-list {
+    padding-right: 0px;
+}
+.profile-card .product-info {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.signup-form-wrapper,
+.login-form-wrapper {
+    border-left: solid 1px #ddd;
+    border-right: 0px;
+}
+.profile-card h4 {
+    font-family: Verdana, Droid Arabic Kufi;
+}
+/*social login text*/
+
+#register-page .wp-social-login-provider-list .wp-social-login-provider-facebook:after {
+    content: 'الدخول بواسطة Facebook';
+}
+#register-page .wp-social-login-provider-list .wp-social-login-provider-google:after {
+    content: 'الدخول بواسطة Google';
+}
+#register-page .wp-social-login-provider-list .wp-social-login-provider-twitter:after {
+    content: 'الدخول بواسطة Twitter';
+}
+#register-page .wp-social-login-provider-list .wp-social-login-provider-linkedin:after {
+    content: 'الدخول بواسطة Linkedin';
+}
+.quiz_section.qmn_error:after {
+    left: 0px;
+    right: auto !important;
+}
+.provider-rating {
+    transform: rotateY( 180deg);
+    direction: ltr;
+}
+.related-panel {
+    right: auto;
+    left: 0px;
+}
+.meta-type {
+    margin-left: 10px;
+    margin-right: auto;
+}
+.awarensess-contributes-list .quiz-title,
+.awarensess-contributes-list .quiz-stats,
+.awarensess-contributes-list .high-score,
+.awarensess-contributes-list .latest-score {
+    float: right;
+}
+.mlw_qmn_question_number {
+    float: right;
+    padding-right: auto;
+    padding-left: 3px;
+}
+.mlw_qmn_question {
+    padding-left: 30px;
+    padding-right: auto;
+}
+.profile-quizzes .survey-item .post-date {
+    margin-right: 5px;
+    margin-left: auto;
+}
+.badges-grid li {
+    float: right;
+}
+.platform-sections .small-card {
+    float: right;
+}
+.doc-revisions .revisions-list {
+    right: auto;
+    left: 0px;
+}
+.revision-author i {
+    margin-left: 5px;
+    margin-right: auto;
+}
+.qmn_btn {
+    float: left;
+}
+.edit-warning {
+    right: auto;
+    left: 20px;
+}
+.apps-shortcut .apps-sub {
+    left: auto;
+    right: 0px;
+}
+
+.inner-title {
+    text-align: right;
+}
+
+.tnp-profile form .tnp-field input[type=submit] {
+    padding: 8px;
+}
+
+.sort-container {
+    float: left !important;
+    position: relative;
+}
+
+.sort-container .sort-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-top: 21px;
+    z-index: 999;
+    position: absolute;
+    display: none;
+    box-shadow: 1px 1px 10px rgb(95, 95, 95);
+    left: 52px;
+    width: 170px;
+    top: -7px;
+    right: auto;
+}

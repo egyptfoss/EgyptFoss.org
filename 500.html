@@ -1,0 +1,27 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Internal Server Error</title>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<style>
+			body{font-family: 'Roboto',Arial,sans-serif;}
+			.container{width: 90%;margin: auto;text-align: center;padding-top: 100px;}
+			h1{color:#49aa32;}
+			.retry-btn{background-color: #49aa32;color: #FFF;font-weight: bold;border: 0px;padding: 10px 20px;}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<img src="500.svg" alt="Server Error">
+				<h1>Internal Server Error</h1>
+				<p>Sorry, but the requested page is unavailable due to a server ERROR!</p>
+				<p>
+					<button class="retry-btn"  onClick="history.go(0)">
+						Try Again
+					</button>
+				</p>
+		</div>
+	</body>
+</html>

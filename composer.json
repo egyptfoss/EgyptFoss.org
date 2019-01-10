@@ -1,0 +1,12 @@
+{
+    "require": {
+        "illuminate/database": "*"
+        
+    },
+    "autoload": {
+        "classmap": [
+            "foss-api/api-v2/app/models",
+            "foss-api/api-v2/app/scopes"
+        ]
+    }
+}

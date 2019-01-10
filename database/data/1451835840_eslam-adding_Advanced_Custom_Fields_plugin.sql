@@ -1,0 +1,1 @@
+UPDATE `wpRuvF8_options` SET option_value = 'a:5:{i:0;s:21:"polylang/polylang.php";i:1;s:24:"buddypress/bp-loader.php";i:2;s:42:"wordpress-social-login/wp-social-login.php";i:3;s:29:"wp-mail-smtp/wp_mail_smtp.php";i:4;s:30:"advanced-custom-fields/acf.php";}' WHERE option_name = 'active_plugins';

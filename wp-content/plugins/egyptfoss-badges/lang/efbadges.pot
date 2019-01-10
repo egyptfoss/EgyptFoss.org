@@ -1,0 +1,53 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EgyptFOSS Badges\n"
+"POT-Creation-Date: 2016-09-23 11:00+0100\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Congratulations!"
+msgstr ""
+
+msgid "Congratulations! You have earned the <strong>%s</strong> badge."
+msgstr ""
+
+msgid "Congratulations! You have earned the <strong>%s</strong> badge for adding <strong>%s</strong>."
+msgstr ""
+
+msgid "View all badges"
+msgstr ""
+
+msgid "Hi"
+msgstr ""
+
+msgid "You have earned the %s badge."
+msgstr ""
+
+msgid "%s Point"
+msgid_plural "%s Points"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "open_dataset"
+msgstr ""
+
+msgid "news"
+msgstr ""
+
+msgid "success_story"
+msgstr ""
+
+msgid "tribe_events"
+msgstr ""
+
+msgid "product"
+msgstr ""
+

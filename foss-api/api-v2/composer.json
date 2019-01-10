@@ -1,0 +1,26 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/extras": "*",
+        "slim/middleware": "*",
+        "illuminate/database": "*",
+        "zircote/swagger-php": "*",
+        "tuupola/slim-basic-auth": "^2.0",
+        "tuupola/slim-jwt-auth" : "*",
+        "lcobucci/jwt" : "*",
+        "phpmailer/phpmailer": "~5.2",
+        "symfony/console": "*",
+        "gettext/gettext": "*"
+        
+    },
+    "autoload": {
+        "classmap": [
+            "app/models",
+            "app/scopes",
+            "app/controllers",
+            "app/commands",
+            "app/mailers",
+            "app/helpers"
+        ]
+    }
+}
